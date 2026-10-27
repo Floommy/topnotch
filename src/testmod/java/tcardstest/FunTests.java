@@ -68,10 +68,7 @@ public class FunTests {
             if (Tower.step(tick - 95)) {
                 System.out.println("TCARDS-TEST SUMMARY2 pass=" + TestMain.pass + " fail=" + TestMain.fail);
                 tick = -1;
-                if (System.getProperty("tcards.ci") != null) {   // CI: stop the server, exit code = result
-                    System.out.flush();
-                    Runtime.getRuntime().halt(TestMain.fail == 0 ? 0 : 1);
-                }
+                if (System.getProperty("tcards.ci") != null) level.getServer().halt(false);   // CI: stop and save the world
             }
             return;
         }
