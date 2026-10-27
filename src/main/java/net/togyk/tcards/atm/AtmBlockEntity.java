@@ -561,7 +561,7 @@ public class AtmBlockEntity extends BlockEntity {
         if (level == null || level.isClientSide()) return;
         while (vault.amount > 0) {
             int n = (int) Math.min(64, vault.amount);
-            Block.popResource(level, pos, new ItemStack(Items.DIAMOND, n));
+            net.minecraft.world.Containers.dropItemStack(level, pos.getX() + 0.5, pos.getY() + 0.5, pos.getZ() + 0.5, new ItemStack(Items.DIAMOND, n));
             vault.amount -= n;
         }
     }

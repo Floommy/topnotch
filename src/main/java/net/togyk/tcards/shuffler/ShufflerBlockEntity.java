@@ -334,7 +334,7 @@ public class ShufflerBlockEntity extends BlockEntity {
     public void preRemoveSideEffects(BlockPos pos, BlockState state) {
         if (level == null || level.isClientSide()) return;
         for (List<ItemStack> group : ShufflerLogic.sortByColor(takeAll()).values()) {
-            Block.popResource(level, pos, ShufflerLogic.toPile(group));
+            net.minecraft.world.Containers.dropItemStack(level, pos.getX() + 0.5, pos.getY() + 0.5, pos.getZ() + 0.5, ShufflerLogic.toPile(group));
         }
     }
 
