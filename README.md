@@ -14,7 +14,7 @@ A Fabric mod for Minecraft 26.3 that bundles everything our server plays with in
 ./gradlew build
 ```
 
-The jar ends up in `build/libs/`. Every push is built by GitHub Actions; tags like `v1.0.0` create a release.
+The jar ends up in `build/libs/`. Every push is built and tested by GitHub Actions (headless server tests, two boots). Publishing a GitHub release (e.g. `v1.0.1`) attaches the jar to it.
 
 ## Updating to a new Minecraft version
 
