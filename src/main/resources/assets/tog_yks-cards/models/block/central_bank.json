@@ -1,0 +1,8 @@
+{
+ "parent": "minecraft:block/orientable",
+ "textures": {
+  "front": "tog_yks-cards:block/atm/bank_front",
+  "side": "tog_yks-cards:block/atm/bank_side",
+  "top": "tog_yks-cards:block/atm/bank_top"
+ }
+}

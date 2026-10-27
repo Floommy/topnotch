@@ -1,0 +1,18 @@
+{
+ "type": "minecraft:crafting_shaped",
+ "category": "misc",
+ "pattern": [
+  "WWW",
+  "GGG",
+  "WRW"
+ ],
+ "key": {
+  "W": "minecraft:black_wool",
+  "G": "minecraft:glass_pane",
+  "R": "minecraft:redstone"
+ },
+ "result": {
+  "id": "tog_yks-cards:pickup_screen",
+  "count": 1
+ }
+}

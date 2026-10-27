@@ -1,0 +1,41 @@
+{
+ "textures": {
+  "tub": "tog_yks-cards:block/food/tub",
+  "tub_mayo": "tog_yks-cards:block/food/tub_mayo",
+  "particle": "tog_yks-cards:block/food/tub"
+ },
+ "elements": [
+  {
+   "from": [
+    5.5,
+    0,
+    5.5
+   ],
+   "to": [
+    10.5,
+    2.2,
+    10.5
+   ],
+   "faces": {
+    "north": {
+     "texture": "#tub"
+    },
+    "south": {
+     "texture": "#tub"
+    },
+    "east": {
+     "texture": "#tub"
+    },
+    "west": {
+     "texture": "#tub"
+    },
+    "up": {
+     "texture": "#tub_mayo"
+    },
+    "down": {
+     "texture": "#tub"
+    }
+   }
+  }
+ ]
+}

@@ -1,0 +1,10 @@
+{
+ "variants": {
+  "pressed=false": {
+   "model": "tog_yks-cards:block/dealer_bell"
+  },
+  "pressed=true": {
+   "model": "tog_yks-cards:block/dealer_bell_pressed"
+  }
+ }
+}

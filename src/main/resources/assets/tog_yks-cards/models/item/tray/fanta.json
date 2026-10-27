@@ -1,0 +1,115 @@
+{
+ "textures": {
+  "straw": "tog_yks-cards:block/food/straw",
+  "cup_fanta": "tog_yks-cards:block/food/cup_fanta",
+  "lid": "tog_yks-cards:block/food/lid",
+  "particle": "tog_yks-cards:block/food/cup_fanta"
+ },
+ "elements": [
+  {
+   "from": [
+    5,
+    0,
+    5
+   ],
+   "to": [
+    11,
+    10,
+    11
+   ],
+   "faces": {
+    "north": {
+     "texture": "#cup_fanta"
+    },
+    "south": {
+     "texture": "#cup_fanta"
+    },
+    "east": {
+     "texture": "#cup_fanta"
+    },
+    "west": {
+     "texture": "#cup_fanta"
+    },
+    "up": {
+     "texture": "#lid"
+    },
+    "down": {
+     "texture": "#lid"
+    }
+   }
+  },
+  {
+   "from": [
+    4.6,
+    10,
+    4.6
+   ],
+   "to": [
+    11.4,
+    11,
+    11.4
+   ],
+   "faces": {
+    "north": {
+     "texture": "#lid"
+    },
+    "south": {
+     "texture": "#lid"
+    },
+    "east": {
+     "texture": "#lid"
+    },
+    "west": {
+     "texture": "#lid"
+    },
+    "up": {
+     "texture": "#lid"
+    },
+    "down": {
+     "texture": "#lid"
+    }
+   }
+  },
+  {
+   "from": [
+    7.5,
+    10,
+    7.5
+   ],
+   "to": [
+    8.5,
+    15,
+    8.5
+   ],
+   "faces": {
+    "north": {
+     "texture": "#straw"
+    },
+    "south": {
+     "texture": "#straw"
+    },
+    "east": {
+     "texture": "#straw"
+    },
+    "west": {
+     "texture": "#straw"
+    },
+    "up": {
+     "texture": "#straw"
+    },
+    "down": {
+     "texture": "#straw"
+    }
+   },
+   "rotation": {
+    "origin": [
+     8,
+     10,
+     8
+    ],
+    "axis": "z",
+    "angle": -22.5
+   }
+  }
+ ]
+}

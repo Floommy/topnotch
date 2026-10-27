@@ -1,0 +1,126 @@
+{
+ "textures": {
+  "particle": "tog_yks-cards:block/card_shuffler/side",
+  "button": "tog_yks-cards:block/card_shuffler/button_blink"
+ },
+ "elements": [
+  {
+   "from": [
+    2.6,
+    9,
+    3.4
+   ],
+   "to": [
+    3.8,
+    9.4,
+    4.6
+   ],
+   "faces": {
+    "up": {
+     "texture": "#button",
+     "uv": [
+      0,
+      0,
+      16,
+      16
+     ]
+    },
+    "north": {
+     "texture": "#button",
+     "uv": [
+      0,
+      0,
+      16,
+      16
+     ]
+    },
+    "south": {
+     "texture": "#button",
+     "uv": [
+      0,
+      0,
+      16,
+      16
+     ]
+    },
+    "east": {
+     "texture": "#button",
+     "uv": [
+      0,
+      0,
+      16,
+      16
+     ]
+    },
+    "west": {
+     "texture": "#button",
+     "uv": [
+      0,
+      0,
+      16,
+      16
+     ]
+    }
+   }
+  },
+  {
+   "from": [
+    2.6,
+    9,
+    5.2
+   ],
+   "to": [
+    3.8,
+    9.4,
+    6.4
+   ],
+   "faces": {
+    "up": {
+     "texture": "#button",
+     "uv": [
+      0,
+      0,
+      16,
+      16
+     ]
+    },
+    "north": {
+     "texture": "#button",
+     "uv": [
+      0,
+      0,
+      16,
+      16
+     ]
+    },
+    "south": {
+     "texture": "#button",
+     "uv": [
+      0,
+      0,
+      16,
+      16
+     ]
+    },
+    "east": {
+     "texture": "#button",
+     "uv": [
+      0,
+      0,
+      16,
+      16
+     ]
+    },
+    "west": {
+     "texture": "#button",
+     "uv": [
+      0,
+      0,
+      16,
+      16
+     ]
+    }
+   }
+  }
+ ]
+}

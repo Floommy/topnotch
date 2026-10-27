@@ -1,0 +1,18 @@
+{
+ "type": "minecraft:crafting_shaped",
+ "category": "misc",
+ "pattern": [
+  "GGG",
+  "GRG",
+  "III"
+ ],
+ "key": {
+  "G": "minecraft:glass_pane",
+  "R": "minecraft:redstone",
+  "I": "minecraft:iron_ingot"
+ },
+ "result": {
+  "id": "tog_yks-cards:order_kiosk",
+  "count": 1
+ }
+}

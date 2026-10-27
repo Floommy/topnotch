@@ -1,0 +1,598 @@
+{
+ "multipart": [
+  {
+   "when": {
+    "facing": "north",
+    "half": "lower"
+   },
+   "apply": {
+    "model": "tog_yks-cards:block/tray_rack_lower"
+   }
+  },
+  {
+   "when": {
+    "facing": "north",
+    "half": "upper"
+   },
+   "apply": {
+    "model": "tog_yks-cards:block/tray_rack_upper"
+   }
+  },
+  {
+   "when": {
+    "facing": "north",
+    "half": "lower",
+    "trays": "12"
+   },
+   "apply": {
+    "model": "tog_yks-cards:block/tray_rack_tray_0"
+   }
+  },
+  {
+   "when": {
+    "facing": "north",
+    "half": "lower",
+    "trays": "11|12"
+   },
+   "apply": {
+    "model": "tog_yks-cards:block/tray_rack_tray_1"
+   }
+  },
+  {
+   "when": {
+    "facing": "north",
+    "half": "lower",
+    "trays": "10|11|12"
+   },
+   "apply": {
+    "model": "tog_yks-cards:block/tray_rack_tray_2"
+   }
+  },
+  {
+   "when": {
+    "facing": "north",
+    "half": "lower",
+    "trays": "9|10|11|12"
+   },
+   "apply": {
+    "model": "tog_yks-cards:block/tray_rack_tray_3"
+   }
+  },
+  {
+   "when": {
+    "facing": "north",
+    "half": "lower",
+    "trays": "8|9|10|11|12"
+   },
+   "apply": {
+    "model": "tog_yks-cards:block/tray_rack_tray_4"
+   }
+  },
+  {
+   "when": {
+    "facing": "north",
+    "half": "lower",
+    "trays": "7|8|9|10|11|12"
+   },
+   "apply": {
+    "model": "tog_yks-cards:block/tray_rack_tray_5"
+   }
+  },
+  {
+   "when": {
+    "facing": "north",
+    "half": "upper",
+    "trays": "6|7|8|9|10|11|12"
+   },
+   "apply": {
+    "model": "tog_yks-cards:block/tray_rack_tray_6"
+   }
+  },
+  {
+   "when": {
+    "facing": "north",
+    "half": "upper",
+    "trays": "5|6|7|8|9|10|11|12"
+   },
+   "apply": {
+    "model": "tog_yks-cards:block/tray_rack_tray_7"
+   }
+  },
+  {
+   "when": {
+    "facing": "north",
+    "half": "upper",
+    "trays": "4|5|6|7|8|9|10|11|12"
+   },
+   "apply": {
+    "model": "tog_yks-cards:block/tray_rack_tray_8"
+   }
+  },
+  {
+   "when": {
+    "facing": "north",
+    "half": "upper",
+    "trays": "3|4|5|6|7|8|9|10|11|12"
+   },
+   "apply": {
+    "model": "tog_yks-cards:block/tray_rack_tray_9"
+   }
+  },
+  {
+   "when": {
+    "facing": "north",
+    "half": "upper",
+    "trays": "2|3|4|5|6|7|8|9|10|11|12"
+   },
+   "apply": {
+    "model": "tog_yks-cards:block/tray_rack_tray_10"
+   }
+  },
+  {
+   "when": {
+    "facing": "north",
+    "half": "upper",
+    "trays": "1|2|3|4|5|6|7|8|9|10|11|12"
+   },
+   "apply": {
+    "model": "tog_yks-cards:block/tray_rack_tray_11"
+   }
+  },
+  {
+   "when": {
+    "facing": "east",
+    "half": "lower"
+   },
+   "apply": {
+    "model": "tog_yks-cards:block/tray_rack_lower",
+    "y": 90
+   }
+  },
+  {
+   "when": {
+    "facing": "east",
+    "half": "upper"
+   },
+   "apply": {
+    "model": "tog_yks-cards:block/tray_rack_upper",
+    "y": 90
+   }
+  },
+  {
+   "when": {
+    "facing": "east",
+    "half": "lower",
+    "trays": "12"
+   },
+   "apply": {
+    "model": "tog_yks-cards:block/tray_rack_tray_0",
+    "y": 90
+   }
+  },
+  {
+   "when": {
+    "facing": "east",
+    "half": "lower",
+    "trays": "11|12"
+   },
+   "apply": {
+    "model": "tog_yks-cards:block/tray_rack_tray_1",
+    "y": 90
+   }
+  },
+  {
+   "when": {
+    "facing": "east",
+    "half": "lower",
+    "trays": "10|11|12"
+   },
+   "apply": {
+    "model": "tog_yks-cards:block/tray_rack_tray_2",
+    "y": 90
+   }
+  },
+  {
+   "when": {
+    "facing": "east",
+    "half": "lower",
+    "trays": "9|10|11|12"
+   },
+   "apply": {
+    "model": "tog_yks-cards:block/tray_rack_tray_3",
+    "y": 90
+   }
+  },
+  {
+   "when": {
+    "facing": "east",
+    "half": "lower",
+    "trays": "8|9|10|11|12"
+   },
+   "apply": {
+    "model": "tog_yks-cards:block/tray_rack_tray_4",
+    "y": 90
+   }
+  },
+  {
+   "when": {
+    "facing": "east",
+    "half": "lower",
+    "trays": "7|8|9|10|11|12"
+   },
+   "apply": {
+    "model": "tog_yks-cards:block/tray_rack_tray_5",
+    "y": 90
+   }
+  },
+  {
+   "when": {
+    "facing": "east",
+    "half": "upper",
+    "trays": "6|7|8|9|10|11|12"
+   },
+   "apply": {
+    "model": "tog_yks-cards:block/tray_rack_tray_6",
+    "y": 90
+   }
+  },
+  {
+   "when": {
+    "facing": "east",
+    "half": "upper",
+    "trays": "5|6|7|8|9|10|11|12"
+   },
+   "apply": {
+    "model": "tog_yks-cards:block/tray_rack_tray_7",
+    "y": 90
+   }
+  },
+  {
+   "when": {
+    "facing": "east",
+    "half": "upper",
+    "trays": "4|5|6|7|8|9|10|11|12"
+   },
+   "apply": {
+    "model": "tog_yks-cards:block/tray_rack_tray_8",
+    "y": 90
+   }
+  },
+  {
+   "when": {
+    "facing": "east",
+    "half": "upper",
+    "trays": "3|4|5|6|7|8|9|10|11|12"
+   },
+   "apply": {
+    "model": "tog_yks-cards:block/tray_rack_tray_9",
+    "y": 90
+   }
+  },
+  {
+   "when": {
+    "facing": "east",
+    "half": "upper",
+    "trays": "2|3|4|5|6|7|8|9|10|11|12"
+   },
+   "apply": {
+    "model": "tog_yks-cards:block/tray_rack_tray_10",
+    "y": 90
+   }
+  },
+  {
+   "when": {
+    "facing": "east",
+    "half": "upper",
+    "trays": "1|2|3|4|5|6|7|8|9|10|11|12"
+   },
+   "apply": {
+    "model": "tog_yks-cards:block/tray_rack_tray_11",
+    "y": 90
+   }
+  },
+  {
+   "when": {
+    "facing": "south",
+    "half": "lower"
+   },
+   "apply": {
+    "model": "tog_yks-cards:block/tray_rack_lower",
+    "y": 180
+   }
+  },
+  {
+   "when": {
+    "facing": "south",
+    "half": "upper"
+   },
+   "apply": {
+    "model": "tog_yks-cards:block/tray_rack_upper",
+    "y": 180
+   }
+  },
+  {
+   "when": {
+    "facing": "south",
+    "half": "lower",
+    "trays": "12"
+   },
+   "apply": {
+    "model": "tog_yks-cards:block/tray_rack_tray_0",
+    "y": 180
+   }
+  },
+  {
+   "when": {
+    "facing": "south",
+    "half": "lower",
+    "trays": "11|12"
+   },
+   "apply": {
+    "model": "tog_yks-cards:block/tray_rack_tray_1",
+    "y": 180
+   }
+  },
+  {
+   "when": {
+    "facing": "south",
+    "half": "lower",
+    "trays": "10|11|12"
+   },
+   "apply": {
+    "model": "tog_yks-cards:block/tray_rack_tray_2",
+    "y": 180
+   }
+  },
+  {
+   "when": {
+    "facing": "south",
+    "half": "lower",
+    "trays": "9|10|11|12"
+   },
+   "apply": {
+    "model": "tog_yks-cards:block/tray_rack_tray_3",
+    "y": 180
+   }
+  },
+  {
+   "when": {
+    "facing": "south",
+    "half": "lower",
+    "trays": "8|9|10|11|12"
+   },
+   "apply": {
+    "model": "tog_yks-cards:block/tray_rack_tray_4",
+    "y": 180
+   }
+  },
+  {
+   "when": {
+    "facing": "south",
+    "half": "lower",
+    "trays": "7|8|9|10|11|12"
+   },
+   "apply": {
+    "model": "tog_yks-cards:block/tray_rack_tray_5",
+    "y": 180
+   }
+  },
+  {
+   "when": {
+    "facing": "south",
+    "half": "upper",
+    "trays": "6|7|8|9|10|11|12"
+   },
+   "apply": {
+    "model": "tog_yks-cards:block/tray_rack_tray_6",
+    "y": 180
+   }
+  },
+  {
+   "when": {
+    "facing": "south",
+    "half": "upper",
+    "trays": "5|6|7|8|9|10|11|12"
+   },
+   "apply": {
+    "model": "tog_yks-cards:block/tray_rack_tray_7",
+    "y": 180
+   }
+  },
+  {
+   "when": {
+    "facing": "south",
+    "half": "upper",
+    "trays": "4|5|6|7|8|9|10|11|12"
+   },
+   "apply": {
+    "model": "tog_yks-cards:block/tray_rack_tray_8",
+    "y": 180
+   }
+  },
+  {
+   "when": {
+    "facing": "south",
+    "half": "upper",
+    "trays": "3|4|5|6|7|8|9|10|11|12"
+   },
+   "apply": {
+    "model": "tog_yks-cards:block/tray_rack_tray_9",
+    "y": 180
+   }
+  },
+  {
+   "when": {
+    "facing": "south",
+    "half": "upper",
+    "trays": "2|3|4|5|6|7|8|9|10|11|12"
+   },
+   "apply": {
+    "model": "tog_yks-cards:block/tray_rack_tray_10",
+    "y": 180
+   }
+  },
+  {
+   "when": {
+    "facing": "south",
+    "half": "upper",
+    "trays": "1|2|3|4|5|6|7|8|9|10|11|12"
+   },
+   "apply": {
+    "model": "tog_yks-cards:block/tray_rack_tray_11",
+    "y": 180
+   }
+  },
+  {
+   "when": {
+    "facing": "west",
+    "half": "lower"
+   },
+   "apply": {
+    "model": "tog_yks-cards:block/tray_rack_lower",
+    "y": 270
+   }
+  },
+  {
+   "when": {
+    "facing": "west",
+    "half": "upper"
+   },
+   "apply": {
+    "model": "tog_yks-cards:block/tray_rack_upper",
+    "y": 270
+   }
+  },
+  {
+   "when": {
+    "facing": "west",
+    "half": "lower",
+    "trays": "12"
+   },
+   "apply": {
+    "model": "tog_yks-cards:block/tray_rack_tray_0",
+    "y": 270
+   }
+  },
+  {
+   "when": {
+    "facing": "west",
+    "half": "lower",
+    "trays": "11|12"
+   },
+   "apply": {
+    "model": "tog_yks-cards:block/tray_rack_tray_1",
+    "y": 270
+   }
+  },
+  {
+   "when": {
+    "facing": "west",
+    "half": "lower",
+    "trays": "10|11|12"
+   },
+   "apply": {
+    "model": "tog_yks-cards:block/tray_rack_tray_2",
+    "y": 270
+   }
+  },
+  {
+   "when": {
+    "facing": "west",
+    "half": "lower",
+    "trays": "9|10|11|12"
+   },
+   "apply": {
+    "model": "tog_yks-cards:block/tray_rack_tray_3",
+    "y": 270
+   }
+  },
+  {
+   "when": {
+    "facing": "west",
+    "half": "lower",
+    "trays": "8|9|10|11|12"
+   },
+   "apply": {
+    "model": "tog_yks-cards:block/tray_rack_tray_4",
+    "y": 270
+   }
+  },
+  {
+   "when": {
+    "facing": "west",
+    "half": "lower",
+    "trays": "7|8|9|10|11|12"
+   },
+   "apply": {
+    "model": "tog_yks-cards:block/tray_rack_tray_5",
+    "y": 270
+   }
+  },
+  {
+   "when": {
+    "facing": "west",
+    "half": "upper",
+    "trays": "6|7|8|9|10|11|12"
+   },
+   "apply": {
+    "model": "tog_yks-cards:block/tray_rack_tray_6",
+    "y": 270
+   }
+  },
+  {
+   "when": {
+    "facing": "west",
+    "half": "upper",
+    "trays": "5|6|7|8|9|10|11|12"
+   },
+   "apply": {
+    "model": "tog_yks-cards:block/tray_rack_tray_7",
+    "y": 270
+   }
+  },
+  {
+   "when": {
+    "facing": "west",
+    "half": "upper",
+    "trays": "4|5|6|7|8|9|10|11|12"
+   },
+   "apply": {
+    "model": "tog_yks-cards:block/tray_rack_tray_8",
+    "y": 270
+   }
+  },
+  {
+   "when": {
+    "facing": "west",
+    "half": "upper",
+    "trays": "3|4|5|6|7|8|9|10|11|12"
+   },
+   "apply": {
+    "model": "tog_yks-cards:block/tray_rack_tray_9",
+    "y": 270
+   }
+  },
+  {
+   "when": {
+    "facing": "west",
+    "half": "upper",
+    "trays": "2|3|4|5|6|7|8|9|10|11|12"
+   },
+   "apply": {
+    "model": "tog_yks-cards:block/tray_rack_tray_10",
+    "y": 270
+   }
+  },
+  {
+   "when": {
+    "facing": "west",
+    "half": "upper",
+    "trays": "1|2|3|4|5|6|7|8|9|10|11|12"
+   },
+   "apply": {
+    "model": "tog_yks-cards:block/tray_rack_tray_11",
+    "y": 270
+   }
+  }
+ ]
+}

@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "card_holder",
+  "key": {
+    "s": "minecraft:warped_slab"
+  },
+  "pattern": [
+    "sss"
+  ],
+  "result": {
+    "count": 4,
+    "id": "tog_yks-cards:warped_card_holder"
+  }
+}

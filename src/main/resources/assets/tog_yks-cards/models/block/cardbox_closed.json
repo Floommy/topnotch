@@ -1,0 +1,66 @@
+{
+	"texture_size": [32, 32],
+	"textures": {
+		"0": "tog_yks-cards:block/deck/blue_playing_cards/box/outside",
+		"particle": "tog_yks-cards:block/deck/blue_playing_cards/box/outside"
+	},
+	"elements": [
+		{
+			"from": [6, 0, 5.2],
+			"to": [10, 2, 10.8],
+			"rotation": {"angle": 0, "axis": "y", "origin": [8, 1, 8]},
+			"faces": {
+				"north": {"uv": [5, 2.5, 10, 5], "texture": "#0"},
+				"east": {"uv": [5, 0, 12, 2.5], "texture": "#0"},
+				"south": {"uv": [5, 2.5, 10, 5], "texture": "#0"},
+				"west": {"uv": [5, 0, 12, 2.5], "texture": "#0"},
+				"up": {"uv": [0, 0, 5, 7], "texture": "#0"},
+				"down": {"uv": [0, 0, 5, 7], "texture": "#0"}
+			}
+		}
+	],
+	"display": {
+		"thirdperson_righthand": {
+			"rotation": [90, 0, -155],
+			"translation": [2.25, 1, -2.75],
+			"scale": [0.75, 0.75, 0.75]
+		},
+		"thirdperson_lefthand": {
+			"rotation": [90, 0, -155],
+			"translation": [2.25, 1, -2.75],
+			"scale": [0.75, 0.75, 0.75]
+		},
+		"firstperson_righthand": {
+			"rotation": [98.25, 0, -100],
+			"translation": [5, 3.25, 1.75]
+		},
+		"firstperson_lefthand": {
+			"rotation": [98.25, 0, -100],
+			"translation": [5, 3.25, 1.75]
+		},
+		"ground": {
+			"rotation": [90, 0, -155],
+			"translation": [2.25, 1, -2.75],
+			"scale": [0.75, 0.75, 0.75]
+		},
+		"gui": {
+			"rotation": [109.5, 0, -155],
+			"translation": [5.75, 2.25, 0],
+			"scale": [2, 2, 2]
+		},
+		"head": {
+			"translation": [0, 25, 0.25],
+			"scale": [3.7, 3.7, 3.7]
+		},
+		"fixed": {
+			"rotation": [90, 0, 0],
+			"translation": [0, 0, 16.5],
+			"scale": [2.5, 2.5, 2.5]
+		},
+		"on_shelf": {
+			"rotation": [90, 0, -180],
+			"translation": [0, 0, -16.5],
+			"scale": [2.5, 2.5, 2.5]
+		}
+	}
+}

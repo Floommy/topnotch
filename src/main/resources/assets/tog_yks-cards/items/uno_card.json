@@ -1,0 +1,505 @@
+{
+  "model": {
+    "type": "minecraft:select",
+    "cases": [
+      {
+        "model": {
+          "type": "minecraft:select",
+          "cases": [
+            {
+              "model": {
+                "type": "minecraft:select",
+                "cases": [
+                  {
+                    "model": {
+                      "type": "minecraft:select",
+                      "cases": [
+                        {
+                          "model": {
+                            "type": "minecraft:model",
+                            "model": "tog_yks-cards:item/uno_card_red_plus2"
+                          },
+                          "when": "plus2"
+                        },
+                        {
+                          "model": {
+                            "type": "minecraft:model",
+                            "model": "tog_yks-cards:item/uno_card_red_skip"
+                          },
+                          "when": "skip"
+                        },
+                        {
+                          "model": {
+                            "type": "minecraft:model",
+                            "model": "tog_yks-cards:item/uno_card_red_reverse"
+                          },
+                          "when": "reverse"
+                        },
+                        {
+                          "model": {
+                            "type": "minecraft:model",
+                            "model": "tog_yks-cards:item/uno_card_red_0"
+                          },
+                          "when": "0"
+                        },
+                        {
+                          "model": {
+                            "type": "minecraft:model",
+                            "model": "tog_yks-cards:item/uno_card_red_1"
+                          },
+                          "when": "1"
+                        },
+                        {
+                          "model": {
+                            "type": "minecraft:model",
+                            "model": "tog_yks-cards:item/uno_card_red_2"
+                          },
+                          "when": "2"
+                        },
+                        {
+                          "model": {
+                            "type": "minecraft:model",
+                            "model": "tog_yks-cards:item/uno_card_red_3"
+                          },
+                          "when": "3"
+                        },
+                        {
+                          "model": {
+                            "type": "minecraft:model",
+                            "model": "tog_yks-cards:item/uno_card_red_4"
+                          },
+                          "when": "4"
+                        },
+                        {
+                          "model": {
+                            "type": "minecraft:model",
+                            "model": "tog_yks-cards:item/uno_card_red_5"
+                          },
+                          "when": "5"
+                        },
+                        {
+                          "model": {
+                            "type": "minecraft:model",
+                            "model": "tog_yks-cards:item/uno_card_red_6"
+                          },
+                          "when": "6"
+                        },
+                        {
+                          "model": {
+                            "type": "minecraft:model",
+                            "model": "tog_yks-cards:item/uno_card_red_7"
+                          },
+                          "when": "7"
+                        },
+                        {
+                          "model": {
+                            "type": "minecraft:model",
+                            "model": "tog_yks-cards:item/uno_card_red_8"
+                          },
+                          "when": "8"
+                        },
+                        {
+                          "model": {
+                            "type": "minecraft:model",
+                            "model": "tog_yks-cards:item/uno_card_red_9"
+                          },
+                          "when": "9"
+                        }
+                      ],
+                      "fallback": {
+                        "type": "minecraft:model",
+                        "model": "tog_yks-cards:item/uno_card_empty"
+                      },
+                      "name": "type",
+                      "property": "tog_yks-cards:deck_select"
+                    },
+                    "when": "red"
+                  },
+                  {
+                    "model": {
+                      "type": "minecraft:select",
+                      "cases": [
+                        {
+                          "model": {
+                            "type": "minecraft:model",
+                            "model": "tog_yks-cards:item/uno_card_green_plus2"
+                          },
+                          "when": "plus2"
+                        },
+                        {
+                          "model": {
+                            "type": "minecraft:model",
+                            "model": "tog_yks-cards:item/uno_card_green_skip"
+                          },
+                          "when": "skip"
+                        },
+                        {
+                          "model": {
+                            "type": "minecraft:model",
+                            "model": "tog_yks-cards:item/uno_card_green_reverse"
+                          },
+                          "when": "reverse"
+                        },
+                        {
+                          "model": {
+                            "type": "minecraft:model",
+                            "model": "tog_yks-cards:item/uno_card_green_0"
+                          },
+                          "when": "0"
+                        },
+                        {
+                          "model": {
+                            "type": "minecraft:model",
+                            "model": "tog_yks-cards:item/uno_card_green_1"
+                          },
+                          "when": "1"
+                        },
+                        {
+                          "model": {
+                            "type": "minecraft:model",
+                            "model": "tog_yks-cards:item/uno_card_green_2"
+                          },
+                          "when": "2"
+                        },
+                        {
+                          "model": {
+                            "type": "minecraft:model",
+                            "model": "tog_yks-cards:item/uno_card_green_3"
+                          },
+                          "when": "3"
+                        },
+                        {
+                          "model": {
+                            "type": "minecraft:model",
+                            "model": "tog_yks-cards:item/uno_card_green_4"
+                          },
+                          "when": "4"
+                        },
+                        {
+                          "model": {
+                            "type": "minecraft:model",
+                            "model": "tog_yks-cards:item/uno_card_green_5"
+                          },
+                          "when": "5"
+                        },
+                        {
+                          "model": {
+                            "type": "minecraft:model",
+                            "model": "tog_yks-cards:item/uno_card_green_6"
+                          },
+                          "when": "6"
+                        },
+                        {
+                          "model": {
+                            "type": "minecraft:model",
+                            "model": "tog_yks-cards:item/uno_card_green_7"
+                          },
+                          "when": "7"
+                        },
+                        {
+                          "model": {
+                            "type": "minecraft:model",
+                            "model": "tog_yks-cards:item/uno_card_green_8"
+                          },
+                          "when": "8"
+                        },
+                        {
+                          "model": {
+                            "type": "minecraft:model",
+                            "model": "tog_yks-cards:item/uno_card_green_9"
+                          },
+                          "when": "9"
+                        }
+                      ],
+                      "fallback": {
+                        "type": "minecraft:model",
+                        "model": "tog_yks-cards:item/uno_card_empty"
+                      },
+                      "name": "type",
+                      "property": "tog_yks-cards:deck_select"
+                    },
+                    "when": "green"
+                  },
+                  {
+                    "model": {
+                      "type": "minecraft:select",
+                      "cases": [
+                        {
+                          "model": {
+                            "type": "minecraft:model",
+                            "model": "tog_yks-cards:item/uno_card_blue_plus2"
+                          },
+                          "when": "plus2"
+                        },
+                        {
+                          "model": {
+                            "type": "minecraft:model",
+                            "model": "tog_yks-cards:item/uno_card_blue_skip"
+                          },
+                          "when": "skip"
+                        },
+                        {
+                          "model": {
+                            "type": "minecraft:model",
+                            "model": "tog_yks-cards:item/uno_card_blue_reverse"
+                          },
+                          "when": "reverse"
+                        },
+                        {
+                          "model": {
+                            "type": "minecraft:model",
+                            "model": "tog_yks-cards:item/uno_card_blue_0"
+                          },
+                          "when": "0"
+                        },
+                        {
+                          "model": {
+                            "type": "minecraft:model",
+                            "model": "tog_yks-cards:item/uno_card_blue_1"
+                          },
+                          "when": "1"
+                        },
+                        {
+                          "model": {
+                            "type": "minecraft:model",
+                            "model": "tog_yks-cards:item/uno_card_blue_2"
+                          },
+                          "when": "2"
+                        },
+                        {
+                          "model": {
+                            "type": "minecraft:model",
+                            "model": "tog_yks-cards:item/uno_card_blue_3"
+                          },
+                          "when": "3"
+                        },
+                        {
+                          "model": {
+                            "type": "minecraft:model",
+                            "model": "tog_yks-cards:item/uno_card_blue_4"
+                          },
+                          "when": "4"
+                        },
+                        {
+                          "model": {
+                            "type": "minecraft:model",
+                            "model": "tog_yks-cards:item/uno_card_blue_5"
+                          },
+                          "when": "5"
+                        },
+                        {
+                          "model": {
+                            "type": "minecraft:model",
+                            "model": "tog_yks-cards:item/uno_card_blue_6"
+                          },
+                          "when": "6"
+                        },
+                        {
+                          "model": {
+                            "type": "minecraft:model",
+                            "model": "tog_yks-cards:item/uno_card_blue_7"
+                          },
+                          "when": "7"
+                        },
+                        {
+                          "model": {
+                            "type": "minecraft:model",
+                            "model": "tog_yks-cards:item/uno_card_blue_8"
+                          },
+                          "when": "8"
+                        },
+                        {
+                          "model": {
+                            "type": "minecraft:model",
+                            "model": "tog_yks-cards:item/uno_card_blue_9"
+                          },
+                          "when": "9"
+                        }
+                      ],
+                      "fallback": {
+                        "type": "minecraft:model",
+                        "model": "tog_yks-cards:item/uno_card_empty"
+                      },
+                      "name": "type",
+                      "property": "tog_yks-cards:deck_select"
+                    },
+                    "when": "blue"
+                  },
+                  {
+                    "model": {
+                      "type": "minecraft:select",
+                      "cases": [
+                        {
+                          "model": {
+                            "type": "minecraft:model",
+                            "model": "tog_yks-cards:item/uno_card_yellow_plus2"
+                          },
+                          "when": "plus2"
+                        },
+                        {
+                          "model": {
+                            "type": "minecraft:model",
+                            "model": "tog_yks-cards:item/uno_card_yellow_skip"
+                          },
+                          "when": "skip"
+                        },
+                        {
+                          "model": {
+                            "type": "minecraft:model",
+                            "model": "tog_yks-cards:item/uno_card_yellow_reverse"
+                          },
+                          "when": "reverse"
+                        },
+                        {
+                          "model": {
+                            "type": "minecraft:model",
+                            "model": "tog_yks-cards:item/uno_card_yellow_0"
+                          },
+                          "when": "0"
+                        },
+                        {
+                          "model": {
+                            "type": "minecraft:model",
+                            "model": "tog_yks-cards:item/uno_card_yellow_1"
+                          },
+                          "when": "1"
+                        },
+                        {
+                          "model": {
+                            "type": "minecraft:model",
+                            "model": "tog_yks-cards:item/uno_card_yellow_2"
+                          },
+                          "when": "2"
+                        },
+                        {
+                          "model": {
+                            "type": "minecraft:model",
+                            "model": "tog_yks-cards:item/uno_card_yellow_3"
+                          },
+                          "when": "3"
+                        },
+                        {
+                          "model": {
+                            "type": "minecraft:model",
+                            "model": "tog_yks-cards:item/uno_card_yellow_4"
+                          },
+                          "when": "4"
+                        },
+                        {
+                          "model": {
+                            "type": "minecraft:model",
+                            "model": "tog_yks-cards:item/uno_card_yellow_5"
+                          },
+                          "when": "5"
+                        },
+                        {
+                          "model": {
+                            "type": "minecraft:model",
+                            "model": "tog_yks-cards:item/uno_card_yellow_6"
+                          },
+                          "when": "6"
+                        },
+                        {
+                          "model": {
+                            "type": "minecraft:model",
+                            "model": "tog_yks-cards:item/uno_card_yellow_7"
+                          },
+                          "when": "7"
+                        },
+                        {
+                          "model": {
+                            "type": "minecraft:model",
+                            "model": "tog_yks-cards:item/uno_card_yellow_8"
+                          },
+                          "when": "8"
+                        },
+                        {
+                          "model": {
+                            "type": "minecraft:model",
+                            "model": "tog_yks-cards:item/uno_card_yellow_9"
+                          },
+                          "when": "9"
+                        }
+                      ],
+                      "fallback": {
+                        "type": "minecraft:model",
+                        "model": "tog_yks-cards:item/uno_card_empty"
+                      },
+                      "name": "type",
+                      "property": "tog_yks-cards:deck_select"
+                    },
+                    "when": "yellow"
+                  }
+                ],
+                "fallback": {
+                  "type": "minecraft:model",
+                  "model": "tog_yks-cards:item/uno_card_empty"
+                },
+                "name": "color",
+                "property": "tog_yks-cards:deck_select"
+              },
+              "when": "color"
+            },
+            {
+              "model": {
+                "type": "minecraft:select",
+                "cases": [
+                  {
+                    "model": {
+                      "type": "minecraft:model",
+                      "model": "tog_yks-cards:item/uno_card_plus4"
+                    },
+                    "when": "plus4"
+                  }
+                ],
+                "fallback": {
+                  "type": "minecraft:model",
+                  "model": "tog_yks-cards:item/uno_card_empty"
+                },
+                "name": "plus4",
+                "property": "tog_yks-cards:deck_select"
+              },
+              "when": "plus4"
+            },
+            {
+              "model": {
+                "type": "minecraft:select",
+                "cases": [
+                  {
+                    "model": {
+                      "type": "minecraft:model",
+                      "model": "tog_yks-cards:item/uno_card_wild"
+                    },
+                    "when": "wild"
+                  }
+                ],
+                "fallback": {
+                  "type": "minecraft:model",
+                  "model": "tog_yks-cards:item/uno_card_empty"
+                },
+                "name": "wild",
+                "property": "tog_yks-cards:deck_select"
+              },
+              "when": "wild"
+            }
+          ],
+          "fallback": {
+            "type": "minecraft:model",
+            "model": "tog_yks-cards:item/uno_card_empty"
+          },
+          "name": "color_wild_or_plus4",
+          "property": "tog_yks-cards:deck_select"
+        },
+        "when": false
+      },
+      {
+        "model": {
+          "type": "minecraft:model",
+          "model": "tog_yks-cards:item/uno_card_flipped"
+        },
+        "when": true
+      }
+    ],
+    "property": "tog_yks-cards:flipped"
+  }
+}

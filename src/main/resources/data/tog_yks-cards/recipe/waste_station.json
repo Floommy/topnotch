@@ -1,0 +1,19 @@
+{
+ "type": "minecraft:crafting_shaped",
+ "category": "misc",
+ "pattern": [
+  "PPP",
+  "YBK",
+  "PPP"
+ ],
+ "key": {
+  "P": "#minecraft:planks",
+  "Y": "minecraft:yellow_dye",
+  "B": "minecraft:blue_dye",
+  "K": "minecraft:black_dye"
+ },
+ "result": {
+  "id": "tog_yks-cards:waste_station",
+  "count": 1
+ }
+}

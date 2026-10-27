@@ -1,0 +1,10 @@
+{
+  "parent": "tog_yks-cards:item/gold_playing_card",
+  "textures": {
+    "0": "tog_yks-cards:item/deck/gold_playing_cards/back",
+    "1": "tog_yks-cards:item/deck/gold_playing_cards/front",
+    "particle": "tog_yks-cards:item/deck/gold_playing_cards/front",
+    "rank": "tog_yks-cards:item/deck/gold_playing_cards/rank/king",
+    "suit": "tog_yks-cards:item/deck/gold_playing_cards/suit/heart"
+  }
+}

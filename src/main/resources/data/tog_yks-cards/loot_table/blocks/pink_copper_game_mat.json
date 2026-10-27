@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:block",
+  "pools": [
+    {
+      "condition": {
+        "type": "minecraft:survives_explosion"
+      },
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "tog_yks-cards:pink_copper_game_mat"
+        }
+      ],
+      "rolls": 1
+    }
+  ]
+}

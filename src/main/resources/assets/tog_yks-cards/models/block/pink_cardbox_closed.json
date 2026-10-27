@@ -1,0 +1,8 @@
+{
+  "parent": "tog_yks-cards:block/cardbox_closed",
+  "textures": {
+    "0": "tog_yks-cards:block/deck/pink_playing_cards/box/outside",
+    "1": "tog_yks-cards:block/deck/pink_playing_cards/box/inside",
+    "particle": "tog_yks-cards:block/deck/pink_playing_cards/box/outside"
+  }
+}

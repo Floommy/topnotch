@@ -1,0 +1,11 @@
+{
+  "parent": "tog_yks-cards:block/game_mat",
+  "textures": {
+    "0": "tog_yks-cards:block/game_mat/magenta_copper_game_mat/wool",
+    "east_side": "tog_yks-cards:block/game_mat/magenta_copper_game_mat/side/connected",
+    "north_side": "tog_yks-cards:block/game_mat/magenta_copper_game_mat/side/connected",
+    "south_side": "tog_yks-cards:block/game_mat/magenta_copper_game_mat/side/south_right",
+    "top": "tog_yks-cards:block/game_mat/top/copper/north_east_northeast_southwest",
+    "west_side": "tog_yks-cards:block/game_mat/magenta_copper_game_mat/side/west_left"
+  }
+}

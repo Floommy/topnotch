@@ -1,0 +1,41 @@
+{
+ "textures": {
+  "tub_ketchup": "tog_yks-cards:block/food/tub_ketchup",
+  "tub": "tog_yks-cards:block/food/tub",
+  "particle": "tog_yks-cards:block/food/tub"
+ },
+ "elements": [
+  {
+   "from": [
+    5.5,
+    0,
+    5.5
+   ],
+   "to": [
+    10.5,
+    2.2,
+    10.5
+   ],
+   "faces": {
+    "north": {
+     "texture": "#tub"
+    },
+    "south": {
+     "texture": "#tub"
+    },
+    "east": {
+     "texture": "#tub"
+    },
+    "west": {
+     "texture": "#tub"
+    },
+    "up": {
+     "texture": "#tub_ketchup"
+    },
+    "down": {
+     "texture": "#tub"
+    }
+   }
+  }
+ ]
+}

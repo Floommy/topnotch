@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    "#c:crops/tomato",
+    "#c:crops/lettuce",
+    "minecraft:carrot"
+  ],
+  "result": {
+    "id": "better_mcdonalds_mod:snack_salad"
+  }
+}

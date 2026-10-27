@@ -1,0 +1,22 @@
+{
+  "required": true,
+  "package": "net.togyk.tog_yks_cards.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "mixins": [
+    "AbstractContainerMenuMixin",
+    "ServerPlayerGameModeAccessor",
+    "ServerPlayerGameModeMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  },
+  "overwrites": {
+    "requireAnnotations": true
+  },
+  "client": [
+    "ArmedEntityRenderStateMixin",
+    "MultiPlayerGameModeAccessor",
+    "MultiPlayerGameModeMixin",
+    "PlayerModelMixin"
+  ]
+}

@@ -1,0 +1,43 @@
+{
+ "parent": "minecraft:block/block",
+ "textures": {
+  "particle": "tog_yks-cards:block/restaurant/waste_side",
+  "fr": "tog_yks-cards:block/restaurant/waste_front",
+  "sd": "tog_yks-cards:block/restaurant/waste_side",
+  "tp": "tog_yks-cards:block/restaurant/waste_top"
+ },
+ "elements": [
+  {
+   "from": [
+    0,
+    0,
+    0
+   ],
+   "to": [
+    16,
+    16,
+    16
+   ],
+   "faces": {
+    "north": {
+     "texture": "#fr"
+    },
+    "south": {
+     "texture": "#sd"
+    },
+    "east": {
+     "texture": "#sd"
+    },
+    "west": {
+     "texture": "#sd"
+    },
+    "up": {
+     "texture": "#tp"
+    },
+    "down": {
+     "texture": "#sd"
+    }
+   }
+  }
+ ]
+}

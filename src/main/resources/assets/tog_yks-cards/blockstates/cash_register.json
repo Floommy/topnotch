@@ -1,0 +1,19 @@
+{
+ "variants": {
+  "facing=north": {
+   "model": "tog_yks-cards:block/cash_register"
+  },
+  "facing=east": {
+   "model": "tog_yks-cards:block/cash_register",
+   "y": 90
+  },
+  "facing=south": {
+   "model": "tog_yks-cards:block/cash_register",
+   "y": 180
+  },
+  "facing=west": {
+   "model": "tog_yks-cards:block/cash_register",
+   "y": 270
+  }
+ }
+}

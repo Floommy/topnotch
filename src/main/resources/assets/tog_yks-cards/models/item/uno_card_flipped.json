@@ -1,0 +1,8 @@
+{
+  "parent": "tog_yks-cards:item/flipped_card",
+  "textures": {
+    "0": "tog_yks-cards:item/deck/uno/back",
+    "1": "tog_yks-cards:item/deck/uno/front",
+    "particle": "tog_yks-cards:item/deck/uno/front"
+  }
+}

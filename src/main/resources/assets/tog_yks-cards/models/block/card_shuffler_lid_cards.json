@@ -1,0 +1,44 @@
+{
+ "textures": {
+  "particle": "tog_yks-cards:block/card_shuffler/side",
+  "frame": "tog_yks-cards:block/card_shuffler/frame",
+  "lid": "tog_yks-cards:block/card_shuffler/lid_cards"
+ },
+ "elements": [
+  {
+   "from": [
+    4.5,
+    9,
+    3
+   ],
+   "to": [
+    13.5,
+    9.5,
+    13
+   ],
+   "faces": {
+    "north": {
+     "texture": "#frame"
+    },
+    "south": {
+     "texture": "#frame"
+    },
+    "east": {
+     "texture": "#frame"
+    },
+    "west": {
+     "texture": "#frame"
+    },
+    "up": {
+     "texture": "#lid",
+     "uv": [
+      0,
+      0,
+      16,
+      16
+     ]
+    }
+   }
+  }
+ ]
+}

@@ -1,0 +1,7 @@
+{
+  "parent": "tog_yks-cards:item/coin",
+  "textures": {
+    "0": "tog_yks-cards:item/coin/iron_coin",
+    "particle": "tog_yks-cards:item/coin/iron_coin"
+  }
+}

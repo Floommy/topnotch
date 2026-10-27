@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    "minecraft:water_bucket",
+    "minecraft:sugar",
+    "#c:dusts/salt",
+    "minecraft:brown_dye"
+  ],
+  "result": {
+    "id": "better_mcdonalds_mod:coca_cola"
+  }
+}

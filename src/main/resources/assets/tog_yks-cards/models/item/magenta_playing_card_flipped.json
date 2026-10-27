@@ -1,0 +1,8 @@
+{
+  "parent": "tog_yks-cards:item/flipped_card",
+  "textures": {
+    "0": "tog_yks-cards:item/deck/magenta_playing_cards/back",
+    "1": "tog_yks-cards:item/deck/magenta_playing_cards/front",
+    "particle": "tog_yks-cards:item/deck/magenta_playing_cards/front"
+  }
+}

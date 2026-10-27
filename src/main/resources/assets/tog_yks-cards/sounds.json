@@ -1,0 +1,145 @@
+{
+  "card_place": {
+    "subtitle": "subtitles.tog_yks-cards.card_place",
+    "sounds": [
+      "tog_yks-cards:card_place1",
+      "tog_yks-cards:card_place2",
+      "tog_yks-cards:card_place3"
+    ]
+  },
+  "card_take": {
+    "subtitle": "subtitles.tog_yks-cards.card_take",
+    "sounds": [
+      "tog_yks-cards:card_take1",
+      "tog_yks-cards:card_take2",
+      "tog_yks-cards:card_take3"
+    ]
+  },
+  "chip_clink": {
+    "subtitle": "subtitles.tog_yks-cards.chip_clink",
+    "sounds": [
+      "tog_yks-cards:chip_clink1",
+      "tog_yks-cards:chip_clink2",
+      "tog_yks-cards:chip_clink3"
+    ]
+  },
+  "card_slide": {
+    "subtitle": "subtitles.tog_yks-cards.card_slide",
+    "sounds": [
+      "tog_yks-cards:card_slide1"
+    ]
+  },
+  "shuffle": {
+    "subtitle": "subtitles.tog_yks-cards.shuffle",
+    "sounds": [
+      "tog_yks-cards:shuffle1",
+      "tog_yks-cards:shuffle2"
+    ]
+  },
+  "gesture_slap": {
+    "subtitle": "subtitles.tog_yks-cards.gesture_slap",
+    "sounds": [
+      "tog_yks-cards:gesture_slap1"
+    ]
+  },
+  "gesture_sad": {
+    "subtitle": "subtitles.tog_yks-cards.gesture_sad",
+    "sounds": [
+      "tog_yks-cards:gesture_sad1"
+    ]
+  },
+  "gesture_clap": {
+    "subtitle": "subtitles.tog_yks-cards.gesture_clap",
+    "sounds": [
+      "tog_yks-cards:gesture_clap1",
+      "tog_yks-cards:gesture_clap2",
+      "tog_yks-cards:gesture_clap3"
+    ]
+  },
+  "gesture_knock": {
+    "subtitle": "subtitles.tog_yks-cards.gesture_knock",
+    "sounds": [
+      "tog_yks-cards:gesture_knock1",
+      "tog_yks-cards:gesture_knock2",
+      "tog_yks-cards:gesture_knock3"
+    ]
+  },
+  "gesture_whistle": {
+    "subtitle": "subtitles.tog_yks-cards.gesture_whistle",
+    "sounds": [
+      "tog_yks-cards:gesture_whistle1"
+    ]
+  },
+  "gesture_gulp": {
+    "subtitle": "subtitles.tog_yks-cards.gesture_gulp",
+    "sounds": [
+      "tog_yks-cards:gesture_gulp1"
+    ]
+  },
+  "coin_flip": {
+    "subtitle": "subtitles.tog_yks-cards.coin_flip",
+    "sounds": [
+      "tog_yks-cards:coin_flip1"
+    ]
+  },
+  "card_flick": {
+    "subtitle": "subtitles.tog_yks-cards.card_flick",
+    "sounds": [
+      "tog_yks-cards:card_flick1"
+    ]
+  },
+  "bell_ding": {
+    "subtitle": "subtitles.tog_yks-cards.bell_ding",
+    "sounds": [
+      "tog_yks-cards:bell_ding1"
+    ]
+  },
+  "chip_tower_fall": {
+    "subtitle": "subtitles.tog_yks-cards.chip_tower_fall",
+    "sounds": [
+      "tog_yks-cards:chip_tower_fall1"
+    ]
+  },
+  "gesture_angry": {
+    "subtitle": "subtitles.tog_yks-cards.gesture_angry",
+    "sounds": [
+      "tog_yks-cards:gesture_angry1"
+    ]
+  },
+  "atm_beep": {
+    "subtitle": "subtitles.tog_yks-cards.atm_beep",
+    "sounds": [
+      "tog_yks-cards:atm_beep1"
+    ]
+  },
+  "atm_error": {
+    "subtitle": "subtitles.tog_yks-cards.atm_error",
+    "sounds": [
+      "tog_yks-cards:atm_error1"
+    ]
+  },
+  "atm_chime": {
+    "subtitle": "subtitles.tog_yks-cards.atm_chime",
+    "sounds": [
+      "tog_yks-cards:atm_chime1"
+    ]
+  },
+  "atm_dispense": {
+    "subtitle": "subtitles.tog_yks-cards.atm_dispense",
+    "sounds": [
+      "tog_yks-cards:atm_dispense1"
+    ]
+  },
+  "receipt_print": {
+    "subtitle": "subtitles.tog_yks-cards.receipt_print",
+    "sounds": [
+      "tog_yks-cards:receipt_print1"
+    ]
+  },
+  "kiosk_tap": {
+    "subtitle": "subtitles.tog_yks-cards.kiosk_tap",
+    "sounds": [
+      "tog_yks-cards:kiosk_tap1"
+    ]
+  }
+}

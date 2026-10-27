@@ -1,0 +1,140 @@
+{
+ "textures": {
+  "bun_top": "tog_yks-cards:block/food/bun_top",
+  "bun_bottom": "tog_yks-cards:block/food/bun_bottom",
+  "lettuce": "tog_yks-cards:block/food/lettuce",
+  "bun_side": "tog_yks-cards:block/food/bun_side",
+  "chicken": "tog_yks-cards:block/food/chicken",
+  "particle": "tog_yks-cards:block/food/bun_bottom"
+ },
+ "elements": [
+  {
+   "from": [
+    1,
+    0,
+    4.5
+   ],
+   "to": [
+    15,
+    2,
+    11.5
+   ],
+   "faces": {
+    "north": {
+     "texture": "#bun_side"
+    },
+    "south": {
+     "texture": "#bun_side"
+    },
+    "east": {
+     "texture": "#bun_side"
+    },
+    "west": {
+     "texture": "#bun_side"
+    },
+    "up": {
+     "texture": "#bun_bottom"
+    },
+    "down": {
+     "texture": "#bun_bottom"
+    }
+   }
+  },
+  {
+   "from": [
+    0.5,
+    2,
+    4
+   ],
+   "to": [
+    15.5,
+    3.8,
+    12
+   ],
+   "faces": {
+    "north": {
+     "texture": "#chicken"
+    },
+    "south": {
+     "texture": "#chicken"
+    },
+    "east": {
+     "texture": "#chicken"
+    },
+    "west": {
+     "texture": "#chicken"
+    },
+    "up": {
+     "texture": "#chicken"
+    },
+    "down": {
+     "texture": "#chicken"
+    }
+   }
+  },
+  {
+   "from": [
+    1,
+    3.8,
+    4
+   ],
+   "to": [
+    15,
+    4.4,
+    12
+   ],
+   "faces": {
+    "north": {
+     "texture": "#lettuce"
+    },
+    "south": {
+     "texture": "#lettuce"
+    },
+    "east": {
+     "texture": "#lettuce"
+    },
+    "west": {
+     "texture": "#lettuce"
+    },
+    "up": {
+     "texture": "#lettuce"
+    },
+    "down": {
+     "texture": "#lettuce"
+    }
+   }
+  },
+  {
+   "from": [
+    1,
+    4.4,
+    4.5
+   ],
+   "to": [
+    15,
+    7,
+    11.5
+   ],
+   "faces": {
+    "north": {
+     "texture": "#bun_side"
+    },
+    "south": {
+     "texture": "#bun_side"
+    },
+    "east": {
+     "texture": "#bun_side"
+    },
+    "west": {
+     "texture": "#bun_side"
+    },
+    "up": {
+     "texture": "#bun_top"
+    },
+    "down": {
+     "texture": "#bun_bottom"
+    }
+   }
+  }
+ ]
+}

@@ -1,0 +1,11 @@
+{
+  "parent": "tog_yks-cards:block/game_mat",
+  "textures": {
+    "0": "tog_yks-cards:block/game_mat/magenta_gold_game_mat/wool",
+    "east_side": "tog_yks-cards:block/game_mat/magenta_gold_game_mat/side/connected",
+    "north_side": "tog_yks-cards:block/game_mat/magenta_gold_game_mat/side/connected",
+    "south_side": "tog_yks-cards:block/game_mat/magenta_gold_game_mat/side/connected",
+    "top": "tog_yks-cards:block/game_mat/top/gold/north_east_south",
+    "west_side": "tog_yks-cards:block/game_mat/magenta_gold_game_mat/side/west_left_right"
+  }
+}

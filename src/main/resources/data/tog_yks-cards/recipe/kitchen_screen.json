@@ -1,0 +1,18 @@
+{
+ "type": "minecraft:crafting_shaped",
+ "category": "misc",
+ "pattern": [
+  "WWW",
+  "WGW",
+  "WRW"
+ ],
+ "key": {
+  "W": "minecraft:black_wool",
+  "G": "minecraft:glass_pane",
+  "R": "minecraft:redstone"
+ },
+ "result": {
+  "id": "tog_yks-cards:kitchen_screen",
+  "count": 1
+ }
+}

@@ -1,0 +1,42 @@
+{
+ "textures": {
+  "particle": "tog_yks-cards:block/restaurant/metal_dark",
+  "m": "tog_yks-cards:block/restaurant/metal_dark",
+  "s": "tog_yks-cards:block/restaurant/screen_pickup"
+ },
+ "elements": [
+  {
+   "from": [
+    0,
+    0,
+    13
+   ],
+   "to": [
+    16,
+    16,
+    16
+   ],
+   "faces": {
+    "north": {
+     "texture": "#s"
+    },
+    "south": {
+     "texture": "#m"
+    },
+    "east": {
+     "texture": "#m"
+    },
+    "west": {
+     "texture": "#m"
+    },
+    "up": {
+     "texture": "#m"
+    },
+    "down": {
+     "texture": "#m"
+    }
+   }
+  }
+ ],
+ "parent": "minecraft:block/block"
+}

@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "iron_game_mat",
+  "ingredients": [
+    "minecraft:light_gray_carpet",
+    "minecraft:iron_ingot"
+  ],
+  "result": {
+    "id": "tog_yks-cards:light_gray_iron_game_mat"
+  }
+}

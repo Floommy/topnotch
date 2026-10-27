@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "cardbox",
+  "ingredients": [
+    "minecraft:paper",
+    "minecraft:paper",
+    "minecraft:paper",
+    "minecraft:black_dye",
+    "minecraft:gold_ingot"
+  ],
+  "result": {
+    "id": "tog_yks-cards:luxury_cardbox"
+  }
+}

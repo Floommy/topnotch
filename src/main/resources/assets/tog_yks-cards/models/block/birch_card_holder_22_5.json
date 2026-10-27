@@ -1,0 +1,7 @@
+{
+  "parent": "tog_yks-cards:block/card_holder_22_5",
+  "textures": {
+    "0": "minecraft:block/birch_planks",
+    "particle": "minecraft:block/birch_planks"
+  }
+}

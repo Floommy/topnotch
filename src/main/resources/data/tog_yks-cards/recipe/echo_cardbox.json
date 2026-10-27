@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "cardbox",
+  "ingredients": [
+    "minecraft:paper",
+    "minecraft:paper",
+    "minecraft:paper",
+    "minecraft:echo_shard"
+  ],
+  "result": {
+    "id": "tog_yks-cards:echo_cardbox"
+  }
+}

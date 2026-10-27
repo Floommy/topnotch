@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "card_holder",
+  "key": {
+    "s": "minecraft:mangrove_slab"
+  },
+  "pattern": [
+    "sss"
+  ],
+  "result": {
+    "count": 4,
+    "id": "tog_yks-cards:mangrove_card_holder"
+  }
+}

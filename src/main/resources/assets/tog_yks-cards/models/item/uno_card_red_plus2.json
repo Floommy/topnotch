@@ -1,0 +1,10 @@
+{
+  "parent": "tog_yks-cards:item/uno_card",
+  "textures": {
+    "type": "tog_yks-cards:item/deck/uno/type/plus2",
+    "0": "tog_yks-cards:item/deck/uno/back",
+    "1": "tog_yks-cards:item/deck/uno/front",
+    "color": "tog_yks-cards:item/deck/uno/color/red",
+    "particle": "tog_yks-cards:item/deck/uno/front"
+  }
+}

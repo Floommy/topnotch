@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "key": {
+    "S": "#minecraft:sand",
+    "W": "minecraft:water_bucket"
+  },
+  "pattern": [
+    " S ",
+    "SWS",
+    " S "
+  ],
+  "result": {
+    "id": "better_mcdonalds_mod:salt_block"
+  }
+}

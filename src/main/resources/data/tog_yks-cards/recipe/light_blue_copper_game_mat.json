@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "copper_game_mat",
+  "ingredients": [
+    "minecraft:light_blue_carpet",
+    "minecraft:copper_ingot"
+  ],
+  "result": {
+    "id": "tog_yks-cards:light_blue_copper_game_mat"
+  }
+}

@@ -1,0 +1,13 @@
+{
+ "replace": false,
+ "values": [
+  "tog_yks-cards:atm",
+  "tog_yks-cards:central_bank",
+  "tog_yks-cards:order_kiosk",
+  "tog_yks-cards:cash_register",
+  "tog_yks-cards:kitchen_screen",
+  "tog_yks-cards:pickup_screen",
+  "tog_yks-cards:preparing_screen",
+  "tog_yks-cards:tray_return"
+ ]
+}

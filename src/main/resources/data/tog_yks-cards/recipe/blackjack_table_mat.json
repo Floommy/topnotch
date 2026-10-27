@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "tog_yks-cards:green_gold_game_mat",
+    "minecraft:white_dye"
+  ],
+  "result": {
+    "id": "tog_yks-cards:blackjack_table_mat"
+  }
+}

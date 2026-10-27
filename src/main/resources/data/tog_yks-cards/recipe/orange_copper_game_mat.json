@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "copper_game_mat",
+  "ingredients": [
+    "minecraft:orange_carpet",
+    "minecraft:copper_ingot"
+  ],
+  "result": {
+    "id": "tog_yks-cards:orange_copper_game_mat"
+  }
+}

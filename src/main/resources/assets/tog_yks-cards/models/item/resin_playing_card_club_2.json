@@ -1,0 +1,10 @@
+{
+  "parent": "tog_yks-cards:item/resin_playing_card",
+  "textures": {
+    "0": "tog_yks-cards:item/deck/resin_playing_cards/back",
+    "1": "tog_yks-cards:item/deck/resin_playing_cards/front",
+    "particle": "tog_yks-cards:item/deck/resin_playing_cards/front",
+    "rank": "tog_yks-cards:item/deck/resin_playing_cards/rank/2",
+    "suit": "tog_yks-cards:item/deck/resin_playing_cards/suit/club"
+  }
+}

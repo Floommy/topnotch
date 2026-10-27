@@ -1,0 +1,17 @@
+{
+ "type": "minecraft:block",
+ "pools": [
+  {
+   "rolls": 1,
+   "entries": [
+    {
+     "type": "minecraft:item",
+     "name": "tog_yks-cards:card_shuffler"
+    }
+   ],
+   "condition": {
+    "type": "minecraft:survives_explosion"
+   }
+  }
+ ]
+}

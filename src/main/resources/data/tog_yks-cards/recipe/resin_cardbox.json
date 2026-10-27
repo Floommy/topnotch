@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "cardbox",
+  "ingredients": [
+    "minecraft:paper",
+    "minecraft:paper",
+    "minecraft:paper",
+    "minecraft:resin_brick"
+  ],
+  "result": {
+    "id": "tog_yks-cards:resin_cardbox"
+  }
+}

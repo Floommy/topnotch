@@ -1,0 +1,48 @@
+{
+  "required": true,
+  "package": "net.togyk.tcards.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "mixins": [
+    "CardboxItemMixin",
+    "CardPileBlockEntityMixin",
+    "SoundCardpileBlockMixin",
+    "SoundCardPileMatItemMixin",
+    "SoundCardHolderBlockMixin",
+    "SoundCardHolderMatItemMixin",
+    "SoundCoinPileblockMixin",
+    "SoundCoinPileMatItemMixin",
+    "SoundCardpileItemMixin",
+    "PlaceSoundMixin",
+    "MatPlaceSoundMixin",
+    "CoinTakeSoundMixin",
+    "CoinMatTakeSoundMixin",
+    "DisplayInvoker",
+    "ItemDisplayInvoker",
+    "TextDisplayInvoker",
+    "ChipTowerBlockMixin",
+    "ChipTowerBlockEntityMixin",
+    "ChipTowerMatMixin",
+    "MatNeighborFixMixin",
+    "MatBellMixin",
+    "TabIconMixin"
+  ],
+  "client": [
+    "MinecraftPickBlockMixin",
+    "PlayerModelGestureMixin",
+    "FirstPersonGestureMixin",
+    "MessyPileBlockMixin",
+    "MessyPileMatMixin",
+    "ChipWobbleBlockMixin",
+    "ChipWobbleMatMixin",
+    "PartDefinitionAccessor",
+    "CubeDefinitionAccessor",
+    "ElbowModelMixin",
+    "ElbowHandMixin",
+    "CubeDeformationAccessor",
+    "PlayerModelSlimAccessor",
+    "TrayHandLayerMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

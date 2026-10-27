@@ -1,0 +1,554 @@
+{
+ "multipart": [
+  {
+   "when": {
+    "facing": "north"
+   },
+   "apply": {
+    "model": "tog_yks-cards:block/card_shuffler"
+   }
+  },
+  {
+   "when": {
+    "facing": "north",
+    "filled": "false",
+    "shuffling": "false"
+   },
+   "apply": {
+    "model": "tog_yks-cards:block/card_shuffler_lid_empty"
+   }
+  },
+  {
+   "when": {
+    "facing": "north",
+    "filled": "true",
+    "shuffling": "false"
+   },
+   "apply": {
+    "model": "tog_yks-cards:block/card_shuffler_lid_cards"
+   }
+  },
+  {
+   "when": {
+    "facing": "north",
+    "shuffling": "true"
+   },
+   "apply": {
+    "model": "tog_yks-cards:block/card_shuffler_lid_shuffle"
+   }
+  },
+  {
+   "when": {
+    "facing": "north",
+    "shuffling": "false"
+   },
+   "apply": {
+    "model": "tog_yks-cards:block/card_shuffler_buttons"
+   }
+  },
+  {
+   "when": {
+    "facing": "north",
+    "shuffling": "true"
+   },
+   "apply": {
+    "model": "tog_yks-cards:block/card_shuffler_buttons_blink"
+   }
+  },
+  {
+   "when": {
+    "facing": "north",
+    "status": "off"
+   },
+   "apply": {
+    "model": "tog_yks-cards:block/card_shuffler_light_off"
+   }
+  },
+  {
+   "when": {
+    "facing": "north",
+    "status": "ready"
+   },
+   "apply": {
+    "model": "tog_yks-cards:block/card_shuffler_light_ready"
+   }
+  },
+  {
+   "when": {
+    "facing": "north",
+    "status": "low"
+   },
+   "apply": {
+    "model": "tog_yks-cards:block/card_shuffler_light_low"
+   }
+  },
+  {
+   "when": {
+    "facing": "north",
+    "status": "empty"
+   },
+   "apply": {
+    "model": "tog_yks-cards:block/card_shuffler_light_empty"
+   }
+  },
+  {
+   "when": {
+    "facing": "north",
+    "status": "out"
+   },
+   "apply": {
+    "model": "tog_yks-cards:block/card_shuffler_light_out"
+   }
+  },
+  {
+   "when": {
+    "facing": "north",
+    "chute": "dealing"
+   },
+   "apply": {
+    "model": "tog_yks-cards:block/card_shuffler_chute_dealing"
+   }
+  },
+  {
+   "when": {
+    "facing": "north",
+    "chute": "cards"
+   },
+   "apply": {
+    "model": "tog_yks-cards:block/card_shuffler_chute_cards"
+   }
+  },
+  {
+   "when": {
+    "facing": "north",
+    "chute": "pile"
+   },
+   "apply": {
+    "model": "tog_yks-cards:block/card_shuffler_chute_pile"
+   }
+  },
+  {
+   "when": {
+    "facing": "east"
+   },
+   "apply": {
+    "model": "tog_yks-cards:block/card_shuffler",
+    "y": 90
+   }
+  },
+  {
+   "when": {
+    "facing": "east",
+    "filled": "false",
+    "shuffling": "false"
+   },
+   "apply": {
+    "model": "tog_yks-cards:block/card_shuffler_lid_empty",
+    "y": 90
+   }
+  },
+  {
+   "when": {
+    "facing": "east",
+    "filled": "true",
+    "shuffling": "false"
+   },
+   "apply": {
+    "model": "tog_yks-cards:block/card_shuffler_lid_cards",
+    "y": 90
+   }
+  },
+  {
+   "when": {
+    "facing": "east",
+    "shuffling": "true"
+   },
+   "apply": {
+    "model": "tog_yks-cards:block/card_shuffler_lid_shuffle",
+    "y": 90
+   }
+  },
+  {
+   "when": {
+    "facing": "east",
+    "shuffling": "false"
+   },
+   "apply": {
+    "model": "tog_yks-cards:block/card_shuffler_buttons",
+    "y": 90
+   }
+  },
+  {
+   "when": {
+    "facing": "east",
+    "shuffling": "true"
+   },
+   "apply": {
+    "model": "tog_yks-cards:block/card_shuffler_buttons_blink",
+    "y": 90
+   }
+  },
+  {
+   "when": {
+    "facing": "east",
+    "status": "off"
+   },
+   "apply": {
+    "model": "tog_yks-cards:block/card_shuffler_light_off",
+    "y": 90
+   }
+  },
+  {
+   "when": {
+    "facing": "east",
+    "status": "ready"
+   },
+   "apply": {
+    "model": "tog_yks-cards:block/card_shuffler_light_ready",
+    "y": 90
+   }
+  },
+  {
+   "when": {
+    "facing": "east",
+    "status": "low"
+   },
+   "apply": {
+    "model": "tog_yks-cards:block/card_shuffler_light_low",
+    "y": 90
+   }
+  },
+  {
+   "when": {
+    "facing": "east",
+    "status": "empty"
+   },
+   "apply": {
+    "model": "tog_yks-cards:block/card_shuffler_light_empty",
+    "y": 90
+   }
+  },
+  {
+   "when": {
+    "facing": "east",
+    "status": "out"
+   },
+   "apply": {
+    "model": "tog_yks-cards:block/card_shuffler_light_out",
+    "y": 90
+   }
+  },
+  {
+   "when": {
+    "facing": "east",
+    "chute": "dealing"
+   },
+   "apply": {
+    "model": "tog_yks-cards:block/card_shuffler_chute_dealing",
+    "y": 90
+   }
+  },
+  {
+   "when": {
+    "facing": "east",
+    "chute": "cards"
+   },
+   "apply": {
+    "model": "tog_yks-cards:block/card_shuffler_chute_cards",
+    "y": 90
+   }
+  },
+  {
+   "when": {
+    "facing": "east",
+    "chute": "pile"
+   },
+   "apply": {
+    "model": "tog_yks-cards:block/card_shuffler_chute_pile",
+    "y": 90
+   }
+  },
+  {
+   "when": {
+    "facing": "south"
+   },
+   "apply": {
+    "model": "tog_yks-cards:block/card_shuffler",
+    "y": 180
+   }
+  },
+  {
+   "when": {
+    "facing": "south",
+    "filled": "false",
+    "shuffling": "false"
+   },
+   "apply": {
+    "model": "tog_yks-cards:block/card_shuffler_lid_empty",
+    "y": 180
+   }
+  },
+  {
+   "when": {
+    "facing": "south",
+    "filled": "true",
+    "shuffling": "false"
+   },
+   "apply": {
+    "model": "tog_yks-cards:block/card_shuffler_lid_cards",
+    "y": 180
+   }
+  },
+  {
+   "when": {
+    "facing": "south",
+    "shuffling": "true"
+   },
+   "apply": {
+    "model": "tog_yks-cards:block/card_shuffler_lid_shuffle",
+    "y": 180
+   }
+  },
+  {
+   "when": {
+    "facing": "south",
+    "shuffling": "false"
+   },
+   "apply": {
+    "model": "tog_yks-cards:block/card_shuffler_buttons",
+    "y": 180
+   }
+  },
+  {
+   "when": {
+    "facing": "south",
+    "shuffling": "true"
+   },
+   "apply": {
+    "model": "tog_yks-cards:block/card_shuffler_buttons_blink",
+    "y": 180
+   }
+  },
+  {
+   "when": {
+    "facing": "south",
+    "status": "off"
+   },
+   "apply": {
+    "model": "tog_yks-cards:block/card_shuffler_light_off",
+    "y": 180
+   }
+  },
+  {
+   "when": {
+    "facing": "south",
+    "status": "ready"
+   },
+   "apply": {
+    "model": "tog_yks-cards:block/card_shuffler_light_ready",
+    "y": 180
+   }
+  },
+  {
+   "when": {
+    "facing": "south",
+    "status": "low"
+   },
+   "apply": {
+    "model": "tog_yks-cards:block/card_shuffler_light_low",
+    "y": 180
+   }
+  },
+  {
+   "when": {
+    "facing": "south",
+    "status": "empty"
+   },
+   "apply": {
+    "model": "tog_yks-cards:block/card_shuffler_light_empty",
+    "y": 180
+   }
+  },
+  {
+   "when": {
+    "facing": "south",
+    "status": "out"
+   },
+   "apply": {
+    "model": "tog_yks-cards:block/card_shuffler_light_out",
+    "y": 180
+   }
+  },
+  {
+   "when": {
+    "facing": "south",
+    "chute": "dealing"
+   },
+   "apply": {
+    "model": "tog_yks-cards:block/card_shuffler_chute_dealing",
+    "y": 180
+   }
+  },
+  {
+   "when": {
+    "facing": "south",
+    "chute": "cards"
+   },
+   "apply": {
+    "model": "tog_yks-cards:block/card_shuffler_chute_cards",
+    "y": 180
+   }
+  },
+  {
+   "when": {
+    "facing": "south",
+    "chute": "pile"
+   },
+   "apply": {
+    "model": "tog_yks-cards:block/card_shuffler_chute_pile",
+    "y": 180
+   }
+  },
+  {
+   "when": {
+    "facing": "west"
+   },
+   "apply": {
+    "model": "tog_yks-cards:block/card_shuffler",
+    "y": 270
+   }
+  },
+  {
+   "when": {
+    "facing": "west",
+    "filled": "false",
+    "shuffling": "false"
+   },
+   "apply": {
+    "model": "tog_yks-cards:block/card_shuffler_lid_empty",
+    "y": 270
+   }
+  },
+  {
+   "when": {
+    "facing": "west",
+    "filled": "true",
+    "shuffling": "false"
+   },
+   "apply": {
+    "model": "tog_yks-cards:block/card_shuffler_lid_cards",
+    "y": 270
+   }
+  },
+  {
+   "when": {
+    "facing": "west",
+    "shuffling": "true"
+   },
+   "apply": {
+    "model": "tog_yks-cards:block/card_shuffler_lid_shuffle",
+    "y": 270
+   }
+  },
+  {
+   "when": {
+    "facing": "west",
+    "shuffling": "false"
+   },
+   "apply": {
+    "model": "tog_yks-cards:block/card_shuffler_buttons",
+    "y": 270
+   }
+  },
+  {
+   "when": {
+    "facing": "west",
+    "shuffling": "true"
+   },
+   "apply": {
+    "model": "tog_yks-cards:block/card_shuffler_buttons_blink",
+    "y": 270
+   }
+  },
+  {
+   "when": {
+    "facing": "west",
+    "status": "off"
+   },
+   "apply": {
+    "model": "tog_yks-cards:block/card_shuffler_light_off",
+    "y": 270
+   }
+  },
+  {
+   "when": {
+    "facing": "west",
+    "status": "ready"
+   },
+   "apply": {
+    "model": "tog_yks-cards:block/card_shuffler_light_ready",
+    "y": 270
+   }
+  },
+  {
+   "when": {
+    "facing": "west",
+    "status": "low"
+   },
+   "apply": {
+    "model": "tog_yks-cards:block/card_shuffler_light_low",
+    "y": 270
+   }
+  },
+  {
+   "when": {
+    "facing": "west",
+    "status": "empty"
+   },
+   "apply": {
+    "model": "tog_yks-cards:block/card_shuffler_light_empty",
+    "y": 270
+   }
+  },
+  {
+   "when": {
+    "facing": "west",
+    "status": "out"
+   },
+   "apply": {
+    "model": "tog_yks-cards:block/card_shuffler_light_out",
+    "y": 270
+   }
+  },
+  {
+   "when": {
+    "facing": "west",
+    "chute": "dealing"
+   },
+   "apply": {
+    "model": "tog_yks-cards:block/card_shuffler_chute_dealing",
+    "y": 270
+   }
+  },
+  {
+   "when": {
+    "facing": "west",
+    "chute": "cards"
+   },
+   "apply": {
+    "model": "tog_yks-cards:block/card_shuffler_chute_cards",
+    "y": 270
+   }
+  },
+  {
+   "when": {
+    "facing": "west",
+    "chute": "pile"
+   },
+   "apply": {
+    "model": "tog_yks-cards:block/card_shuffler_chute_pile",
+    "y": 270
+   }
+  }
+ ]
+}

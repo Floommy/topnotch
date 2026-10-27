@@ -1,0 +1,115 @@
+{
+ "textures": {
+  "spoon": "tog_yks-cards:block/food/spoon",
+  "flurry_cup": "tog_yks-cards:block/food/flurry_cup",
+  "ice": "tog_yks-cards:block/food/ice",
+  "particle": "tog_yks-cards:block/food/flurry_cup"
+ },
+ "elements": [
+  {
+   "from": [
+    5,
+    0,
+    5
+   ],
+   "to": [
+    11,
+    7,
+    11
+   ],
+   "faces": {
+    "north": {
+     "texture": "#flurry_cup"
+    },
+    "south": {
+     "texture": "#flurry_cup"
+    },
+    "east": {
+     "texture": "#flurry_cup"
+    },
+    "west": {
+     "texture": "#flurry_cup"
+    },
+    "up": {
+     "texture": "#ice"
+    },
+    "down": {
+     "texture": "#flurry_cup"
+    }
+   }
+  },
+  {
+   "from": [
+    5.5,
+    7,
+    5.5
+   ],
+   "to": [
+    10.5,
+    9,
+    10.5
+   ],
+   "faces": {
+    "north": {
+     "texture": "#ice"
+    },
+    "south": {
+     "texture": "#ice"
+    },
+    "east": {
+     "texture": "#ice"
+    },
+    "west": {
+     "texture": "#ice"
+    },
+    "up": {
+     "texture": "#ice"
+    },
+    "down": {
+     "texture": "#ice"
+    }
+   }
+  },
+  {
+   "from": [
+    7.5,
+    7,
+    7.5
+   ],
+   "to": [
+    8.5,
+    14,
+    8.5
+   ],
+   "faces": {
+    "north": {
+     "texture": "#spoon"
+    },
+    "south": {
+     "texture": "#spoon"
+    },
+    "east": {
+     "texture": "#spoon"
+    },
+    "west": {
+     "texture": "#spoon"
+    },
+    "up": {
+     "texture": "#spoon"
+    },
+    "down": {
+     "texture": "#spoon"
+    }
+   },
+   "rotation": {
+    "origin": [
+     8,
+     8,
+     8
+    ],
+    "axis": "x",
+    "angle": 22.5
+   }
+  }
+ ]
+}

@@ -1,0 +1,7 @@
+{
+  "parent": "tog_yks-cards:item/chip",
+  "textures": {
+    "0": "tog_yks-cards:item/chip/purple_chip",
+    "particle": "tog_yks-cards:item/chip/purple_chip"
+  }
+}

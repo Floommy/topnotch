@@ -1,0 +1,9 @@
+{
+  "parent": "tog_yks-cards:block/cardpile_2",
+  "textures": {
+    "down": "tog_yks-cards:block/deck/luxury_playing_cards/cardpile/back",
+    "particle": "tog_yks-cards:block/deck/luxury_playing_cards/cardpile/side",
+    "side": "tog_yks-cards:block/deck/luxury_playing_cards/cardpile/side",
+    "up": "tog_yks-cards:block/deck/luxury_playing_cards/cardpile/front"
+  }
+}

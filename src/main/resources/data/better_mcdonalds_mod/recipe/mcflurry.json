@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    "minecraft:milk_bucket",
+    "minecraft:snowball",
+    "minecraft:sugar"
+  ],
+  "result": {
+    "id": "better_mcdonalds_mod:mcflurry"
+  }
+}

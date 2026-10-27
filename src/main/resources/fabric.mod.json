@@ -1,0 +1,56 @@
+{
+  "schemaVersion": 1,
+  "id": "tog_yks-cards",
+  "version": "${version}",
+  "name": "TopNotch",
+  "description": "Cards and Blackjack table, casino ATMs and banks, a fast-food restaurant system, the Better McDonald's Mod food and Yori3o's Grappling Hooks (built in, no Balm or YACL needed).",
+  "authors": [
+    "Tog_yk!",
+    "Kyronis (Better McDonald's Mod)",
+    "Yori3o (Grappling Hooks)"
+  ],
+  "contact": {
+    "sources": "https://github.com/Floommy/topnotch",
+    "issues": "https://github.com/Floommy/topnotch/issues"
+  },
+  "license": "GPL-3.0-or-later",
+  "icon": "assets/tog_yks-cards/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "net.togyk.tog_yks_cards.Tog_yksCards",
+      "net.togyk.tcards.TableMain",
+      "com.yori3o.yo_hooks.fabric.YoHooksFabric"
+    ],
+    "client": [
+      "net.togyk.tog_yks_cards.Tog_yksCardsClient",
+      "net.togyk.tcards.client.TableClient",
+      "com.yori3o.yo_hooks.fabric.YoHooksFabricClient"
+    ]
+  },
+  "mixins": [
+    "tog_yks-cards.mixins.json",
+    "tcards.mixins.json",
+    "yo_hooks-common.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.18.4",
+    "minecraft": "~26.3",
+    "java": ">=25",
+    "fabric-api": "*"
+  },
+  "suggests": {
+    "farmersdelight": "*"
+  },
+  "contributors": [
+    "Volwert123",
+    "rporotos",
+    "kohari_nk",
+    "sovseabird"
+  ],
+  "provides": [
+    "better_mcdonalds_mod",
+    "yo_hooks"
+  ],
+  "accessWidener": "topnotch.accesswidener"
+}

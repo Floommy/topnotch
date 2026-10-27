@@ -1,0 +1,42 @@
+{
+  "type": "minecraft:block",
+  "modifier": {
+    "type": "minecraft:set_count",
+    "count": {
+      "type": "minecraft:uniform",
+      "max": 4,
+      "min": 2
+    }
+  },
+  "pools": [
+    {
+      "entries": [
+        {
+          "type": "minecraft:alternatives",
+          "children": [
+            {
+              "type": "minecraft:item",
+              "condition": "minecraft:tool/can_silk_touch",
+              "name": "better_mcdonalds_mod:salt_block"
+            },
+            {
+              "type": "minecraft:item",
+              "modifier": [
+                {
+                  "type": "minecraft:apply_bonus",
+                  "enchantment": "minecraft:fortune",
+                  "formula": "minecraft:ore_drops"
+                },
+                {
+                  "type": "minecraft:explosion_decay"
+                }
+              ],
+              "name": "better_mcdonalds_mod:salt"
+            }
+          ]
+        }
+      ],
+      "rolls": 1
+    }
+  ]
+}

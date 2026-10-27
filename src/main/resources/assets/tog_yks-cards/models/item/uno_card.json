@@ -1,0 +1,76 @@
+{
+	"parent": "tog_yks-cards:item/empty_card",
+	"textures": {
+		"color": "tog_yks-cards:item/empty_card_property",
+		"type": "tog_yks-cards:item/empty_card_property",
+		"wild": "tog_yks-cards:item/empty_card_property",
+		"plus4": "tog_yks-cards:item/empty_card_property"
+	},
+	"elements": [
+		{
+			"name": "card",
+			"from": [3, 1, 7.8],
+			"to": [13, 15, 8],
+			"faces": {
+				"north": {"uv": [3, 1, 13, 15], "texture": "#0"},
+				"east": {"uv": [12.8, 1, 13, 15], "texture": "#1"},
+				"south": {"uv": [3, 1, 13, 15], "texture": "#1"},
+				"west": {"uv": [3, 1, 3.2, 15], "texture": "#1"},
+				"up": {"uv": [3, 1, 13, 1.2], "texture": "#1"},
+				"down": {"uv": [3, 14.8, 13, 15], "texture": "#1"}
+			}
+		},
+		{
+			"name": "color",
+			"from": [3, 1, 8.1],
+			"to": [13, 15, 8.1],
+			"rotation": {"angle": 0, "axis": "y", "origin": [-1, 1, -0.1]},
+			"faces": {
+				"south": {"uv": [3, 1, 13, 15], "texture": "#color"}
+			}
+		},
+		{
+			"name": "type",
+			"from": [4, 11, 8.2],
+			"to": [7, 14, 8.2],
+			"faces": {
+				"south": {"uv": [0, 0, 11, 11], "texture": "#type"}
+			}
+		},
+		{
+			"name": "type",
+			"from": [6.5, 6.5, 8.2],
+			"to": [9.5, 9.5, 8.2],
+			"faces": {
+				"south": {"uv": [0, 0, 11, 11], "texture": "#type"}
+			}
+		},
+		{
+			"name": "type",
+			"from": [9, 2, 8.2],
+			"to": [12, 5, 8.2],
+			"faces": {
+				"south": {"uv": [11, 11, 0, 0], "texture": "#type"}
+			}
+		},
+		{
+			"name": "wild",
+			"from": [3, 1, 8.1],
+			"to": [13, 15, 8.1],
+			"rotation": {"angle": 0, "axis": "y", "origin": [-1, 1, -0.1]},
+			"faces": {
+				"south": {"uv": [3, 1, 13, 15], "texture": "#wild"}
+			}
+		},
+		{
+			"name": "plus4",
+			"from": [3, 1, 8.1],
+			"to": [13, 15, 8.1],
+			"rotation": {"angle": 0, "axis": "y", "origin": [-1, 1, -0.1]},
+			"faces": {
+				"south": {"uv": [3, 1, 13, 15], "texture": "#plus4"}
+			}
+		}
+	],
+	"display": {}
+}

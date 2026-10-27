@@ -1,0 +1,68 @@
+{
+ "textures": {
+  "particle": "tog_yks-cards:block/card_shuffler/side",
+  "edge": "tog_yks-cards:block/card_shuffler/chute_edge",
+  "back": "tog_yks-cards:block/card_shuffler/chute_back"
+ },
+ "elements": [
+  {
+   "from": [
+    9.8,
+    2.1,
+    -1.8
+   ],
+   "to": [
+    13.2,
+    2.4,
+    1.2
+   ],
+   "faces": {
+    "north": {
+     "texture": "#edge",
+     "uv": [
+      0,
+      0,
+      16,
+      16
+     ]
+    },
+    "east": {
+     "texture": "#edge",
+     "uv": [
+      0,
+      0,
+      16,
+      16
+     ]
+    },
+    "west": {
+     "texture": "#edge",
+     "uv": [
+      0,
+      0,
+      16,
+      16
+     ]
+    },
+    "up": {
+     "texture": "#back",
+     "uv": [
+      0,
+      0,
+      16,
+      16
+     ]
+    },
+    "down": {
+     "texture": "#edge",
+     "uv": [
+      0,
+      0,
+      16,
+      16
+     ]
+    }
+   }
+  }
+ ]
+}

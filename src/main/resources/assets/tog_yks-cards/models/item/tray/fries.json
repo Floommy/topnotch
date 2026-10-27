@@ -1,0 +1,298 @@
+{
+ "textures": {
+  "box_red": "tog_yks-cards:block/food/box_red",
+  "fries": "tog_yks-cards:block/food/fries",
+  "box_red_m": "tog_yks-cards:block/food/box_red_m",
+  "particle": "tog_yks-cards:block/food/box_red"
+ },
+ "elements": [
+  {
+   "from": [
+    4.5,
+    0,
+    5.5
+   ],
+   "to": [
+    11.5,
+    7,
+    10.5
+   ],
+   "faces": {
+    "north": {
+     "texture": "#box_red_m"
+    },
+    "south": {
+     "texture": "#box_red_m"
+    },
+    "east": {
+     "texture": "#box_red"
+    },
+    "west": {
+     "texture": "#box_red"
+    },
+    "up": {
+     "texture": "#fries"
+    },
+    "down": {
+     "texture": "#box_red"
+    }
+   }
+  },
+  {
+   "from": [
+    5,
+    6,
+    6
+   ],
+   "to": [
+    6,
+    9.5,
+    7
+   ],
+   "faces": {
+    "north": {
+     "texture": "#fries"
+    },
+    "south": {
+     "texture": "#fries"
+    },
+    "east": {
+     "texture": "#fries"
+    },
+    "west": {
+     "texture": "#fries"
+    },
+    "up": {
+     "texture": "#fries"
+    },
+    "down": {
+     "texture": "#fries"
+    }
+   }
+  },
+  {
+   "from": [
+    6.3,
+    6,
+    7.5
+   ],
+   "to": [
+    7.3,
+    10.5,
+    8.5
+   ],
+   "faces": {
+    "north": {
+     "texture": "#fries"
+    },
+    "south": {
+     "texture": "#fries"
+    },
+    "east": {
+     "texture": "#fries"
+    },
+    "west": {
+     "texture": "#fries"
+    },
+    "up": {
+     "texture": "#fries"
+    },
+    "down": {
+     "texture": "#fries"
+    }
+   }
+  },
+  {
+   "from": [
+    7.6,
+    6,
+    6.2
+   ],
+   "to": [
+    8.6,
+    9.8,
+    7.2
+   ],
+   "faces": {
+    "north": {
+     "texture": "#fries"
+    },
+    "south": {
+     "texture": "#fries"
+    },
+    "east": {
+     "texture": "#fries"
+    },
+    "west": {
+     "texture": "#fries"
+    },
+    "up": {
+     "texture": "#fries"
+    },
+    "down": {
+     "texture": "#fries"
+    }
+   }
+  },
+  {
+   "from": [
+    8.9,
+    6,
+    8.2
+   ],
+   "to": [
+    9.9,
+    10.2,
+    9.2
+   ],
+   "faces": {
+    "north": {
+     "texture": "#fries"
+    },
+    "south": {
+     "texture": "#fries"
+    },
+    "east": {
+     "texture": "#fries"
+    },
+    "west": {
+     "texture": "#fries"
+    },
+    "up": {
+     "texture": "#fries"
+    },
+    "down": {
+     "texture": "#fries"
+    }
+   }
+  },
+  {
+   "from": [
+    10,
+    6,
+    6.6
+   ],
+   "to": [
+    11,
+    9.2,
+    7.6
+   ],
+   "faces": {
+    "north": {
+     "texture": "#fries"
+    },
+    "south": {
+     "texture": "#fries"
+    },
+    "east": {
+     "texture": "#fries"
+    },
+    "west": {
+     "texture": "#fries"
+    },
+    "up": {
+     "texture": "#fries"
+    },
+    "down": {
+     "texture": "#fries"
+    }
+   }
+  },
+  {
+   "from": [
+    5.6,
+    6,
+    8.8
+   ],
+   "to": [
+    6.6,
+    9,
+    9.8
+   ],
+   "faces": {
+    "north": {
+     "texture": "#fries"
+    },
+    "south": {
+     "texture": "#fries"
+    },
+    "east": {
+     "texture": "#fries"
+    },
+    "west": {
+     "texture": "#fries"
+    },
+    "up": {
+     "texture": "#fries"
+    },
+    "down": {
+     "texture": "#fries"
+    }
+   }
+  },
+  {
+   "from": [
+    7,
+    6,
+    9
+   ],
+   "to": [
+    8,
+    10,
+    10
+   ],
+   "faces": {
+    "north": {
+     "texture": "#fries"
+    },
+    "south": {
+     "texture": "#fries"
+    },
+    "east": {
+     "texture": "#fries"
+    },
+    "west": {
+     "texture": "#fries"
+    },
+    "up": {
+     "texture": "#fries"
+    },
+    "down": {
+     "texture": "#fries"
+    }
+   }
+  },
+  {
+   "from": [
+    9.4,
+    6,
+    9.2
+   ],
+   "to": [
+    10.4,
+    9.6,
+    10.2
+   ],
+   "faces": {
+    "north": {
+     "texture": "#fries"
+    },
+    "south": {
+     "texture": "#fries"
+    },
+    "east": {
+     "texture": "#fries"
+    },
+    "west": {
+     "texture": "#fries"
+    },
+    "up": {
+     "texture": "#fries"
+    },
+    "down": {
+     "texture": "#fries"
+    }
+   }
+  }
+ ]
+}

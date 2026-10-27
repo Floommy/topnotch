@@ -1,0 +1,9 @@
+{
+  "parent": "tog_yks-cards:item/green_playing_card",
+  "textures": {
+    "0": "tog_yks-cards:item/deck/green_playing_cards/back",
+    "1": "tog_yks-cards:item/deck/green_playing_cards/front",
+    "joker": "tog_yks-cards:item/deck/green_playing_cards/joker",
+    "particle": "tog_yks-cards:item/deck/green_playing_cards/front"
+  }
+}

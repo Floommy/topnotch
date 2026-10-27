@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "cardbox",
+  "ingredients": [
+    "minecraft:paper",
+    "minecraft:paper",
+    "minecraft:paper",
+    "minecraft:diamond"
+  ],
+  "result": {
+    "id": "tog_yks-cards:diamond_cardbox"
+  }
+}

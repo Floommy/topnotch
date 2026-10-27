@@ -1,0 +1,138 @@
+{
+ "textures": {
+  "box_red": "tog_yks-cards:block/food/box_red",
+  "yellow": "tog_yks-cards:block/food/yellow",
+  "happy_box": "tog_yks-cards:block/food/happy_box",
+  "particle": "tog_yks-cards:block/food/box_red"
+ },
+ "elements": [
+  {
+   "from": [
+    3.5,
+    0,
+    5
+   ],
+   "to": [
+    12.5,
+    7,
+    11
+   ],
+   "faces": {
+    "north": {
+     "texture": "#happy_box"
+    },
+    "south": {
+     "texture": "#happy_box"
+    },
+    "east": {
+     "texture": "#box_red"
+    },
+    "west": {
+     "texture": "#box_red"
+    },
+    "up": {
+     "texture": "#box_red"
+    },
+    "down": {
+     "texture": "#box_red"
+    }
+   }
+  },
+  {
+   "from": [
+    4,
+    7,
+    7.5
+   ],
+   "to": [
+    5,
+    11,
+    8.5
+   ],
+   "faces": {
+    "north": {
+     "texture": "#yellow"
+    },
+    "south": {
+     "texture": "#yellow"
+    },
+    "east": {
+     "texture": "#yellow"
+    },
+    "west": {
+     "texture": "#yellow"
+    },
+    "up": {
+     "texture": "#yellow"
+    },
+    "down": {
+     "texture": "#yellow"
+    }
+   }
+  },
+  {
+   "from": [
+    11,
+    7,
+    7.5
+   ],
+   "to": [
+    12,
+    11,
+    8.5
+   ],
+   "faces": {
+    "north": {
+     "texture": "#yellow"
+    },
+    "south": {
+     "texture": "#yellow"
+    },
+    "east": {
+     "texture": "#yellow"
+    },
+    "west": {
+     "texture": "#yellow"
+    },
+    "up": {
+     "texture": "#yellow"
+    },
+    "down": {
+     "texture": "#yellow"
+    }
+   }
+  },
+  {
+   "from": [
+    4,
+    11,
+    7.5
+   ],
+   "to": [
+    12,
+    12,
+    8.5
+   ],
+   "faces": {
+    "north": {
+     "texture": "#yellow"
+    },
+    "south": {
+     "texture": "#yellow"
+    },
+    "east": {
+     "texture": "#yellow"
+    },
+    "west": {
+     "texture": "#yellow"
+    },
+    "up": {
+     "texture": "#yellow"
+    },
+    "down": {
+     "texture": "#yellow"
+    }
+   }
+  }
+ ]
+}

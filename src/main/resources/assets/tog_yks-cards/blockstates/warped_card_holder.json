@@ -1,0 +1,124 @@
+{
+  "variants": {
+    "preview=false,rotation=0": {
+      "model": "tog_yks-cards:block/warped_card_holder"
+    },
+    "preview=false,rotation=1": {
+      "model": "tog_yks-cards:block/warped_card_holder_22_5"
+    },
+    "preview=false,rotation=10": {
+      "model": "tog_yks-cards:block/warped_card_holder_45",
+      "y": 180
+    },
+    "preview=false,rotation=11": {
+      "model": "tog_yks-cards:block/warped_card_holder_67_5",
+      "y": 180
+    },
+    "preview=false,rotation=12": {
+      "model": "tog_yks-cards:block/warped_card_holder",
+      "y": 270
+    },
+    "preview=false,rotation=13": {
+      "model": "tog_yks-cards:block/warped_card_holder_22_5",
+      "y": 270
+    },
+    "preview=false,rotation=14": {
+      "model": "tog_yks-cards:block/warped_card_holder_45",
+      "y": 270
+    },
+    "preview=false,rotation=15": {
+      "model": "tog_yks-cards:block/warped_card_holder_67_5",
+      "y": 270
+    },
+    "preview=false,rotation=2": {
+      "model": "tog_yks-cards:block/warped_card_holder_45"
+    },
+    "preview=false,rotation=3": {
+      "model": "tog_yks-cards:block/warped_card_holder_67_5"
+    },
+    "preview=false,rotation=4": {
+      "model": "tog_yks-cards:block/warped_card_holder",
+      "y": 90
+    },
+    "preview=false,rotation=5": {
+      "model": "tog_yks-cards:block/warped_card_holder_22_5",
+      "y": 90
+    },
+    "preview=false,rotation=6": {
+      "model": "tog_yks-cards:block/warped_card_holder_45",
+      "y": 90
+    },
+    "preview=false,rotation=7": {
+      "model": "tog_yks-cards:block/warped_card_holder_67_5",
+      "y": 90
+    },
+    "preview=false,rotation=8": {
+      "model": "tog_yks-cards:block/warped_card_holder",
+      "y": 180
+    },
+    "preview=false,rotation=9": {
+      "model": "tog_yks-cards:block/warped_card_holder_22_5",
+      "y": 180
+    },
+    "preview=true,rotation=0": {
+      "model": "tog_yks-cards:block/warped_card_holder_preview"
+    },
+    "preview=true,rotation=1": {
+      "model": "tog_yks-cards:block/warped_card_holder_preview_22_5"
+    },
+    "preview=true,rotation=10": {
+      "model": "tog_yks-cards:block/warped_card_holder_preview_45",
+      "y": 180
+    },
+    "preview=true,rotation=11": {
+      "model": "tog_yks-cards:block/warped_card_holder_preview_67_5",
+      "y": 180
+    },
+    "preview=true,rotation=12": {
+      "model": "tog_yks-cards:block/warped_card_holder_preview",
+      "y": 270
+    },
+    "preview=true,rotation=13": {
+      "model": "tog_yks-cards:block/warped_card_holder_preview_22_5",
+      "y": 270
+    },
+    "preview=true,rotation=14": {
+      "model": "tog_yks-cards:block/warped_card_holder_preview_45",
+      "y": 270
+    },
+    "preview=true,rotation=15": {
+      "model": "tog_yks-cards:block/warped_card_holder_preview_67_5",
+      "y": 270
+    },
+    "preview=true,rotation=2": {
+      "model": "tog_yks-cards:block/warped_card_holder_preview_45"
+    },
+    "preview=true,rotation=3": {
+      "model": "tog_yks-cards:block/warped_card_holder_preview_67_5"
+    },
+    "preview=true,rotation=4": {
+      "model": "tog_yks-cards:block/warped_card_holder_preview",
+      "y": 90
+    },
+    "preview=true,rotation=5": {
+      "model": "tog_yks-cards:block/warped_card_holder_preview_22_5",
+      "y": 90
+    },
+    "preview=true,rotation=6": {
+      "model": "tog_yks-cards:block/warped_card_holder_preview_45",
+      "y": 90
+    },
+    "preview=true,rotation=7": {
+      "model": "tog_yks-cards:block/warped_card_holder_preview_67_5",
+      "y": 90
+    },
+    "preview=true,rotation=8": {
+      "model": "tog_yks-cards:block/warped_card_holder_preview",
+      "y": 180
+    },
+    "preview=true,rotation=9": {
+      "model": "tog_yks-cards:block/warped_card_holder_preview_22_5",
+      "y": 180
+    }
+  }
+}

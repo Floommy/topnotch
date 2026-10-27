@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "golden_game_mat",
+  "ingredients": [
+    "minecraft:pink_carpet",
+    "minecraft:gold_ingot"
+  ],
+  "result": {
+    "id": "tog_yks-cards:pink_gold_game_mat"
+  }
+}

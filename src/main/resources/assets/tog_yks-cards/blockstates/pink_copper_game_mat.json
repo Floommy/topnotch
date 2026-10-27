@@ -1,0 +1,772 @@
+{
+  "variants": {
+    "connected_e=false,connected_n=false,connected_ne=false,connected_nw=false,connected_s=false,connected_se=false,connected_sw=false,connected_w=false": {
+      "model": "tog_yks-cards:block/game_mat/pink_copper_game_mat/pink_copper_game_mat"
+    },
+    "connected_e=false,connected_n=false,connected_ne=false,connected_nw=false,connected_s=false,connected_se=false,connected_sw=false,connected_w=true": {
+      "model": "tog_yks-cards:block/game_mat/pink_copper_game_mat/west"
+    },
+    "connected_e=false,connected_n=false,connected_ne=false,connected_nw=false,connected_s=false,connected_se=false,connected_sw=true,connected_w=false": {
+      "model": "tog_yks-cards:block/game_mat/pink_copper_game_mat/southwest"
+    },
+    "connected_e=false,connected_n=false,connected_ne=false,connected_nw=false,connected_s=false,connected_se=false,connected_sw=true,connected_w=true": {
+      "model": "tog_yks-cards:block/game_mat/pink_copper_game_mat/west"
+    },
+    "connected_e=false,connected_n=false,connected_ne=false,connected_nw=false,connected_s=false,connected_se=true,connected_sw=false,connected_w=false": {
+      "model": "tog_yks-cards:block/game_mat/pink_copper_game_mat/southeast"
+    },
+    "connected_e=false,connected_n=false,connected_ne=false,connected_nw=false,connected_s=false,connected_se=true,connected_sw=false,connected_w=true": {
+      "model": "tog_yks-cards:block/game_mat/pink_copper_game_mat/west_southeast"
+    },
+    "connected_e=false,connected_n=false,connected_ne=false,connected_nw=false,connected_s=false,connected_se=true,connected_sw=true,connected_w=false": {
+      "model": "tog_yks-cards:block/game_mat/pink_copper_game_mat/southeast_southwest"
+    },
+    "connected_e=false,connected_n=false,connected_ne=false,connected_nw=false,connected_s=false,connected_se=true,connected_sw=true,connected_w=true": {
+      "model": "tog_yks-cards:block/game_mat/pink_copper_game_mat/west_southeast"
+    },
+    "connected_e=false,connected_n=false,connected_ne=false,connected_nw=false,connected_s=true,connected_se=false,connected_sw=false,connected_w=false": {
+      "model": "tog_yks-cards:block/game_mat/pink_copper_game_mat/south"
+    },
+    "connected_e=false,connected_n=false,connected_ne=false,connected_nw=false,connected_s=true,connected_se=false,connected_sw=false,connected_w=true": {
+      "model": "tog_yks-cards:block/game_mat/pink_copper_game_mat/south_west"
+    },
+    "connected_e=false,connected_n=false,connected_ne=false,connected_nw=false,connected_s=true,connected_se=false,connected_sw=true,connected_w=false": {
+      "model": "tog_yks-cards:block/game_mat/pink_copper_game_mat/south"
+    },
+    "connected_e=false,connected_n=false,connected_ne=false,connected_nw=false,connected_s=true,connected_se=false,connected_sw=true,connected_w=true": {
+      "model": "tog_yks-cards:block/game_mat/pink_copper_game_mat/south_west_southwest"
+    },
+    "connected_e=false,connected_n=false,connected_ne=false,connected_nw=false,connected_s=true,connected_se=true,connected_sw=false,connected_w=false": {
+      "model": "tog_yks-cards:block/game_mat/pink_copper_game_mat/south"
+    },
+    "connected_e=false,connected_n=false,connected_ne=false,connected_nw=false,connected_s=true,connected_se=true,connected_sw=false,connected_w=true": {
+      "model": "tog_yks-cards:block/game_mat/pink_copper_game_mat/south_west"
+    },
+    "connected_e=false,connected_n=false,connected_ne=false,connected_nw=false,connected_s=true,connected_se=true,connected_sw=true,connected_w=false": {
+      "model": "tog_yks-cards:block/game_mat/pink_copper_game_mat/south"
+    },
+    "connected_e=false,connected_n=false,connected_ne=false,connected_nw=false,connected_s=true,connected_se=true,connected_sw=true,connected_w=true": {
+      "model": "tog_yks-cards:block/game_mat/pink_copper_game_mat/south_west_southwest"
+    },
+    "connected_e=false,connected_n=false,connected_ne=false,connected_nw=true,connected_s=false,connected_se=false,connected_sw=false,connected_w=false": {
+      "model": "tog_yks-cards:block/game_mat/pink_copper_game_mat/northwest"
+    },
+    "connected_e=false,connected_n=false,connected_ne=false,connected_nw=true,connected_s=false,connected_se=false,connected_sw=false,connected_w=true": {
+      "model": "tog_yks-cards:block/game_mat/pink_copper_game_mat/west"
+    },
+    "connected_e=false,connected_n=false,connected_ne=false,connected_nw=true,connected_s=false,connected_se=false,connected_sw=true,connected_w=false": {
+      "model": "tog_yks-cards:block/game_mat/pink_copper_game_mat/northwest_southwest"
+    },
+    "connected_e=false,connected_n=false,connected_ne=false,connected_nw=true,connected_s=false,connected_se=false,connected_sw=true,connected_w=true": {
+      "model": "tog_yks-cards:block/game_mat/pink_copper_game_mat/west"
+    },
+    "connected_e=false,connected_n=false,connected_ne=false,connected_nw=true,connected_s=false,connected_se=true,connected_sw=false,connected_w=false": {
+      "model": "tog_yks-cards:block/game_mat/pink_copper_game_mat/southeast_northwest"
+    },
+    "connected_e=false,connected_n=false,connected_ne=false,connected_nw=true,connected_s=false,connected_se=true,connected_sw=false,connected_w=true": {
+      "model": "tog_yks-cards:block/game_mat/pink_copper_game_mat/west_southeast"
+    },
+    "connected_e=false,connected_n=false,connected_ne=false,connected_nw=true,connected_s=false,connected_se=true,connected_sw=true,connected_w=false": {
+      "model": "tog_yks-cards:block/game_mat/pink_copper_game_mat/southeast_northwest_southwest"
+    },
+    "connected_e=false,connected_n=false,connected_ne=false,connected_nw=true,connected_s=false,connected_se=true,connected_sw=true,connected_w=true": {
+      "model": "tog_yks-cards:block/game_mat/pink_copper_game_mat/west_southeast"
+    },
+    "connected_e=false,connected_n=false,connected_ne=false,connected_nw=true,connected_s=true,connected_se=false,connected_sw=false,connected_w=false": {
+      "model": "tog_yks-cards:block/game_mat/pink_copper_game_mat/south_northwest"
+    },
+    "connected_e=false,connected_n=false,connected_ne=false,connected_nw=true,connected_s=true,connected_se=false,connected_sw=false,connected_w=true": {
+      "model": "tog_yks-cards:block/game_mat/pink_copper_game_mat/south_west"
+    },
+    "connected_e=false,connected_n=false,connected_ne=false,connected_nw=true,connected_s=true,connected_se=false,connected_sw=true,connected_w=false": {
+      "model": "tog_yks-cards:block/game_mat/pink_copper_game_mat/south_northwest"
+    },
+    "connected_e=false,connected_n=false,connected_ne=false,connected_nw=true,connected_s=true,connected_se=false,connected_sw=true,connected_w=true": {
+      "model": "tog_yks-cards:block/game_mat/pink_copper_game_mat/south_west_southwest"
+    },
+    "connected_e=false,connected_n=false,connected_ne=false,connected_nw=true,connected_s=true,connected_se=true,connected_sw=false,connected_w=false": {
+      "model": "tog_yks-cards:block/game_mat/pink_copper_game_mat/south_northwest"
+    },
+    "connected_e=false,connected_n=false,connected_ne=false,connected_nw=true,connected_s=true,connected_se=true,connected_sw=false,connected_w=true": {
+      "model": "tog_yks-cards:block/game_mat/pink_copper_game_mat/south_west"
+    },
+    "connected_e=false,connected_n=false,connected_ne=false,connected_nw=true,connected_s=true,connected_se=true,connected_sw=true,connected_w=false": {
+      "model": "tog_yks-cards:block/game_mat/pink_copper_game_mat/south_northwest"
+    },
+    "connected_e=false,connected_n=false,connected_ne=false,connected_nw=true,connected_s=true,connected_se=true,connected_sw=true,connected_w=true": {
+      "model": "tog_yks-cards:block/game_mat/pink_copper_game_mat/south_west_southwest"
+    },
+    "connected_e=false,connected_n=false,connected_ne=true,connected_nw=false,connected_s=false,connected_se=false,connected_sw=false,connected_w=false": {
+      "model": "tog_yks-cards:block/game_mat/pink_copper_game_mat/northeast"
+    },
+    "connected_e=false,connected_n=false,connected_ne=true,connected_nw=false,connected_s=false,connected_se=false,connected_sw=false,connected_w=true": {
+      "model": "tog_yks-cards:block/game_mat/pink_copper_game_mat/west_northeast"
+    },
+    "connected_e=false,connected_n=false,connected_ne=true,connected_nw=false,connected_s=false,connected_se=false,connected_sw=true,connected_w=false": {
+      "model": "tog_yks-cards:block/game_mat/pink_copper_game_mat/northeast_southwest"
+    },
+    "connected_e=false,connected_n=false,connected_ne=true,connected_nw=false,connected_s=false,connected_se=false,connected_sw=true,connected_w=true": {
+      "model": "tog_yks-cards:block/game_mat/pink_copper_game_mat/west_northeast"
+    },
+    "connected_e=false,connected_n=false,connected_ne=true,connected_nw=false,connected_s=false,connected_se=true,connected_sw=false,connected_w=false": {
+      "model": "tog_yks-cards:block/game_mat/pink_copper_game_mat/northeast_southeast"
+    },
+    "connected_e=false,connected_n=false,connected_ne=true,connected_nw=false,connected_s=false,connected_se=true,connected_sw=false,connected_w=true": {
+      "model": "tog_yks-cards:block/game_mat/pink_copper_game_mat/west_northeast_southeast"
+    },
+    "connected_e=false,connected_n=false,connected_ne=true,connected_nw=false,connected_s=false,connected_se=true,connected_sw=true,connected_w=false": {
+      "model": "tog_yks-cards:block/game_mat/pink_copper_game_mat/northeast_southeast_southwest"
+    },
+    "connected_e=false,connected_n=false,connected_ne=true,connected_nw=false,connected_s=false,connected_se=true,connected_sw=true,connected_w=true": {
+      "model": "tog_yks-cards:block/game_mat/pink_copper_game_mat/west_northeast_southeast"
+    },
+    "connected_e=false,connected_n=false,connected_ne=true,connected_nw=false,connected_s=true,connected_se=false,connected_sw=false,connected_w=false": {
+      "model": "tog_yks-cards:block/game_mat/pink_copper_game_mat/south_northeast"
+    },
+    "connected_e=false,connected_n=false,connected_ne=true,connected_nw=false,connected_s=true,connected_se=false,connected_sw=false,connected_w=true": {
+      "model": "tog_yks-cards:block/game_mat/pink_copper_game_mat/south_west_northeast"
+    },
+    "connected_e=false,connected_n=false,connected_ne=true,connected_nw=false,connected_s=true,connected_se=false,connected_sw=true,connected_w=false": {
+      "model": "tog_yks-cards:block/game_mat/pink_copper_game_mat/south_northeast"
+    },
+    "connected_e=false,connected_n=false,connected_ne=true,connected_nw=false,connected_s=true,connected_se=false,connected_sw=true,connected_w=true": {
+      "model": "tog_yks-cards:block/game_mat/pink_copper_game_mat/south_west_northeast_southwest"
+    },
+    "connected_e=false,connected_n=false,connected_ne=true,connected_nw=false,connected_s=true,connected_se=true,connected_sw=false,connected_w=false": {
+      "model": "tog_yks-cards:block/game_mat/pink_copper_game_mat/south_northeast"
+    },
+    "connected_e=false,connected_n=false,connected_ne=true,connected_nw=false,connected_s=true,connected_se=true,connected_sw=false,connected_w=true": {
+      "model": "tog_yks-cards:block/game_mat/pink_copper_game_mat/south_west_northeast"
+    },
+    "connected_e=false,connected_n=false,connected_ne=true,connected_nw=false,connected_s=true,connected_se=true,connected_sw=true,connected_w=false": {
+      "model": "tog_yks-cards:block/game_mat/pink_copper_game_mat/south_northeast"
+    },
+    "connected_e=false,connected_n=false,connected_ne=true,connected_nw=false,connected_s=true,connected_se=true,connected_sw=true,connected_w=true": {
+      "model": "tog_yks-cards:block/game_mat/pink_copper_game_mat/south_west_northeast_southwest"
+    },
+    "connected_e=false,connected_n=false,connected_ne=true,connected_nw=true,connected_s=false,connected_se=false,connected_sw=false,connected_w=false": {
+      "model": "tog_yks-cards:block/game_mat/pink_copper_game_mat/northeast_northwest"
+    },
+    "connected_e=false,connected_n=false,connected_ne=true,connected_nw=true,connected_s=false,connected_se=false,connected_sw=false,connected_w=true": {
+      "model": "tog_yks-cards:block/game_mat/pink_copper_game_mat/west_northeast"
+    },
+    "connected_e=false,connected_n=false,connected_ne=true,connected_nw=true,connected_s=false,connected_se=false,connected_sw=true,connected_w=false": {
+      "model": "tog_yks-cards:block/game_mat/pink_copper_game_mat/northeast_northwest_southwest"
+    },
+    "connected_e=false,connected_n=false,connected_ne=true,connected_nw=true,connected_s=false,connected_se=false,connected_sw=true,connected_w=true": {
+      "model": "tog_yks-cards:block/game_mat/pink_copper_game_mat/west_northeast"
+    },
+    "connected_e=false,connected_n=false,connected_ne=true,connected_nw=true,connected_s=false,connected_se=true,connected_sw=false,connected_w=false": {
+      "model": "tog_yks-cards:block/game_mat/pink_copper_game_mat/northeast_southeast_northwest"
+    },
+    "connected_e=false,connected_n=false,connected_ne=true,connected_nw=true,connected_s=false,connected_se=true,connected_sw=false,connected_w=true": {
+      "model": "tog_yks-cards:block/game_mat/pink_copper_game_mat/west_northeast_southeast"
+    },
+    "connected_e=false,connected_n=false,connected_ne=true,connected_nw=true,connected_s=false,connected_se=true,connected_sw=true,connected_w=false": {
+      "model": "tog_yks-cards:block/game_mat/pink_copper_game_mat/northeast_southeast_northwest_southwest"
+    },
+    "connected_e=false,connected_n=false,connected_ne=true,connected_nw=true,connected_s=false,connected_se=true,connected_sw=true,connected_w=true": {
+      "model": "tog_yks-cards:block/game_mat/pink_copper_game_mat/west_northeast_southeast"
+    },
+    "connected_e=false,connected_n=false,connected_ne=true,connected_nw=true,connected_s=true,connected_se=false,connected_sw=false,connected_w=false": {
+      "model": "tog_yks-cards:block/game_mat/pink_copper_game_mat/south_northeast_northwest"
+    },
+    "connected_e=false,connected_n=false,connected_ne=true,connected_nw=true,connected_s=true,connected_se=false,connected_sw=false,connected_w=true": {
+      "model": "tog_yks-cards:block/game_mat/pink_copper_game_mat/south_west_northeast"
+    },
+    "connected_e=false,connected_n=false,connected_ne=true,connected_nw=true,connected_s=true,connected_se=false,connected_sw=true,connected_w=false": {
+      "model": "tog_yks-cards:block/game_mat/pink_copper_game_mat/south_northeast_northwest"
+    },
+    "connected_e=false,connected_n=false,connected_ne=true,connected_nw=true,connected_s=true,connected_se=false,connected_sw=true,connected_w=true": {
+      "model": "tog_yks-cards:block/game_mat/pink_copper_game_mat/south_west_northeast_southwest"
+    },
+    "connected_e=false,connected_n=false,connected_ne=true,connected_nw=true,connected_s=true,connected_se=true,connected_sw=false,connected_w=false": {
+      "model": "tog_yks-cards:block/game_mat/pink_copper_game_mat/south_northeast_northwest"
+    },
+    "connected_e=false,connected_n=false,connected_ne=true,connected_nw=true,connected_s=true,connected_se=true,connected_sw=false,connected_w=true": {
+      "model": "tog_yks-cards:block/game_mat/pink_copper_game_mat/south_west_northeast"
+    },
+    "connected_e=false,connected_n=false,connected_ne=true,connected_nw=true,connected_s=true,connected_se=true,connected_sw=true,connected_w=false": {
+      "model": "tog_yks-cards:block/game_mat/pink_copper_game_mat/south_northeast_northwest"
+    },
+    "connected_e=false,connected_n=false,connected_ne=true,connected_nw=true,connected_s=true,connected_se=true,connected_sw=true,connected_w=true": {
+      "model": "tog_yks-cards:block/game_mat/pink_copper_game_mat/south_west_northeast_southwest"
+    },
+    "connected_e=false,connected_n=true,connected_ne=false,connected_nw=false,connected_s=false,connected_se=false,connected_sw=false,connected_w=false": {
+      "model": "tog_yks-cards:block/game_mat/pink_copper_game_mat/north"
+    },
+    "connected_e=false,connected_n=true,connected_ne=false,connected_nw=false,connected_s=false,connected_se=false,connected_sw=false,connected_w=true": {
+      "model": "tog_yks-cards:block/game_mat/pink_copper_game_mat/north_west"
+    },
+    "connected_e=false,connected_n=true,connected_ne=false,connected_nw=false,connected_s=false,connected_se=false,connected_sw=true,connected_w=false": {
+      "model": "tog_yks-cards:block/game_mat/pink_copper_game_mat/north_southwest"
+    },
+    "connected_e=false,connected_n=true,connected_ne=false,connected_nw=false,connected_s=false,connected_se=false,connected_sw=true,connected_w=true": {
+      "model": "tog_yks-cards:block/game_mat/pink_copper_game_mat/north_west"
+    },
+    "connected_e=false,connected_n=true,connected_ne=false,connected_nw=false,connected_s=false,connected_se=true,connected_sw=false,connected_w=false": {
+      "model": "tog_yks-cards:block/game_mat/pink_copper_game_mat/north_southeast"
+    },
+    "connected_e=false,connected_n=true,connected_ne=false,connected_nw=false,connected_s=false,connected_se=true,connected_sw=false,connected_w=true": {
+      "model": "tog_yks-cards:block/game_mat/pink_copper_game_mat/north_west_southeast"
+    },
+    "connected_e=false,connected_n=true,connected_ne=false,connected_nw=false,connected_s=false,connected_se=true,connected_sw=true,connected_w=false": {
+      "model": "tog_yks-cards:block/game_mat/pink_copper_game_mat/north_southeast_southwest"
+    },
+    "connected_e=false,connected_n=true,connected_ne=false,connected_nw=false,connected_s=false,connected_se=true,connected_sw=true,connected_w=true": {
+      "model": "tog_yks-cards:block/game_mat/pink_copper_game_mat/north_west_southeast"
+    },
+    "connected_e=false,connected_n=true,connected_ne=false,connected_nw=false,connected_s=true,connected_se=false,connected_sw=false,connected_w=false": {
+      "model": "tog_yks-cards:block/game_mat/pink_copper_game_mat/north_south"
+    },
+    "connected_e=false,connected_n=true,connected_ne=false,connected_nw=false,connected_s=true,connected_se=false,connected_sw=false,connected_w=true": {
+      "model": "tog_yks-cards:block/game_mat/pink_copper_game_mat/north_south_west"
+    },
+    "connected_e=false,connected_n=true,connected_ne=false,connected_nw=false,connected_s=true,connected_se=false,connected_sw=true,connected_w=false": {
+      "model": "tog_yks-cards:block/game_mat/pink_copper_game_mat/north_south"
+    },
+    "connected_e=false,connected_n=true,connected_ne=false,connected_nw=false,connected_s=true,connected_se=false,connected_sw=true,connected_w=true": {
+      "model": "tog_yks-cards:block/game_mat/pink_copper_game_mat/north_south_west_southwest"
+    },
+    "connected_e=false,connected_n=true,connected_ne=false,connected_nw=false,connected_s=true,connected_se=true,connected_sw=false,connected_w=false": {
+      "model": "tog_yks-cards:block/game_mat/pink_copper_game_mat/north_south"
+    },
+    "connected_e=false,connected_n=true,connected_ne=false,connected_nw=false,connected_s=true,connected_se=true,connected_sw=false,connected_w=true": {
+      "model": "tog_yks-cards:block/game_mat/pink_copper_game_mat/north_south_west"
+    },
+    "connected_e=false,connected_n=true,connected_ne=false,connected_nw=false,connected_s=true,connected_se=true,connected_sw=true,connected_w=false": {
+      "model": "tog_yks-cards:block/game_mat/pink_copper_game_mat/north_south"
+    },
+    "connected_e=false,connected_n=true,connected_ne=false,connected_nw=false,connected_s=true,connected_se=true,connected_sw=true,connected_w=true": {
+      "model": "tog_yks-cards:block/game_mat/pink_copper_game_mat/north_south_west_southwest"
+    },
+    "connected_e=false,connected_n=true,connected_ne=false,connected_nw=true,connected_s=false,connected_se=false,connected_sw=false,connected_w=false": {
+      "model": "tog_yks-cards:block/game_mat/pink_copper_game_mat/north"
+    },
+    "connected_e=false,connected_n=true,connected_ne=false,connected_nw=true,connected_s=false,connected_se=false,connected_sw=false,connected_w=true": {
+      "model": "tog_yks-cards:block/game_mat/pink_copper_game_mat/north_west_northwest"
+    },
+    "connected_e=false,connected_n=true,connected_ne=false,connected_nw=true,connected_s=false,connected_se=false,connected_sw=true,connected_w=false": {
+      "model": "tog_yks-cards:block/game_mat/pink_copper_game_mat/north_southwest"
+    },
+    "connected_e=false,connected_n=true,connected_ne=false,connected_nw=true,connected_s=false,connected_se=false,connected_sw=true,connected_w=true": {
+      "model": "tog_yks-cards:block/game_mat/pink_copper_game_mat/north_west_northwest"
+    },
+    "connected_e=false,connected_n=true,connected_ne=false,connected_nw=true,connected_s=false,connected_se=true,connected_sw=false,connected_w=false": {
+      "model": "tog_yks-cards:block/game_mat/pink_copper_game_mat/north_southeast"
+    },
+    "connected_e=false,connected_n=true,connected_ne=false,connected_nw=true,connected_s=false,connected_se=true,connected_sw=false,connected_w=true": {
+      "model": "tog_yks-cards:block/game_mat/pink_copper_game_mat/north_west_southeast_northwest"
+    },
+    "connected_e=false,connected_n=true,connected_ne=false,connected_nw=true,connected_s=false,connected_se=true,connected_sw=true,connected_w=false": {
+      "model": "tog_yks-cards:block/game_mat/pink_copper_game_mat/north_southeast_southwest"
+    },
+    "connected_e=false,connected_n=true,connected_ne=false,connected_nw=true,connected_s=false,connected_se=true,connected_sw=true,connected_w=true": {
+      "model": "tog_yks-cards:block/game_mat/pink_copper_game_mat/north_west_southeast_northwest"
+    },
+    "connected_e=false,connected_n=true,connected_ne=false,connected_nw=true,connected_s=true,connected_se=false,connected_sw=false,connected_w=false": {
+      "model": "tog_yks-cards:block/game_mat/pink_copper_game_mat/north_south"
+    },
+    "connected_e=false,connected_n=true,connected_ne=false,connected_nw=true,connected_s=true,connected_se=false,connected_sw=false,connected_w=true": {
+      "model": "tog_yks-cards:block/game_mat/pink_copper_game_mat/north_south_west_northwest"
+    },
+    "connected_e=false,connected_n=true,connected_ne=false,connected_nw=true,connected_s=true,connected_se=false,connected_sw=true,connected_w=false": {
+      "model": "tog_yks-cards:block/game_mat/pink_copper_game_mat/north_south"
+    },
+    "connected_e=false,connected_n=true,connected_ne=false,connected_nw=true,connected_s=true,connected_se=false,connected_sw=true,connected_w=true": {
+      "model": "tog_yks-cards:block/game_mat/pink_copper_game_mat/north_south_west_northwest_southwest"
+    },
+    "connected_e=false,connected_n=true,connected_ne=false,connected_nw=true,connected_s=true,connected_se=true,connected_sw=false,connected_w=false": {
+      "model": "tog_yks-cards:block/game_mat/pink_copper_game_mat/north_south"
+    },
+    "connected_e=false,connected_n=true,connected_ne=false,connected_nw=true,connected_s=true,connected_se=true,connected_sw=false,connected_w=true": {
+      "model": "tog_yks-cards:block/game_mat/pink_copper_game_mat/north_south_west_northwest"
+    },
+    "connected_e=false,connected_n=true,connected_ne=false,connected_nw=true,connected_s=true,connected_se=true,connected_sw=true,connected_w=false": {
+      "model": "tog_yks-cards:block/game_mat/pink_copper_game_mat/north_south"
+    },
+    "connected_e=false,connected_n=true,connected_ne=false,connected_nw=true,connected_s=true,connected_se=true,connected_sw=true,connected_w=true": {
+      "model": "tog_yks-cards:block/game_mat/pink_copper_game_mat/north_south_west_northwest_southwest"
+    },
+    "connected_e=false,connected_n=true,connected_ne=true,connected_nw=false,connected_s=false,connected_se=false,connected_sw=false,connected_w=false": {
+      "model": "tog_yks-cards:block/game_mat/pink_copper_game_mat/north"
+    },
+    "connected_e=false,connected_n=true,connected_ne=true,connected_nw=false,connected_s=false,connected_se=false,connected_sw=false,connected_w=true": {
+      "model": "tog_yks-cards:block/game_mat/pink_copper_game_mat/north_west"
+    },
+    "connected_e=false,connected_n=true,connected_ne=true,connected_nw=false,connected_s=false,connected_se=false,connected_sw=true,connected_w=false": {
+      "model": "tog_yks-cards:block/game_mat/pink_copper_game_mat/north_southwest"
+    },
+    "connected_e=false,connected_n=true,connected_ne=true,connected_nw=false,connected_s=false,connected_se=false,connected_sw=true,connected_w=true": {
+      "model": "tog_yks-cards:block/game_mat/pink_copper_game_mat/north_west"
+    },
+    "connected_e=false,connected_n=true,connected_ne=true,connected_nw=false,connected_s=false,connected_se=true,connected_sw=false,connected_w=false": {
+      "model": "tog_yks-cards:block/game_mat/pink_copper_game_mat/north_southeast"
+    },
+    "connected_e=false,connected_n=true,connected_ne=true,connected_nw=false,connected_s=false,connected_se=true,connected_sw=false,connected_w=true": {
+      "model": "tog_yks-cards:block/game_mat/pink_copper_game_mat/north_west_southeast"
+    },
+    "connected_e=false,connected_n=true,connected_ne=true,connected_nw=false,connected_s=false,connected_se=true,connected_sw=true,connected_w=false": {
+      "model": "tog_yks-cards:block/game_mat/pink_copper_game_mat/north_southeast_southwest"
+    },
+    "connected_e=false,connected_n=true,connected_ne=true,connected_nw=false,connected_s=false,connected_se=true,connected_sw=true,connected_w=true": {
+      "model": "tog_yks-cards:block/game_mat/pink_copper_game_mat/north_west_southeast"
+    },
+    "connected_e=false,connected_n=true,connected_ne=true,connected_nw=false,connected_s=true,connected_se=false,connected_sw=false,connected_w=false": {
+      "model": "tog_yks-cards:block/game_mat/pink_copper_game_mat/north_south"
+    },
+    "connected_e=false,connected_n=true,connected_ne=true,connected_nw=false,connected_s=true,connected_se=false,connected_sw=false,connected_w=true": {
+      "model": "tog_yks-cards:block/game_mat/pink_copper_game_mat/north_south_west"
+    },
+    "connected_e=false,connected_n=true,connected_ne=true,connected_nw=false,connected_s=true,connected_se=false,connected_sw=true,connected_w=false": {
+      "model": "tog_yks-cards:block/game_mat/pink_copper_game_mat/north_south"
+    },
+    "connected_e=false,connected_n=true,connected_ne=true,connected_nw=false,connected_s=true,connected_se=false,connected_sw=true,connected_w=true": {
+      "model": "tog_yks-cards:block/game_mat/pink_copper_game_mat/north_south_west_southwest"
+    },
+    "connected_e=false,connected_n=true,connected_ne=true,connected_nw=false,connected_s=true,connected_se=true,connected_sw=false,connected_w=false": {
+      "model": "tog_yks-cards:block/game_mat/pink_copper_game_mat/north_south"
+    },
+    "connected_e=false,connected_n=true,connected_ne=true,connected_nw=false,connected_s=true,connected_se=true,connected_sw=false,connected_w=true": {
+      "model": "tog_yks-cards:block/game_mat/pink_copper_game_mat/north_south_west"
+    },
+    "connected_e=false,connected_n=true,connected_ne=true,connected_nw=false,connected_s=true,connected_se=true,connected_sw=true,connected_w=false": {
+      "model": "tog_yks-cards:block/game_mat/pink_copper_game_mat/north_south"
+    },
+    "connected_e=false,connected_n=true,connected_ne=true,connected_nw=false,connected_s=true,connected_se=true,connected_sw=true,connected_w=true": {
+      "model": "tog_yks-cards:block/game_mat/pink_copper_game_mat/north_south_west_southwest"
+    },
+    "connected_e=false,connected_n=true,connected_ne=true,connected_nw=true,connected_s=false,connected_se=false,connected_sw=false,connected_w=false": {
+      "model": "tog_yks-cards:block/game_mat/pink_copper_game_mat/north"
+    },
+    "connected_e=false,connected_n=true,connected_ne=true,connected_nw=true,connected_s=false,connected_se=false,connected_sw=false,connected_w=true": {
+      "model": "tog_yks-cards:block/game_mat/pink_copper_game_mat/north_west_northwest"
+    },
+    "connected_e=false,connected_n=true,connected_ne=true,connected_nw=true,connected_s=false,connected_se=false,connected_sw=true,connected_w=false": {
+      "model": "tog_yks-cards:block/game_mat/pink_copper_game_mat/north_southwest"
+    },
+    "connected_e=false,connected_n=true,connected_ne=true,connected_nw=true,connected_s=false,connected_se=false,connected_sw=true,connected_w=true": {
+      "model": "tog_yks-cards:block/game_mat/pink_copper_game_mat/north_west_northwest"
+    },
+    "connected_e=false,connected_n=true,connected_ne=true,connected_nw=true,connected_s=false,connected_se=true,connected_sw=false,connected_w=false": {
+      "model": "tog_yks-cards:block/game_mat/pink_copper_game_mat/north_southeast"
+    },
+    "connected_e=false,connected_n=true,connected_ne=true,connected_nw=true,connected_s=false,connected_se=true,connected_sw=false,connected_w=true": {
+      "model": "tog_yks-cards:block/game_mat/pink_copper_game_mat/north_west_southeast_northwest"
+    },
+    "connected_e=false,connected_n=true,connected_ne=true,connected_nw=true,connected_s=false,connected_se=true,connected_sw=true,connected_w=false": {
+      "model": "tog_yks-cards:block/game_mat/pink_copper_game_mat/north_southeast_southwest"
+    },
+    "connected_e=false,connected_n=true,connected_ne=true,connected_nw=true,connected_s=false,connected_se=true,connected_sw=true,connected_w=true": {
+      "model": "tog_yks-cards:block/game_mat/pink_copper_game_mat/north_west_southeast_northwest"
+    },
+    "connected_e=false,connected_n=true,connected_ne=true,connected_nw=true,connected_s=true,connected_se=false,connected_sw=false,connected_w=false": {
+      "model": "tog_yks-cards:block/game_mat/pink_copper_game_mat/north_south"
+    },
+    "connected_e=false,connected_n=true,connected_ne=true,connected_nw=true,connected_s=true,connected_se=false,connected_sw=false,connected_w=true": {
+      "model": "tog_yks-cards:block/game_mat/pink_copper_game_mat/north_south_west_northwest"
+    },
+    "connected_e=false,connected_n=true,connected_ne=true,connected_nw=true,connected_s=true,connected_se=false,connected_sw=true,connected_w=false": {
+      "model": "tog_yks-cards:block/game_mat/pink_copper_game_mat/north_south"
+    },
+    "connected_e=false,connected_n=true,connected_ne=true,connected_nw=true,connected_s=true,connected_se=false,connected_sw=true,connected_w=true": {
+      "model": "tog_yks-cards:block/game_mat/pink_copper_game_mat/north_south_west_northwest_southwest"
+    },
+    "connected_e=false,connected_n=true,connected_ne=true,connected_nw=true,connected_s=true,connected_se=true,connected_sw=false,connected_w=false": {
+      "model": "tog_yks-cards:block/game_mat/pink_copper_game_mat/north_south"
+    },
+    "connected_e=false,connected_n=true,connected_ne=true,connected_nw=true,connected_s=true,connected_se=true,connected_sw=false,connected_w=true": {
+      "model": "tog_yks-cards:block/game_mat/pink_copper_game_mat/north_south_west_northwest"
+    },
+    "connected_e=false,connected_n=true,connected_ne=true,connected_nw=true,connected_s=true,connected_se=true,connected_sw=true,connected_w=false": {
+      "model": "tog_yks-cards:block/game_mat/pink_copper_game_mat/north_south"
+    },
+    "connected_e=false,connected_n=true,connected_ne=true,connected_nw=true,connected_s=true,connected_se=true,connected_sw=true,connected_w=true": {
+      "model": "tog_yks-cards:block/game_mat/pink_copper_game_mat/north_south_west_northwest_southwest"
+    },
+    "connected_e=true,connected_n=false,connected_ne=false,connected_nw=false,connected_s=false,connected_se=false,connected_sw=false,connected_w=false": {
+      "model": "tog_yks-cards:block/game_mat/pink_copper_game_mat/east"
+    },
+    "connected_e=true,connected_n=false,connected_ne=false,connected_nw=false,connected_s=false,connected_se=false,connected_sw=false,connected_w=true": {
+      "model": "tog_yks-cards:block/game_mat/pink_copper_game_mat/east_west"
+    },
+    "connected_e=true,connected_n=false,connected_ne=false,connected_nw=false,connected_s=false,connected_se=false,connected_sw=true,connected_w=false": {
+      "model": "tog_yks-cards:block/game_mat/pink_copper_game_mat/east_southwest"
+    },
+    "connected_e=true,connected_n=false,connected_ne=false,connected_nw=false,connected_s=false,connected_se=false,connected_sw=true,connected_w=true": {
+      "model": "tog_yks-cards:block/game_mat/pink_copper_game_mat/east_west"
+    },
+    "connected_e=true,connected_n=false,connected_ne=false,connected_nw=false,connected_s=false,connected_se=true,connected_sw=false,connected_w=false": {
+      "model": "tog_yks-cards:block/game_mat/pink_copper_game_mat/east"
+    },
+    "connected_e=true,connected_n=false,connected_ne=false,connected_nw=false,connected_s=false,connected_se=true,connected_sw=false,connected_w=true": {
+      "model": "tog_yks-cards:block/game_mat/pink_copper_game_mat/east_west"
+    },
+    "connected_e=true,connected_n=false,connected_ne=false,connected_nw=false,connected_s=false,connected_se=true,connected_sw=true,connected_w=false": {
+      "model": "tog_yks-cards:block/game_mat/pink_copper_game_mat/east_southwest"
+    },
+    "connected_e=true,connected_n=false,connected_ne=false,connected_nw=false,connected_s=false,connected_se=true,connected_sw=true,connected_w=true": {
+      "model": "tog_yks-cards:block/game_mat/pink_copper_game_mat/east_west"
+    },
+    "connected_e=true,connected_n=false,connected_ne=false,connected_nw=false,connected_s=true,connected_se=false,connected_sw=false,connected_w=false": {
+      "model": "tog_yks-cards:block/game_mat/pink_copper_game_mat/east_south"
+    },
+    "connected_e=true,connected_n=false,connected_ne=false,connected_nw=false,connected_s=true,connected_se=false,connected_sw=false,connected_w=true": {
+      "model": "tog_yks-cards:block/game_mat/pink_copper_game_mat/east_south_west"
+    },
+    "connected_e=true,connected_n=false,connected_ne=false,connected_nw=false,connected_s=true,connected_se=false,connected_sw=true,connected_w=false": {
+      "model": "tog_yks-cards:block/game_mat/pink_copper_game_mat/east_south"
+    },
+    "connected_e=true,connected_n=false,connected_ne=false,connected_nw=false,connected_s=true,connected_se=false,connected_sw=true,connected_w=true": {
+      "model": "tog_yks-cards:block/game_mat/pink_copper_game_mat/east_south_west_southwest"
+    },
+    "connected_e=true,connected_n=false,connected_ne=false,connected_nw=false,connected_s=true,connected_se=true,connected_sw=false,connected_w=false": {
+      "model": "tog_yks-cards:block/game_mat/pink_copper_game_mat/east_south_southeast"
+    },
+    "connected_e=true,connected_n=false,connected_ne=false,connected_nw=false,connected_s=true,connected_se=true,connected_sw=false,connected_w=true": {
+      "model": "tog_yks-cards:block/game_mat/pink_copper_game_mat/east_south_west_southeast"
+    },
+    "connected_e=true,connected_n=false,connected_ne=false,connected_nw=false,connected_s=true,connected_se=true,connected_sw=true,connected_w=false": {
+      "model": "tog_yks-cards:block/game_mat/pink_copper_game_mat/east_south_southeast"
+    },
+    "connected_e=true,connected_n=false,connected_ne=false,connected_nw=false,connected_s=true,connected_se=true,connected_sw=true,connected_w=true": {
+      "model": "tog_yks-cards:block/game_mat/pink_copper_game_mat/east_south_west_southeast_southwest"
+    },
+    "connected_e=true,connected_n=false,connected_ne=false,connected_nw=true,connected_s=false,connected_se=false,connected_sw=false,connected_w=false": {
+      "model": "tog_yks-cards:block/game_mat/pink_copper_game_mat/east_northwest"
+    },
+    "connected_e=true,connected_n=false,connected_ne=false,connected_nw=true,connected_s=false,connected_se=false,connected_sw=false,connected_w=true": {
+      "model": "tog_yks-cards:block/game_mat/pink_copper_game_mat/east_west"
+    },
+    "connected_e=true,connected_n=false,connected_ne=false,connected_nw=true,connected_s=false,connected_se=false,connected_sw=true,connected_w=false": {
+      "model": "tog_yks-cards:block/game_mat/pink_copper_game_mat/east_northwest_southwest"
+    },
+    "connected_e=true,connected_n=false,connected_ne=false,connected_nw=true,connected_s=false,connected_se=false,connected_sw=true,connected_w=true": {
+      "model": "tog_yks-cards:block/game_mat/pink_copper_game_mat/east_west"
+    },
+    "connected_e=true,connected_n=false,connected_ne=false,connected_nw=true,connected_s=false,connected_se=true,connected_sw=false,connected_w=false": {
+      "model": "tog_yks-cards:block/game_mat/pink_copper_game_mat/east_northwest"
+    },
+    "connected_e=true,connected_n=false,connected_ne=false,connected_nw=true,connected_s=false,connected_se=true,connected_sw=false,connected_w=true": {
+      "model": "tog_yks-cards:block/game_mat/pink_copper_game_mat/east_west"
+    },
+    "connected_e=true,connected_n=false,connected_ne=false,connected_nw=true,connected_s=false,connected_se=true,connected_sw=true,connected_w=false": {
+      "model": "tog_yks-cards:block/game_mat/pink_copper_game_mat/east_northwest_southwest"
+    },
+    "connected_e=true,connected_n=false,connected_ne=false,connected_nw=true,connected_s=false,connected_se=true,connected_sw=true,connected_w=true": {
+      "model": "tog_yks-cards:block/game_mat/pink_copper_game_mat/east_west"
+    },
+    "connected_e=true,connected_n=false,connected_ne=false,connected_nw=true,connected_s=true,connected_se=false,connected_sw=false,connected_w=false": {
+      "model": "tog_yks-cards:block/game_mat/pink_copper_game_mat/east_south_northwest"
+    },
+    "connected_e=true,connected_n=false,connected_ne=false,connected_nw=true,connected_s=true,connected_se=false,connected_sw=false,connected_w=true": {
+      "model": "tog_yks-cards:block/game_mat/pink_copper_game_mat/east_south_west"
+    },
+    "connected_e=true,connected_n=false,connected_ne=false,connected_nw=true,connected_s=true,connected_se=false,connected_sw=true,connected_w=false": {
+      "model": "tog_yks-cards:block/game_mat/pink_copper_game_mat/east_south_northwest"
+    },
+    "connected_e=true,connected_n=false,connected_ne=false,connected_nw=true,connected_s=true,connected_se=false,connected_sw=true,connected_w=true": {
+      "model": "tog_yks-cards:block/game_mat/pink_copper_game_mat/east_south_west_southwest"
+    },
+    "connected_e=true,connected_n=false,connected_ne=false,connected_nw=true,connected_s=true,connected_se=true,connected_sw=false,connected_w=false": {
+      "model": "tog_yks-cards:block/game_mat/pink_copper_game_mat/east_south_southeast_northwest"
+    },
+    "connected_e=true,connected_n=false,connected_ne=false,connected_nw=true,connected_s=true,connected_se=true,connected_sw=false,connected_w=true": {
+      "model": "tog_yks-cards:block/game_mat/pink_copper_game_mat/east_south_west_southeast"
+    },
+    "connected_e=true,connected_n=false,connected_ne=false,connected_nw=true,connected_s=true,connected_se=true,connected_sw=true,connected_w=false": {
+      "model": "tog_yks-cards:block/game_mat/pink_copper_game_mat/east_south_southeast_northwest"
+    },
+    "connected_e=true,connected_n=false,connected_ne=false,connected_nw=true,connected_s=true,connected_se=true,connected_sw=true,connected_w=true": {
+      "model": "tog_yks-cards:block/game_mat/pink_copper_game_mat/east_south_west_southeast_southwest"
+    },
+    "connected_e=true,connected_n=false,connected_ne=true,connected_nw=false,connected_s=false,connected_se=false,connected_sw=false,connected_w=false": {
+      "model": "tog_yks-cards:block/game_mat/pink_copper_game_mat/east"
+    },
+    "connected_e=true,connected_n=false,connected_ne=true,connected_nw=false,connected_s=false,connected_se=false,connected_sw=false,connected_w=true": {
+      "model": "tog_yks-cards:block/game_mat/pink_copper_game_mat/east_west"
+    },
+    "connected_e=true,connected_n=false,connected_ne=true,connected_nw=false,connected_s=false,connected_se=false,connected_sw=true,connected_w=false": {
+      "model": "tog_yks-cards:block/game_mat/pink_copper_game_mat/east_southwest"
+    },
+    "connected_e=true,connected_n=false,connected_ne=true,connected_nw=false,connected_s=false,connected_se=false,connected_sw=true,connected_w=true": {
+      "model": "tog_yks-cards:block/game_mat/pink_copper_game_mat/east_west"
+    },
+    "connected_e=true,connected_n=false,connected_ne=true,connected_nw=false,connected_s=false,connected_se=true,connected_sw=false,connected_w=false": {
+      "model": "tog_yks-cards:block/game_mat/pink_copper_game_mat/east"
+    },
+    "connected_e=true,connected_n=false,connected_ne=true,connected_nw=false,connected_s=false,connected_se=true,connected_sw=false,connected_w=true": {
+      "model": "tog_yks-cards:block/game_mat/pink_copper_game_mat/east_west"
+    },
+    "connected_e=true,connected_n=false,connected_ne=true,connected_nw=false,connected_s=false,connected_se=true,connected_sw=true,connected_w=false": {
+      "model": "tog_yks-cards:block/game_mat/pink_copper_game_mat/east_southwest"
+    },
+    "connected_e=true,connected_n=false,connected_ne=true,connected_nw=false,connected_s=false,connected_se=true,connected_sw=true,connected_w=true": {
+      "model": "tog_yks-cards:block/game_mat/pink_copper_game_mat/east_west"
+    },
+    "connected_e=true,connected_n=false,connected_ne=true,connected_nw=false,connected_s=true,connected_se=false,connected_sw=false,connected_w=false": {
+      "model": "tog_yks-cards:block/game_mat/pink_copper_game_mat/east_south"
+    },
+    "connected_e=true,connected_n=false,connected_ne=true,connected_nw=false,connected_s=true,connected_se=false,connected_sw=false,connected_w=true": {
+      "model": "tog_yks-cards:block/game_mat/pink_copper_game_mat/east_south_west"
+    },
+    "connected_e=true,connected_n=false,connected_ne=true,connected_nw=false,connected_s=true,connected_se=false,connected_sw=true,connected_w=false": {
+      "model": "tog_yks-cards:block/game_mat/pink_copper_game_mat/east_south"
+    },
+    "connected_e=true,connected_n=false,connected_ne=true,connected_nw=false,connected_s=true,connected_se=false,connected_sw=true,connected_w=true": {
+      "model": "tog_yks-cards:block/game_mat/pink_copper_game_mat/east_south_west_southwest"
+    },
+    "connected_e=true,connected_n=false,connected_ne=true,connected_nw=false,connected_s=true,connected_se=true,connected_sw=false,connected_w=false": {
+      "model": "tog_yks-cards:block/game_mat/pink_copper_game_mat/east_south_southeast"
+    },
+    "connected_e=true,connected_n=false,connected_ne=true,connected_nw=false,connected_s=true,connected_se=true,connected_sw=false,connected_w=true": {
+      "model": "tog_yks-cards:block/game_mat/pink_copper_game_mat/east_south_west_southeast"
+    },
+    "connected_e=true,connected_n=false,connected_ne=true,connected_nw=false,connected_s=true,connected_se=true,connected_sw=true,connected_w=false": {
+      "model": "tog_yks-cards:block/game_mat/pink_copper_game_mat/east_south_southeast"
+    },
+    "connected_e=true,connected_n=false,connected_ne=true,connected_nw=false,connected_s=true,connected_se=true,connected_sw=true,connected_w=true": {
+      "model": "tog_yks-cards:block/game_mat/pink_copper_game_mat/east_south_west_southeast_southwest"
+    },
+    "connected_e=true,connected_n=false,connected_ne=true,connected_nw=true,connected_s=false,connected_se=false,connected_sw=false,connected_w=false": {
+      "model": "tog_yks-cards:block/game_mat/pink_copper_game_mat/east_northwest"
+    },
+    "connected_e=true,connected_n=false,connected_ne=true,connected_nw=true,connected_s=false,connected_se=false,connected_sw=false,connected_w=true": {
+      "model": "tog_yks-cards:block/game_mat/pink_copper_game_mat/east_west"
+    },
+    "connected_e=true,connected_n=false,connected_ne=true,connected_nw=true,connected_s=false,connected_se=false,connected_sw=true,connected_w=false": {
+      "model": "tog_yks-cards:block/game_mat/pink_copper_game_mat/east_northwest_southwest"
+    },
+    "connected_e=true,connected_n=false,connected_ne=true,connected_nw=true,connected_s=false,connected_se=false,connected_sw=true,connected_w=true": {
+      "model": "tog_yks-cards:block/game_mat/pink_copper_game_mat/east_west"
+    },
+    "connected_e=true,connected_n=false,connected_ne=true,connected_nw=true,connected_s=false,connected_se=true,connected_sw=false,connected_w=false": {
+      "model": "tog_yks-cards:block/game_mat/pink_copper_game_mat/east_northwest"
+    },
+    "connected_e=true,connected_n=false,connected_ne=true,connected_nw=true,connected_s=false,connected_se=true,connected_sw=false,connected_w=true": {
+      "model": "tog_yks-cards:block/game_mat/pink_copper_game_mat/east_west"
+    },
+    "connected_e=true,connected_n=false,connected_ne=true,connected_nw=true,connected_s=false,connected_se=true,connected_sw=true,connected_w=false": {
+      "model": "tog_yks-cards:block/game_mat/pink_copper_game_mat/east_northwest_southwest"
+    },
+    "connected_e=true,connected_n=false,connected_ne=true,connected_nw=true,connected_s=false,connected_se=true,connected_sw=true,connected_w=true": {
+      "model": "tog_yks-cards:block/game_mat/pink_copper_game_mat/east_west"
+    },
+    "connected_e=true,connected_n=false,connected_ne=true,connected_nw=true,connected_s=true,connected_se=false,connected_sw=false,connected_w=false": {
+      "model": "tog_yks-cards:block/game_mat/pink_copper_game_mat/east_south_northwest"
+    },
+    "connected_e=true,connected_n=false,connected_ne=true,connected_nw=true,connected_s=true,connected_se=false,connected_sw=false,connected_w=true": {
+      "model": "tog_yks-cards:block/game_mat/pink_copper_game_mat/east_south_west"
+    },
+    "connected_e=true,connected_n=false,connected_ne=true,connected_nw=true,connected_s=true,connected_se=false,connected_sw=true,connected_w=false": {
+      "model": "tog_yks-cards:block/game_mat/pink_copper_game_mat/east_south_northwest"
+    },
+    "connected_e=true,connected_n=false,connected_ne=true,connected_nw=true,connected_s=true,connected_se=false,connected_sw=true,connected_w=true": {
+      "model": "tog_yks-cards:block/game_mat/pink_copper_game_mat/east_south_west_southwest"
+    },
+    "connected_e=true,connected_n=false,connected_ne=true,connected_nw=true,connected_s=true,connected_se=true,connected_sw=false,connected_w=false": {
+      "model": "tog_yks-cards:block/game_mat/pink_copper_game_mat/east_south_southeast_northwest"
+    },
+    "connected_e=true,connected_n=false,connected_ne=true,connected_nw=true,connected_s=true,connected_se=true,connected_sw=false,connected_w=true": {
+      "model": "tog_yks-cards:block/game_mat/pink_copper_game_mat/east_south_west_southeast"
+    },
+    "connected_e=true,connected_n=false,connected_ne=true,connected_nw=true,connected_s=true,connected_se=true,connected_sw=true,connected_w=false": {
+      "model": "tog_yks-cards:block/game_mat/pink_copper_game_mat/east_south_southeast_northwest"
+    },
+    "connected_e=true,connected_n=false,connected_ne=true,connected_nw=true,connected_s=true,connected_se=true,connected_sw=true,connected_w=true": {
+      "model": "tog_yks-cards:block/game_mat/pink_copper_game_mat/east_south_west_southeast_southwest"
+    },
+    "connected_e=true,connected_n=true,connected_ne=false,connected_nw=false,connected_s=false,connected_se=false,connected_sw=false,connected_w=false": {
+      "model": "tog_yks-cards:block/game_mat/pink_copper_game_mat/north_east"
+    },
+    "connected_e=true,connected_n=true,connected_ne=false,connected_nw=false,connected_s=false,connected_se=false,connected_sw=false,connected_w=true": {
+      "model": "tog_yks-cards:block/game_mat/pink_copper_game_mat/north_east_west"
+    },
+    "connected_e=true,connected_n=true,connected_ne=false,connected_nw=false,connected_s=false,connected_se=false,connected_sw=true,connected_w=false": {
+      "model": "tog_yks-cards:block/game_mat/pink_copper_game_mat/north_east_southwest"
+    },
+    "connected_e=true,connected_n=true,connected_ne=false,connected_nw=false,connected_s=false,connected_se=false,connected_sw=true,connected_w=true": {
+      "model": "tog_yks-cards:block/game_mat/pink_copper_game_mat/north_east_west"
+    },
+    "connected_e=true,connected_n=true,connected_ne=false,connected_nw=false,connected_s=false,connected_se=true,connected_sw=false,connected_w=false": {
+      "model": "tog_yks-cards:block/game_mat/pink_copper_game_mat/north_east"
+    },
+    "connected_e=true,connected_n=true,connected_ne=false,connected_nw=false,connected_s=false,connected_se=true,connected_sw=false,connected_w=true": {
+      "model": "tog_yks-cards:block/game_mat/pink_copper_game_mat/north_east_west"
+    },
+    "connected_e=true,connected_n=true,connected_ne=false,connected_nw=false,connected_s=false,connected_se=true,connected_sw=true,connected_w=false": {
+      "model": "tog_yks-cards:block/game_mat/pink_copper_game_mat/north_east_southwest"
+    },
+    "connected_e=true,connected_n=true,connected_ne=false,connected_nw=false,connected_s=false,connected_se=true,connected_sw=true,connected_w=true": {
+      "model": "tog_yks-cards:block/game_mat/pink_copper_game_mat/north_east_west"
+    },
+    "connected_e=true,connected_n=true,connected_ne=false,connected_nw=false,connected_s=true,connected_se=false,connected_sw=false,connected_w=false": {
+      "model": "tog_yks-cards:block/game_mat/pink_copper_game_mat/north_east_south"
+    },
+    "connected_e=true,connected_n=true,connected_ne=false,connected_nw=false,connected_s=true,connected_se=false,connected_sw=false,connected_w=true": {
+      "model": "tog_yks-cards:block/game_mat/pink_copper_game_mat/north_east_south_west"
+    },
+    "connected_e=true,connected_n=true,connected_ne=false,connected_nw=false,connected_s=true,connected_se=false,connected_sw=true,connected_w=false": {
+      "model": "tog_yks-cards:block/game_mat/pink_copper_game_mat/north_east_south"
+    },
+    "connected_e=true,connected_n=true,connected_ne=false,connected_nw=false,connected_s=true,connected_se=false,connected_sw=true,connected_w=true": {
+      "model": "tog_yks-cards:block/game_mat/pink_copper_game_mat/north_east_south_west_southwest"
+    },
+    "connected_e=true,connected_n=true,connected_ne=false,connected_nw=false,connected_s=true,connected_se=true,connected_sw=false,connected_w=false": {
+      "model": "tog_yks-cards:block/game_mat/pink_copper_game_mat/north_east_south_southeast"
+    },
+    "connected_e=true,connected_n=true,connected_ne=false,connected_nw=false,connected_s=true,connected_se=true,connected_sw=false,connected_w=true": {
+      "model": "tog_yks-cards:block/game_mat/pink_copper_game_mat/north_east_south_west_southeast"
+    },
+    "connected_e=true,connected_n=true,connected_ne=false,connected_nw=false,connected_s=true,connected_se=true,connected_sw=true,connected_w=false": {
+      "model": "tog_yks-cards:block/game_mat/pink_copper_game_mat/north_east_south_southeast"
+    },
+    "connected_e=true,connected_n=true,connected_ne=false,connected_nw=false,connected_s=true,connected_se=true,connected_sw=true,connected_w=true": {
+      "model": "tog_yks-cards:block/game_mat/pink_copper_game_mat/north_east_south_west_southeast_southwest"
+    },
+    "connected_e=true,connected_n=true,connected_ne=false,connected_nw=true,connected_s=false,connected_se=false,connected_sw=false,connected_w=false": {
+      "model": "tog_yks-cards:block/game_mat/pink_copper_game_mat/north_east"
+    },
+    "connected_e=true,connected_n=true,connected_ne=false,connected_nw=true,connected_s=false,connected_se=false,connected_sw=false,connected_w=true": {
+      "model": "tog_yks-cards:block/game_mat/pink_copper_game_mat/north_east_west_northwest"
+    },
+    "connected_e=true,connected_n=true,connected_ne=false,connected_nw=true,connected_s=false,connected_se=false,connected_sw=true,connected_w=false": {
+      "model": "tog_yks-cards:block/game_mat/pink_copper_game_mat/north_east_southwest"
+    },
+    "connected_e=true,connected_n=true,connected_ne=false,connected_nw=true,connected_s=false,connected_se=false,connected_sw=true,connected_w=true": {
+      "model": "tog_yks-cards:block/game_mat/pink_copper_game_mat/north_east_west_northwest"
+    },
+    "connected_e=true,connected_n=true,connected_ne=false,connected_nw=true,connected_s=false,connected_se=true,connected_sw=false,connected_w=false": {
+      "model": "tog_yks-cards:block/game_mat/pink_copper_game_mat/north_east"
+    },
+    "connected_e=true,connected_n=true,connected_ne=false,connected_nw=true,connected_s=false,connected_se=true,connected_sw=false,connected_w=true": {
+      "model": "tog_yks-cards:block/game_mat/pink_copper_game_mat/north_east_west_northwest"
+    },
+    "connected_e=true,connected_n=true,connected_ne=false,connected_nw=true,connected_s=false,connected_se=true,connected_sw=true,connected_w=false": {
+      "model": "tog_yks-cards:block/game_mat/pink_copper_game_mat/north_east_southwest"
+    },
+    "connected_e=true,connected_n=true,connected_ne=false,connected_nw=true,connected_s=false,connected_se=true,connected_sw=true,connected_w=true": {
+      "model": "tog_yks-cards:block/game_mat/pink_copper_game_mat/north_east_west_northwest"
+    },
+    "connected_e=true,connected_n=true,connected_ne=false,connected_nw=true,connected_s=true,connected_se=false,connected_sw=false,connected_w=false": {
+      "model": "tog_yks-cards:block/game_mat/pink_copper_game_mat/north_east_south"
+    },
+    "connected_e=true,connected_n=true,connected_ne=false,connected_nw=true,connected_s=true,connected_se=false,connected_sw=false,connected_w=true": {
+      "model": "tog_yks-cards:block/game_mat/pink_copper_game_mat/north_east_south_west_northwest"
+    },
+    "connected_e=true,connected_n=true,connected_ne=false,connected_nw=true,connected_s=true,connected_se=false,connected_sw=true,connected_w=false": {
+      "model": "tog_yks-cards:block/game_mat/pink_copper_game_mat/north_east_south"
+    },
+    "connected_e=true,connected_n=true,connected_ne=false,connected_nw=true,connected_s=true,connected_se=false,connected_sw=true,connected_w=true": {
+      "model": "tog_yks-cards:block/game_mat/pink_copper_game_mat/north_east_south_west_northwest_southwest"
+    },
+    "connected_e=true,connected_n=true,connected_ne=false,connected_nw=true,connected_s=true,connected_se=true,connected_sw=false,connected_w=false": {
+      "model": "tog_yks-cards:block/game_mat/pink_copper_game_mat/north_east_south_southeast"
+    },
+    "connected_e=true,connected_n=true,connected_ne=false,connected_nw=true,connected_s=true,connected_se=true,connected_sw=false,connected_w=true": {
+      "model": "tog_yks-cards:block/game_mat/pink_copper_game_mat/north_east_south_west_southeast_northwest"
+    },
+    "connected_e=true,connected_n=true,connected_ne=false,connected_nw=true,connected_s=true,connected_se=true,connected_sw=true,connected_w=false": {
+      "model": "tog_yks-cards:block/game_mat/pink_copper_game_mat/north_east_south_southeast"
+    },
+    "connected_e=true,connected_n=true,connected_ne=false,connected_nw=true,connected_s=true,connected_se=true,connected_sw=true,connected_w=true": {
+      "model": "tog_yks-cards:block/game_mat/pink_copper_game_mat/north_east_south_west_southeast_northwest_southwest"
+    },
+    "connected_e=true,connected_n=true,connected_ne=true,connected_nw=false,connected_s=false,connected_se=false,connected_sw=false,connected_w=false": {
+      "model": "tog_yks-cards:block/game_mat/pink_copper_game_mat/north_east_northeast"
+    },
+    "connected_e=true,connected_n=true,connected_ne=true,connected_nw=false,connected_s=false,connected_se=false,connected_sw=false,connected_w=true": {
+      "model": "tog_yks-cards:block/game_mat/pink_copper_game_mat/north_east_west_northeast"
+    },
+    "connected_e=true,connected_n=true,connected_ne=true,connected_nw=false,connected_s=false,connected_se=false,connected_sw=true,connected_w=false": {
+      "model": "tog_yks-cards:block/game_mat/pink_copper_game_mat/north_east_northeast_southwest"
+    },
+    "connected_e=true,connected_n=true,connected_ne=true,connected_nw=false,connected_s=false,connected_se=false,connected_sw=true,connected_w=true": {
+      "model": "tog_yks-cards:block/game_mat/pink_copper_game_mat/north_east_west_northeast"
+    },
+    "connected_e=true,connected_n=true,connected_ne=true,connected_nw=false,connected_s=false,connected_se=true,connected_sw=false,connected_w=false": {
+      "model": "tog_yks-cards:block/game_mat/pink_copper_game_mat/north_east_northeast"
+    },
+    "connected_e=true,connected_n=true,connected_ne=true,connected_nw=false,connected_s=false,connected_se=true,connected_sw=false,connected_w=true": {
+      "model": "tog_yks-cards:block/game_mat/pink_copper_game_mat/north_east_west_northeast"
+    },
+    "connected_e=true,connected_n=true,connected_ne=true,connected_nw=false,connected_s=false,connected_se=true,connected_sw=true,connected_w=false": {
+      "model": "tog_yks-cards:block/game_mat/pink_copper_game_mat/north_east_northeast_southwest"
+    },
+    "connected_e=true,connected_n=true,connected_ne=true,connected_nw=false,connected_s=false,connected_se=true,connected_sw=true,connected_w=true": {
+      "model": "tog_yks-cards:block/game_mat/pink_copper_game_mat/north_east_west_northeast"
+    },
+    "connected_e=true,connected_n=true,connected_ne=true,connected_nw=false,connected_s=true,connected_se=false,connected_sw=false,connected_w=false": {
+      "model": "tog_yks-cards:block/game_mat/pink_copper_game_mat/north_east_south_northeast"
+    },
+    "connected_e=true,connected_n=true,connected_ne=true,connected_nw=false,connected_s=true,connected_se=false,connected_sw=false,connected_w=true": {
+      "model": "tog_yks-cards:block/game_mat/pink_copper_game_mat/north_east_south_west_northeast"
+    },
+    "connected_e=true,connected_n=true,connected_ne=true,connected_nw=false,connected_s=true,connected_se=false,connected_sw=true,connected_w=false": {
+      "model": "tog_yks-cards:block/game_mat/pink_copper_game_mat/north_east_south_northeast"
+    },
+    "connected_e=true,connected_n=true,connected_ne=true,connected_nw=false,connected_s=true,connected_se=false,connected_sw=true,connected_w=true": {
+      "model": "tog_yks-cards:block/game_mat/pink_copper_game_mat/north_east_south_west_northeast_southwest"
+    },
+    "connected_e=true,connected_n=true,connected_ne=true,connected_nw=false,connected_s=true,connected_se=true,connected_sw=false,connected_w=false": {
+      "model": "tog_yks-cards:block/game_mat/pink_copper_game_mat/north_east_south_northeast_southeast"
+    },
+    "connected_e=true,connected_n=true,connected_ne=true,connected_nw=false,connected_s=true,connected_se=true,connected_sw=false,connected_w=true": {
+      "model": "tog_yks-cards:block/game_mat/pink_copper_game_mat/north_east_south_west_northeast_southeast"
+    },
+    "connected_e=true,connected_n=true,connected_ne=true,connected_nw=false,connected_s=true,connected_se=true,connected_sw=true,connected_w=false": {
+      "model": "tog_yks-cards:block/game_mat/pink_copper_game_mat/north_east_south_northeast_southeast"
+    },
+    "connected_e=true,connected_n=true,connected_ne=true,connected_nw=false,connected_s=true,connected_se=true,connected_sw=true,connected_w=true": {
+      "model": "tog_yks-cards:block/game_mat/pink_copper_game_mat/north_east_south_west_northeast_southeast_southwest"
+    },
+    "connected_e=true,connected_n=true,connected_ne=true,connected_nw=true,connected_s=false,connected_se=false,connected_sw=false,connected_w=false": {
+      "model": "tog_yks-cards:block/game_mat/pink_copper_game_mat/north_east_northeast"
+    },
+    "connected_e=true,connected_n=true,connected_ne=true,connected_nw=true,connected_s=false,connected_se=false,connected_sw=false,connected_w=true": {
+      "model": "tog_yks-cards:block/game_mat/pink_copper_game_mat/north_east_west_northeast_northwest"
+    },
+    "connected_e=true,connected_n=true,connected_ne=true,connected_nw=true,connected_s=false,connected_se=false,connected_sw=true,connected_w=false": {
+      "model": "tog_yks-cards:block/game_mat/pink_copper_game_mat/north_east_northeast_southwest"
+    },
+    "connected_e=true,connected_n=true,connected_ne=true,connected_nw=true,connected_s=false,connected_se=false,connected_sw=true,connected_w=true": {
+      "model": "tog_yks-cards:block/game_mat/pink_copper_game_mat/north_east_west_northeast_northwest"
+    },
+    "connected_e=true,connected_n=true,connected_ne=true,connected_nw=true,connected_s=false,connected_se=true,connected_sw=false,connected_w=false": {
+      "model": "tog_yks-cards:block/game_mat/pink_copper_game_mat/north_east_northeast"
+    },
+    "connected_e=true,connected_n=true,connected_ne=true,connected_nw=true,connected_s=false,connected_se=true,connected_sw=false,connected_w=true": {
+      "model": "tog_yks-cards:block/game_mat/pink_copper_game_mat/north_east_west_northeast_northwest"
+    },
+    "connected_e=true,connected_n=true,connected_ne=true,connected_nw=true,connected_s=false,connected_se=true,connected_sw=true,connected_w=false": {
+      "model": "tog_yks-cards:block/game_mat/pink_copper_game_mat/north_east_northeast_southwest"
+    },
+    "connected_e=true,connected_n=true,connected_ne=true,connected_nw=true,connected_s=false,connected_se=true,connected_sw=true,connected_w=true": {
+      "model": "tog_yks-cards:block/game_mat/pink_copper_game_mat/north_east_west_northeast_northwest"
+    },
+    "connected_e=true,connected_n=true,connected_ne=true,connected_nw=true,connected_s=true,connected_se=false,connected_sw=false,connected_w=false": {
+      "model": "tog_yks-cards:block/game_mat/pink_copper_game_mat/north_east_south_northeast"
+    },
+    "connected_e=true,connected_n=true,connected_ne=true,connected_nw=true,connected_s=true,connected_se=false,connected_sw=false,connected_w=true": {
+      "model": "tog_yks-cards:block/game_mat/pink_copper_game_mat/north_east_south_west_northeast_northwest"
+    },
+    "connected_e=true,connected_n=true,connected_ne=true,connected_nw=true,connected_s=true,connected_se=false,connected_sw=true,connected_w=false": {
+      "model": "tog_yks-cards:block/game_mat/pink_copper_game_mat/north_east_south_northeast"
+    },
+    "connected_e=true,connected_n=true,connected_ne=true,connected_nw=true,connected_s=true,connected_se=false,connected_sw=true,connected_w=true": {
+      "model": "tog_yks-cards:block/game_mat/pink_copper_game_mat/north_east_south_west_northeast_northwest_southwest"
+    },
+    "connected_e=true,connected_n=true,connected_ne=true,connected_nw=true,connected_s=true,connected_se=true,connected_sw=false,connected_w=false": {
+      "model": "tog_yks-cards:block/game_mat/pink_copper_game_mat/north_east_south_northeast_southeast"
+    },
+    "connected_e=true,connected_n=true,connected_ne=true,connected_nw=true,connected_s=true,connected_se=true,connected_sw=false,connected_w=true": {
+      "model": "tog_yks-cards:block/game_mat/pink_copper_game_mat/north_east_south_west_northeast_southeast_northwest"
+    },
+    "connected_e=true,connected_n=true,connected_ne=true,connected_nw=true,connected_s=true,connected_se=true,connected_sw=true,connected_w=false": {
+      "model": "tog_yks-cards:block/game_mat/pink_copper_game_mat/north_east_south_northeast_southeast"
+    },
+    "connected_e=true,connected_n=true,connected_ne=true,connected_nw=true,connected_s=true,connected_se=true,connected_sw=true,connected_w=true": {
+      "model": "tog_yks-cards:block/game_mat/pink_copper_game_mat/all"
+    }
+  }
+}

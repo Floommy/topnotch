@@ -1,0 +1,54 @@
+{
+  "model": {
+    "type": "minecraft:select",
+    "cases": [
+      {
+        "model": {
+          "type": "minecraft:select",
+          "cases": [
+            {
+              "model": {
+                "type": "minecraft:model",
+                "model": "tog_yks-cards:block/uno_cardbox_closed"
+              },
+              "when": false
+            },
+            {
+              "model": {
+                "type": "minecraft:select",
+                "cases": [
+                  {
+                    "model": {
+                      "type": "minecraft:model",
+                      "model": "tog_yks-cards:block/uno_cardbox_open"
+                    },
+                    "when": false
+                  },
+                  {
+                    "model": {
+                      "type": "minecraft:model",
+                      "model": "tog_yks-cards:block/uno_cardbox_open_empty"
+                    },
+                    "when": true
+                  }
+                ],
+                "property": "tog_yks-cards:empty"
+              },
+              "when": true
+            }
+          ],
+          "property": "tog_yks-cards:open"
+        },
+        "when": true
+      },
+      {
+        "model": {
+          "type": "minecraft:model",
+          "model": "tog_yks-cards:block/uno_cardbox_wrapped"
+        },
+        "when": false
+      }
+    ],
+    "property": "tog_yks-cards:has"
+  }
+}

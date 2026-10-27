@@ -1,0 +1,61 @@
+{
+	"textures": {
+		"0": "tog_yks-cards:block/preview/coin",
+		"particle": "tog_yks-cards:block/preview/coin"
+	},
+	"elements": [
+		{
+			"from": [6, 0, 6],
+			"to": [10, 1, 10],
+			"rotation": {"angle": 0, "axis": "y", "origin": [8, 0.5, 8]},
+			"faces": {
+				"north": {"uv": [4, 0, 8, 1], "texture": "#0"},
+				"east": {"uv": [4, 1, 8, 2], "texture": "#0"},
+				"south": {"uv": [4, 2, 8, 3], "texture": "#0"},
+				"west": {"uv": [4, 3, 8, 4], "texture": "#0"},
+				"up": {"uv": [4, 4, 0, 0], "texture": "#0"},
+				"down": {"uv": [4, 4, 0, 8], "texture": "#0"}
+			}
+		}
+	],
+	"display": {
+		"thirdperson_righthand": {
+			"translation": [0, 0, 1.75],
+			"scale": [0.75, 0.75, 0.75]
+		},
+		"thirdperson_lefthand": {
+			"translation": [0, 0, 1.75],
+			"scale": [0.75, 0.75, 0.75]
+		},
+		"firstperson_righthand": {
+			"rotation": [60, -35, 45],
+			"translation": [0, 3.5, 0],
+			"scale": [2, 2, 2]
+		},
+		"firstperson_lefthand": {
+			"rotation": [60, -35, 45],
+			"translation": [0, 3.5, 0],
+			"scale": [2, 2, 2]
+		},
+		"ground": {
+			"translation": [0, -2.5, 0],
+			"scale": [0.7, 0.7, 0.7]
+		},
+		"gui": {
+			"rotation": [30, -70, 10],
+			"scale": [2, 2, 2]
+		},
+		"head": {
+			"translation": [0, 8, 0],
+			"scale": [2, 2, 2]
+		},
+		"fixed": {
+			"rotation": [-90, -180, 0],
+			"scale": [1.5, 1.5, 1.5]
+		},
+		"on_shelf": {
+			"rotation": [-90, -180, 0],
+			"scale": [1.5, 1.5, 1.5]
+		}
+	}
+}

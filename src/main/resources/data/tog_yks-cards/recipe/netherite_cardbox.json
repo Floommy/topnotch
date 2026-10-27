@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "cardbox",
+  "ingredients": [
+    "minecraft:paper",
+    "minecraft:paper",
+    "minecraft:paper",
+    "minecraft:netherite_scrap",
+    "minecraft:gold_ingot"
+  ],
+  "result": {
+    "id": "tog_yks-cards:netherite_cardbox"
+  }
+}

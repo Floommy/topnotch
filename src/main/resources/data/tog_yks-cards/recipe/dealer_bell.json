@@ -1,0 +1,17 @@
+{
+ "type": "minecraft:crafting_shaped",
+ "category": "redstone",
+ "pattern": [
+  "N",
+  "G",
+  "S"
+ ],
+ "key": {
+  "N": "minecraft:iron_nugget",
+  "G": "minecraft:gold_ingot",
+  "S": "#minecraft:wooden_slabs"
+ },
+ "result": {
+  "id": "tog_yks-cards:dealer_bell"
+ }
+}

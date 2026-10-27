@@ -1,0 +1,181 @@
+{
+ "textures": {
+  "particle": "tog_yks-cards:block/restaurant/metal_dark",
+  "m": "tog_yks-cards:block/restaurant/metal_dark",
+  "d": "tog_yks-cards:block/restaurant/register_drawer",
+  "k": "tog_yks-cards:block/restaurant/register_keys",
+  "s": "tog_yks-cards:block/restaurant/register_screen"
+ },
+ "elements": [
+  {
+   "from": [
+    2,
+    0,
+    3
+   ],
+   "to": [
+    14,
+    3,
+    14
+   ],
+   "faces": {
+    "north": {
+     "texture": "#d"
+    },
+    "south": {
+     "texture": "#m"
+    },
+    "east": {
+     "texture": "#m"
+    },
+    "west": {
+     "texture": "#m"
+    },
+    "up": {
+     "texture": "#m"
+    },
+    "down": {
+     "texture": "#m"
+    }
+   }
+  },
+  {
+   "from": [
+    2,
+    3,
+    3
+   ],
+   "to": [
+    14,
+    4.5,
+    9
+   ],
+   "faces": {
+    "north": {
+     "texture": "#m"
+    },
+    "south": {
+     "texture": "#m"
+    },
+    "east": {
+     "texture": "#m"
+    },
+    "west": {
+     "texture": "#m"
+    },
+    "up": {
+     "texture": "#k"
+    },
+    "down": {
+     "texture": "#m"
+    }
+   },
+   "rotation": {
+    "origin": [
+     8,
+     3,
+     9
+    ],
+    "axis": "x",
+    "angle": -22.5
+   }
+  },
+  {
+   "from": [
+    3,
+    3,
+    9
+   ],
+   "to": [
+    13,
+    6,
+    14
+   ],
+   "faces": {
+    "north": {
+     "texture": "#m"
+    },
+    "south": {
+     "texture": "#m"
+    },
+    "east": {
+     "texture": "#m"
+    },
+    "west": {
+     "texture": "#m"
+    },
+    "up": {
+     "texture": "#m"
+    },
+    "down": {
+     "texture": "#m"
+    }
+   }
+  },
+  {
+   "from": [
+    7,
+    6,
+    11
+   ],
+   "to": [
+    9,
+    9,
+    12
+   ],
+   "faces": {
+    "north": {
+     "texture": "#m"
+    },
+    "south": {
+     "texture": "#m"
+    },
+    "east": {
+     "texture": "#m"
+    },
+    "west": {
+     "texture": "#m"
+    },
+    "up": {
+     "texture": "#m"
+    },
+    "down": {
+     "texture": "#m"
+    }
+   }
+  },
+  {
+   "from": [
+    3.5,
+    8,
+    10.5
+   ],
+   "to": [
+    12.5,
+    13,
+    11.5
+   ],
+   "faces": {
+    "north": {
+     "texture": "#s"
+    },
+    "south": {
+     "texture": "#m"
+    },
+    "east": {
+     "texture": "#m"
+    },
+    "west": {
+     "texture": "#m"
+    },
+    "up": {
+     "texture": "#m"
+    },
+    "down": {
+     "texture": "#m"
+    }
+   }
+  }
+ ],
+ "parent": "minecraft:block/block"
+}

@@ -1,0 +1,18 @@
+{
+ "type": "minecraft:block",
+ "pools": [
+  {
+   "condition": {
+    "type": "minecraft:survives_explosion"
+   },
+   "rolls": 1,
+   "entries": [
+    {
+     "type": "minecraft:item",
+     "name": "tog_yks-cards:cash_register"
+    }
+   ]
+  }
+ ],
+ "random_sequence": "tog_yks-cards:blocks/cash_register"
+}

@@ -1,0 +1,25 @@
+{
+ "type": "minecraft:block",
+ "pools": [
+  {
+   "condition": {
+    "type": "minecraft:survives_explosion"
+   },
+   "rolls": 1,
+   "entries": [
+    {
+     "type": "minecraft:item",
+     "name": "tog_yks-cards:central_bank",
+     "modifier": {
+      "type": "minecraft:copy_components",
+      "include": [
+       "tog_yks-cards:casino"
+      ],
+      "source": "block_entity"
+     }
+    }
+   ]
+  }
+ ],
+ "random_sequence": "tog_yks-cards:blocks/central_bank"
+}

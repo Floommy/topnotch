@@ -1,0 +1,4163 @@
+{
+ "model": {
+  "type": "minecraft:composite",
+  "models": [
+   {
+    "type": "minecraft:model",
+    "model": "tog_yks-cards:block/serving_tray"
+   },
+   {
+    "type": "minecraft:select",
+    "property": "minecraft:custom_model_data",
+    "index": 0,
+    "cases": [
+     {
+      "when": "big_mac",
+      "model": {
+       "type": "minecraft:model",
+       "model": "tog_yks-cards:item/tray_hand/big_mac",
+       "transformation": {
+        "left_rotation": [
+         0,
+         0,
+         0,
+         1
+        ],
+        "right_rotation": [
+         0,
+         0,
+         0,
+         1
+        ],
+        "scale": [
+         0.36,
+         0.36,
+         0.36
+        ],
+        "translation": [
+         0.59,
+         0.0688,
+         0.44
+        ]
+       }
+      }
+     },
+     {
+      "when": "cheeseburger",
+      "model": {
+       "type": "minecraft:model",
+       "model": "tog_yks-cards:item/tray_hand/cheeseburger",
+       "transformation": {
+        "left_rotation": [
+         0,
+         0,
+         0,
+         1
+        ],
+        "right_rotation": [
+         0,
+         0,
+         0,
+         1
+        ],
+        "scale": [
+         0.36,
+         0.36,
+         0.36
+        ],
+        "translation": [
+         0.59,
+         0.0688,
+         0.44
+        ]
+       }
+      }
+     },
+     {
+      "when": "chicken_mcnuggets",
+      "model": {
+       "type": "minecraft:model",
+       "model": "tog_yks-cards:item/tray_hand/chicken_mcnuggets",
+       "transformation": {
+        "left_rotation": [
+         0,
+         0,
+         0,
+         1
+        ],
+        "right_rotation": [
+         0,
+         0,
+         0,
+         1
+        ],
+        "scale": [
+         0.36,
+         0.36,
+         0.36
+        ],
+        "translation": [
+         0.59,
+         0.0688,
+         0.44
+        ]
+       }
+      }
+     },
+     {
+      "when": "chickenburger",
+      "model": {
+       "type": "minecraft:model",
+       "model": "tog_yks-cards:item/tray_hand/chickenburger",
+       "transformation": {
+        "left_rotation": [
+         0,
+         0,
+         0,
+         1
+        ],
+        "right_rotation": [
+         0,
+         0,
+         0,
+         1
+        ],
+        "scale": [
+         0.36,
+         0.36,
+         0.36
+        ],
+        "translation": [
+         0.59,
+         0.0688,
+         0.44
+        ]
+       }
+      }
+     },
+     {
+      "when": "coca_cola",
+      "model": {
+       "type": "minecraft:model",
+       "model": "tog_yks-cards:item/tray_hand/coca_cola",
+       "transformation": {
+        "left_rotation": [
+         0,
+         0,
+         0,
+         1
+        ],
+        "right_rotation": [
+         0,
+         0,
+         0,
+         1
+        ],
+        "scale": [
+         0.36,
+         0.36,
+         0.36
+        ],
+        "translation": [
+         0.59,
+         0.0688,
+         0.44
+        ]
+       }
+      }
+     },
+     {
+      "when": "fanta",
+      "model": {
+       "type": "minecraft:model",
+       "model": "tog_yks-cards:item/tray_hand/fanta",
+       "transformation": {
+        "left_rotation": [
+         0,
+         0,
+         0,
+         1
+        ],
+        "right_rotation": [
+         0,
+         0,
+         0,
+         1
+        ],
+        "scale": [
+         0.36,
+         0.36,
+         0.36
+        ],
+        "translation": [
+         0.59,
+         0.0688,
+         0.44
+        ]
+       }
+      }
+     },
+     {
+      "when": "filet_o_fish",
+      "model": {
+       "type": "minecraft:model",
+       "model": "tog_yks-cards:item/tray_hand/filet_o_fish",
+       "transformation": {
+        "left_rotation": [
+         0,
+         0,
+         0,
+         1
+        ],
+        "right_rotation": [
+         0,
+         0,
+         0,
+         1
+        ],
+        "scale": [
+         0.36,
+         0.36,
+         0.36
+        ],
+        "translation": [
+         0.59,
+         0.0688,
+         0.44
+        ]
+       }
+      }
+     },
+     {
+      "when": "fries",
+      "model": {
+       "type": "minecraft:model",
+       "model": "tog_yks-cards:item/tray_hand/fries",
+       "transformation": {
+        "left_rotation": [
+         0,
+         0,
+         0,
+         1
+        ],
+        "right_rotation": [
+         0,
+         0,
+         0,
+         1
+        ],
+        "scale": [
+         0.36,
+         0.36,
+         0.36
+        ],
+        "translation": [
+         0.59,
+         0.0688,
+         0.44
+        ]
+       }
+      }
+     },
+     {
+      "when": "hamburger",
+      "model": {
+       "type": "minecraft:model",
+       "model": "tog_yks-cards:item/tray_hand/hamburger",
+       "transformation": {
+        "left_rotation": [
+         0,
+         0,
+         0,
+         1
+        ],
+        "right_rotation": [
+         0,
+         0,
+         0,
+         1
+        ],
+        "scale": [
+         0.36,
+         0.36,
+         0.36
+        ],
+        "translation": [
+         0.59,
+         0.0688,
+         0.44
+        ]
+       }
+      }
+     },
+     {
+      "when": "happy_meal",
+      "model": {
+       "type": "minecraft:model",
+       "model": "tog_yks-cards:item/tray_hand/happy_meal",
+       "transformation": {
+        "left_rotation": [
+         0,
+         0,
+         0,
+         1
+        ],
+        "right_rotation": [
+         0,
+         0,
+         0,
+         1
+        ],
+        "scale": [
+         0.36,
+         0.36,
+         0.36
+        ],
+        "translation": [
+         0.59,
+         0.0688,
+         0.44
+        ]
+       }
+      }
+     },
+     {
+      "when": "ketchup",
+      "model": {
+       "type": "minecraft:model",
+       "model": "tog_yks-cards:item/tray_hand/ketchup",
+       "transformation": {
+        "left_rotation": [
+         0,
+         0,
+         0,
+         1
+        ],
+        "right_rotation": [
+         0,
+         0,
+         0,
+         1
+        ],
+        "scale": [
+         0.36,
+         0.36,
+         0.36
+        ],
+        "translation": [
+         0.59,
+         0.0688,
+         0.44
+        ]
+       }
+      }
+     },
+     {
+      "when": "lipton_ice_tea_peach",
+      "model": {
+       "type": "minecraft:model",
+       "model": "tog_yks-cards:item/tray_hand/lipton_ice_tea_peach",
+       "transformation": {
+        "left_rotation": [
+         0,
+         0,
+         0,
+         1
+        ],
+        "right_rotation": [
+         0,
+         0,
+         0,
+         1
+        ],
+        "scale": [
+         0.36,
+         0.36,
+         0.36
+        ],
+        "translation": [
+         0.59,
+         0.0688,
+         0.44
+        ]
+       }
+      }
+     },
+     {
+      "when": "mayonnaise",
+      "model": {
+       "type": "minecraft:model",
+       "model": "tog_yks-cards:item/tray_hand/mayonnaise",
+       "transformation": {
+        "left_rotation": [
+         0,
+         0,
+         0,
+         1
+        ],
+        "right_rotation": [
+         0,
+         0,
+         0,
+         1
+        ],
+        "scale": [
+         0.36,
+         0.36,
+         0.36
+        ],
+        "translation": [
+         0.59,
+         0.0688,
+         0.44
+        ]
+       }
+      }
+     },
+     {
+      "when": "mcbacon",
+      "model": {
+       "type": "minecraft:model",
+       "model": "tog_yks-cards:item/tray_hand/mcbacon",
+       "transformation": {
+        "left_rotation": [
+         0,
+         0,
+         0,
+         1
+        ],
+        "right_rotation": [
+         0,
+         0,
+         0,
+         1
+        ],
+        "scale": [
+         0.36,
+         0.36,
+         0.36
+        ],
+        "translation": [
+         0.59,
+         0.0688,
+         0.44
+        ]
+       }
+      }
+     },
+     {
+      "when": "mcchicken",
+      "model": {
+       "type": "minecraft:model",
+       "model": "tog_yks-cards:item/tray_hand/mcchicken",
+       "transformation": {
+        "left_rotation": [
+         0,
+         0,
+         0,
+         1
+        ],
+        "right_rotation": [
+         0,
+         0,
+         0,
+         1
+        ],
+        "scale": [
+         0.36,
+         0.36,
+         0.36
+        ],
+        "translation": [
+         0.59,
+         0.0688,
+         0.44
+        ]
+       }
+      }
+     },
+     {
+      "when": "mcflurry",
+      "model": {
+       "type": "minecraft:model",
+       "model": "tog_yks-cards:item/tray_hand/mcflurry",
+       "transformation": {
+        "left_rotation": [
+         0,
+         0,
+         0,
+         1
+        ],
+        "right_rotation": [
+         0,
+         0,
+         0,
+         1
+        ],
+        "scale": [
+         0.36,
+         0.36,
+         0.36
+        ],
+        "translation": [
+         0.59,
+         0.0688,
+         0.44
+        ]
+       }
+      }
+     },
+     {
+      "when": "mcflurry_chocolate",
+      "model": {
+       "type": "minecraft:model",
+       "model": "tog_yks-cards:item/tray_hand/mcflurry_chocolate",
+       "transformation": {
+        "left_rotation": [
+         0,
+         0,
+         0,
+         1
+        ],
+        "right_rotation": [
+         0,
+         0,
+         0,
+         1
+        ],
+        "scale": [
+         0.36,
+         0.36,
+         0.36
+        ],
+        "translation": [
+         0.59,
+         0.0688,
+         0.44
+        ]
+       }
+      }
+     },
+     {
+      "when": "mcwrap",
+      "model": {
+       "type": "minecraft:model",
+       "model": "tog_yks-cards:item/tray_hand/mcwrap",
+       "transformation": {
+        "left_rotation": [
+         0,
+         0,
+         0,
+         1
+        ],
+        "right_rotation": [
+         0,
+         0,
+         0,
+         1
+        ],
+        "scale": [
+         0.36,
+         0.36,
+         0.36
+        ],
+        "translation": [
+         0.59,
+         0.0688,
+         0.44
+        ]
+       }
+      }
+     },
+     {
+      "when": "mustard",
+      "model": {
+       "type": "minecraft:model",
+       "model": "tog_yks-cards:item/tray_hand/mustard",
+       "transformation": {
+        "left_rotation": [
+         0,
+         0,
+         0,
+         1
+        ],
+        "right_rotation": [
+         0,
+         0,
+         0,
+         1
+        ],
+        "scale": [
+         0.36,
+         0.36,
+         0.36
+        ],
+        "translation": [
+         0.59,
+         0.0688,
+         0.44
+        ]
+       }
+      }
+     },
+     {
+      "when": "snack_salad",
+      "model": {
+       "type": "minecraft:model",
+       "model": "tog_yks-cards:item/tray_hand/snack_salad",
+       "transformation": {
+        "left_rotation": [
+         0,
+         0,
+         0,
+         1
+        ],
+        "right_rotation": [
+         0,
+         0,
+         0,
+         1
+        ],
+        "scale": [
+         0.36,
+         0.36,
+         0.36
+        ],
+        "translation": [
+         0.59,
+         0.0688,
+         0.44
+        ]
+       }
+      }
+     },
+     {
+      "when": "sprite",
+      "model": {
+       "type": "minecraft:model",
+       "model": "tog_yks-cards:item/tray_hand/sprite",
+       "transformation": {
+        "left_rotation": [
+         0,
+         0,
+         0,
+         1
+        ],
+        "right_rotation": [
+         0,
+         0,
+         0,
+         1
+        ],
+        "scale": [
+         0.36,
+         0.36,
+         0.36
+        ],
+        "translation": [
+         0.59,
+         0.0688,
+         0.44
+        ]
+       }
+      }
+     },
+     {
+      "when": "sweet_sour_sauce",
+      "model": {
+       "type": "minecraft:model",
+       "model": "tog_yks-cards:item/tray_hand/sweet_sour_sauce",
+       "transformation": {
+        "left_rotation": [
+         0,
+         0,
+         0,
+         1
+        ],
+        "right_rotation": [
+         0,
+         0,
+         0,
+         1
+        ],
+        "scale": [
+         0.36,
+         0.36,
+         0.36
+        ],
+        "translation": [
+         0.59,
+         0.0688,
+         0.44
+        ]
+       }
+      }
+     }
+    ],
+    "fallback": {
+     "type": "minecraft:empty"
+    }
+   },
+   {
+    "type": "minecraft:select",
+    "property": "minecraft:custom_model_data",
+    "index": 1,
+    "cases": [
+     {
+      "when": "big_mac",
+      "model": {
+       "type": "minecraft:model",
+       "model": "tog_yks-cards:item/tray_hand/big_mac",
+       "transformation": {
+        "left_rotation": [
+         0,
+         0,
+         0,
+         1
+        ],
+        "right_rotation": [
+         0,
+         0,
+         0,
+         1
+        ],
+        "scale": [
+         0.36,
+         0.36,
+         0.36
+        ],
+        "translation": [
+         0.32,
+         0.0688,
+         0.44
+        ]
+       }
+      }
+     },
+     {
+      "when": "cheeseburger",
+      "model": {
+       "type": "minecraft:model",
+       "model": "tog_yks-cards:item/tray_hand/cheeseburger",
+       "transformation": {
+        "left_rotation": [
+         0,
+         0,
+         0,
+         1
+        ],
+        "right_rotation": [
+         0,
+         0,
+         0,
+         1
+        ],
+        "scale": [
+         0.36,
+         0.36,
+         0.36
+        ],
+        "translation": [
+         0.32,
+         0.0688,
+         0.44
+        ]
+       }
+      }
+     },
+     {
+      "when": "chicken_mcnuggets",
+      "model": {
+       "type": "minecraft:model",
+       "model": "tog_yks-cards:item/tray_hand/chicken_mcnuggets",
+       "transformation": {
+        "left_rotation": [
+         0,
+         0,
+         0,
+         1
+        ],
+        "right_rotation": [
+         0,
+         0,
+         0,
+         1
+        ],
+        "scale": [
+         0.36,
+         0.36,
+         0.36
+        ],
+        "translation": [
+         0.32,
+         0.0688,
+         0.44
+        ]
+       }
+      }
+     },
+     {
+      "when": "chickenburger",
+      "model": {
+       "type": "minecraft:model",
+       "model": "tog_yks-cards:item/tray_hand/chickenburger",
+       "transformation": {
+        "left_rotation": [
+         0,
+         0,
+         0,
+         1
+        ],
+        "right_rotation": [
+         0,
+         0,
+         0,
+         1
+        ],
+        "scale": [
+         0.36,
+         0.36,
+         0.36
+        ],
+        "translation": [
+         0.32,
+         0.0688,
+         0.44
+        ]
+       }
+      }
+     },
+     {
+      "when": "coca_cola",
+      "model": {
+       "type": "minecraft:model",
+       "model": "tog_yks-cards:item/tray_hand/coca_cola",
+       "transformation": {
+        "left_rotation": [
+         0,
+         0,
+         0,
+         1
+        ],
+        "right_rotation": [
+         0,
+         0,
+         0,
+         1
+        ],
+        "scale": [
+         0.36,
+         0.36,
+         0.36
+        ],
+        "translation": [
+         0.32,
+         0.0688,
+         0.44
+        ]
+       }
+      }
+     },
+     {
+      "when": "fanta",
+      "model": {
+       "type": "minecraft:model",
+       "model": "tog_yks-cards:item/tray_hand/fanta",
+       "transformation": {
+        "left_rotation": [
+         0,
+         0,
+         0,
+         1
+        ],
+        "right_rotation": [
+         0,
+         0,
+         0,
+         1
+        ],
+        "scale": [
+         0.36,
+         0.36,
+         0.36
+        ],
+        "translation": [
+         0.32,
+         0.0688,
+         0.44
+        ]
+       }
+      }
+     },
+     {
+      "when": "filet_o_fish",
+      "model": {
+       "type": "minecraft:model",
+       "model": "tog_yks-cards:item/tray_hand/filet_o_fish",
+       "transformation": {
+        "left_rotation": [
+         0,
+         0,
+         0,
+         1
+        ],
+        "right_rotation": [
+         0,
+         0,
+         0,
+         1
+        ],
+        "scale": [
+         0.36,
+         0.36,
+         0.36
+        ],
+        "translation": [
+         0.32,
+         0.0688,
+         0.44
+        ]
+       }
+      }
+     },
+     {
+      "when": "fries",
+      "model": {
+       "type": "minecraft:model",
+       "model": "tog_yks-cards:item/tray_hand/fries",
+       "transformation": {
+        "left_rotation": [
+         0,
+         0,
+         0,
+         1
+        ],
+        "right_rotation": [
+         0,
+         0,
+         0,
+         1
+        ],
+        "scale": [
+         0.36,
+         0.36,
+         0.36
+        ],
+        "translation": [
+         0.32,
+         0.0688,
+         0.44
+        ]
+       }
+      }
+     },
+     {
+      "when": "hamburger",
+      "model": {
+       "type": "minecraft:model",
+       "model": "tog_yks-cards:item/tray_hand/hamburger",
+       "transformation": {
+        "left_rotation": [
+         0,
+         0,
+         0,
+         1
+        ],
+        "right_rotation": [
+         0,
+         0,
+         0,
+         1
+        ],
+        "scale": [
+         0.36,
+         0.36,
+         0.36
+        ],
+        "translation": [
+         0.32,
+         0.0688,
+         0.44
+        ]
+       }
+      }
+     },
+     {
+      "when": "happy_meal",
+      "model": {
+       "type": "minecraft:model",
+       "model": "tog_yks-cards:item/tray_hand/happy_meal",
+       "transformation": {
+        "left_rotation": [
+         0,
+         0,
+         0,
+         1
+        ],
+        "right_rotation": [
+         0,
+         0,
+         0,
+         1
+        ],
+        "scale": [
+         0.36,
+         0.36,
+         0.36
+        ],
+        "translation": [
+         0.32,
+         0.0688,
+         0.44
+        ]
+       }
+      }
+     },
+     {
+      "when": "ketchup",
+      "model": {
+       "type": "minecraft:model",
+       "model": "tog_yks-cards:item/tray_hand/ketchup",
+       "transformation": {
+        "left_rotation": [
+         0,
+         0,
+         0,
+         1
+        ],
+        "right_rotation": [
+         0,
+         0,
+         0,
+         1
+        ],
+        "scale": [
+         0.36,
+         0.36,
+         0.36
+        ],
+        "translation": [
+         0.32,
+         0.0688,
+         0.44
+        ]
+       }
+      }
+     },
+     {
+      "when": "lipton_ice_tea_peach",
+      "model": {
+       "type": "minecraft:model",
+       "model": "tog_yks-cards:item/tray_hand/lipton_ice_tea_peach",
+       "transformation": {
+        "left_rotation": [
+         0,
+         0,
+         0,
+         1
+        ],
+        "right_rotation": [
+         0,
+         0,
+         0,
+         1
+        ],
+        "scale": [
+         0.36,
+         0.36,
+         0.36
+        ],
+        "translation": [
+         0.32,
+         0.0688,
+         0.44
+        ]
+       }
+      }
+     },
+     {
+      "when": "mayonnaise",
+      "model": {
+       "type": "minecraft:model",
+       "model": "tog_yks-cards:item/tray_hand/mayonnaise",
+       "transformation": {
+        "left_rotation": [
+         0,
+         0,
+         0,
+         1
+        ],
+        "right_rotation": [
+         0,
+         0,
+         0,
+         1
+        ],
+        "scale": [
+         0.36,
+         0.36,
+         0.36
+        ],
+        "translation": [
+         0.32,
+         0.0688,
+         0.44
+        ]
+       }
+      }
+     },
+     {
+      "when": "mcbacon",
+      "model": {
+       "type": "minecraft:model",
+       "model": "tog_yks-cards:item/tray_hand/mcbacon",
+       "transformation": {
+        "left_rotation": [
+         0,
+         0,
+         0,
+         1
+        ],
+        "right_rotation": [
+         0,
+         0,
+         0,
+         1
+        ],
+        "scale": [
+         0.36,
+         0.36,
+         0.36
+        ],
+        "translation": [
+         0.32,
+         0.0688,
+         0.44
+        ]
+       }
+      }
+     },
+     {
+      "when": "mcchicken",
+      "model": {
+       "type": "minecraft:model",
+       "model": "tog_yks-cards:item/tray_hand/mcchicken",
+       "transformation": {
+        "left_rotation": [
+         0,
+         0,
+         0,
+         1
+        ],
+        "right_rotation": [
+         0,
+         0,
+         0,
+         1
+        ],
+        "scale": [
+         0.36,
+         0.36,
+         0.36
+        ],
+        "translation": [
+         0.32,
+         0.0688,
+         0.44
+        ]
+       }
+      }
+     },
+     {
+      "when": "mcflurry",
+      "model": {
+       "type": "minecraft:model",
+       "model": "tog_yks-cards:item/tray_hand/mcflurry",
+       "transformation": {
+        "left_rotation": [
+         0,
+         0,
+         0,
+         1
+        ],
+        "right_rotation": [
+         0,
+         0,
+         0,
+         1
+        ],
+        "scale": [
+         0.36,
+         0.36,
+         0.36
+        ],
+        "translation": [
+         0.32,
+         0.0688,
+         0.44
+        ]
+       }
+      }
+     },
+     {
+      "when": "mcflurry_chocolate",
+      "model": {
+       "type": "minecraft:model",
+       "model": "tog_yks-cards:item/tray_hand/mcflurry_chocolate",
+       "transformation": {
+        "left_rotation": [
+         0,
+         0,
+         0,
+         1
+        ],
+        "right_rotation": [
+         0,
+         0,
+         0,
+         1
+        ],
+        "scale": [
+         0.36,
+         0.36,
+         0.36
+        ],
+        "translation": [
+         0.32,
+         0.0688,
+         0.44
+        ]
+       }
+      }
+     },
+     {
+      "when": "mcwrap",
+      "model": {
+       "type": "minecraft:model",
+       "model": "tog_yks-cards:item/tray_hand/mcwrap",
+       "transformation": {
+        "left_rotation": [
+         0,
+         0,
+         0,
+         1
+        ],
+        "right_rotation": [
+         0,
+         0,
+         0,
+         1
+        ],
+        "scale": [
+         0.36,
+         0.36,
+         0.36
+        ],
+        "translation": [
+         0.32,
+         0.0688,
+         0.44
+        ]
+       }
+      }
+     },
+     {
+      "when": "mustard",
+      "model": {
+       "type": "minecraft:model",
+       "model": "tog_yks-cards:item/tray_hand/mustard",
+       "transformation": {
+        "left_rotation": [
+         0,
+         0,
+         0,
+         1
+        ],
+        "right_rotation": [
+         0,
+         0,
+         0,
+         1
+        ],
+        "scale": [
+         0.36,
+         0.36,
+         0.36
+        ],
+        "translation": [
+         0.32,
+         0.0688,
+         0.44
+        ]
+       }
+      }
+     },
+     {
+      "when": "snack_salad",
+      "model": {
+       "type": "minecraft:model",
+       "model": "tog_yks-cards:item/tray_hand/snack_salad",
+       "transformation": {
+        "left_rotation": [
+         0,
+         0,
+         0,
+         1
+        ],
+        "right_rotation": [
+         0,
+         0,
+         0,
+         1
+        ],
+        "scale": [
+         0.36,
+         0.36,
+         0.36
+        ],
+        "translation": [
+         0.32,
+         0.0688,
+         0.44
+        ]
+       }
+      }
+     },
+     {
+      "when": "sprite",
+      "model": {
+       "type": "minecraft:model",
+       "model": "tog_yks-cards:item/tray_hand/sprite",
+       "transformation": {
+        "left_rotation": [
+         0,
+         0,
+         0,
+         1
+        ],
+        "right_rotation": [
+         0,
+         0,
+         0,
+         1
+        ],
+        "scale": [
+         0.36,
+         0.36,
+         0.36
+        ],
+        "translation": [
+         0.32,
+         0.0688,
+         0.44
+        ]
+       }
+      }
+     },
+     {
+      "when": "sweet_sour_sauce",
+      "model": {
+       "type": "minecraft:model",
+       "model": "tog_yks-cards:item/tray_hand/sweet_sour_sauce",
+       "transformation": {
+        "left_rotation": [
+         0,
+         0,
+         0,
+         1
+        ],
+        "right_rotation": [
+         0,
+         0,
+         0,
+         1
+        ],
+        "scale": [
+         0.36,
+         0.36,
+         0.36
+        ],
+        "translation": [
+         0.32,
+         0.0688,
+         0.44
+        ]
+       }
+      }
+     }
+    ],
+    "fallback": {
+     "type": "minecraft:empty"
+    }
+   },
+   {
+    "type": "minecraft:select",
+    "property": "minecraft:custom_model_data",
+    "index": 2,
+    "cases": [
+     {
+      "when": "big_mac",
+      "model": {
+       "type": "minecraft:model",
+       "model": "tog_yks-cards:item/tray_hand/big_mac",
+       "transformation": {
+        "left_rotation": [
+         0,
+         0,
+         0,
+         1
+        ],
+        "right_rotation": [
+         0,
+         0,
+         0,
+         1
+        ],
+        "scale": [
+         0.36,
+         0.36,
+         0.36
+        ],
+        "translation": [
+         0.05,
+         0.0688,
+         0.44
+        ]
+       }
+      }
+     },
+     {
+      "when": "cheeseburger",
+      "model": {
+       "type": "minecraft:model",
+       "model": "tog_yks-cards:item/tray_hand/cheeseburger",
+       "transformation": {
+        "left_rotation": [
+         0,
+         0,
+         0,
+         1
+        ],
+        "right_rotation": [
+         0,
+         0,
+         0,
+         1
+        ],
+        "scale": [
+         0.36,
+         0.36,
+         0.36
+        ],
+        "translation": [
+         0.05,
+         0.0688,
+         0.44
+        ]
+       }
+      }
+     },
+     {
+      "when": "chicken_mcnuggets",
+      "model": {
+       "type": "minecraft:model",
+       "model": "tog_yks-cards:item/tray_hand/chicken_mcnuggets",
+       "transformation": {
+        "left_rotation": [
+         0,
+         0,
+         0,
+         1
+        ],
+        "right_rotation": [
+         0,
+         0,
+         0,
+         1
+        ],
+        "scale": [
+         0.36,
+         0.36,
+         0.36
+        ],
+        "translation": [
+         0.05,
+         0.0688,
+         0.44
+        ]
+       }
+      }
+     },
+     {
+      "when": "chickenburger",
+      "model": {
+       "type": "minecraft:model",
+       "model": "tog_yks-cards:item/tray_hand/chickenburger",
+       "transformation": {
+        "left_rotation": [
+         0,
+         0,
+         0,
+         1
+        ],
+        "right_rotation": [
+         0,
+         0,
+         0,
+         1
+        ],
+        "scale": [
+         0.36,
+         0.36,
+         0.36
+        ],
+        "translation": [
+         0.05,
+         0.0688,
+         0.44
+        ]
+       }
+      }
+     },
+     {
+      "when": "coca_cola",
+      "model": {
+       "type": "minecraft:model",
+       "model": "tog_yks-cards:item/tray_hand/coca_cola",
+       "transformation": {
+        "left_rotation": [
+         0,
+         0,
+         0,
+         1
+        ],
+        "right_rotation": [
+         0,
+         0,
+         0,
+         1
+        ],
+        "scale": [
+         0.36,
+         0.36,
+         0.36
+        ],
+        "translation": [
+         0.05,
+         0.0688,
+         0.44
+        ]
+       }
+      }
+     },
+     {
+      "when": "fanta",
+      "model": {
+       "type": "minecraft:model",
+       "model": "tog_yks-cards:item/tray_hand/fanta",
+       "transformation": {
+        "left_rotation": [
+         0,
+         0,
+         0,
+         1
+        ],
+        "right_rotation": [
+         0,
+         0,
+         0,
+         1
+        ],
+        "scale": [
+         0.36,
+         0.36,
+         0.36
+        ],
+        "translation": [
+         0.05,
+         0.0688,
+         0.44
+        ]
+       }
+      }
+     },
+     {
+      "when": "filet_o_fish",
+      "model": {
+       "type": "minecraft:model",
+       "model": "tog_yks-cards:item/tray_hand/filet_o_fish",
+       "transformation": {
+        "left_rotation": [
+         0,
+         0,
+         0,
+         1
+        ],
+        "right_rotation": [
+         0,
+         0,
+         0,
+         1
+        ],
+        "scale": [
+         0.36,
+         0.36,
+         0.36
+        ],
+        "translation": [
+         0.05,
+         0.0688,
+         0.44
+        ]
+       }
+      }
+     },
+     {
+      "when": "fries",
+      "model": {
+       "type": "minecraft:model",
+       "model": "tog_yks-cards:item/tray_hand/fries",
+       "transformation": {
+        "left_rotation": [
+         0,
+         0,
+         0,
+         1
+        ],
+        "right_rotation": [
+         0,
+         0,
+         0,
+         1
+        ],
+        "scale": [
+         0.36,
+         0.36,
+         0.36
+        ],
+        "translation": [
+         0.05,
+         0.0688,
+         0.44
+        ]
+       }
+      }
+     },
+     {
+      "when": "hamburger",
+      "model": {
+       "type": "minecraft:model",
+       "model": "tog_yks-cards:item/tray_hand/hamburger",
+       "transformation": {
+        "left_rotation": [
+         0,
+         0,
+         0,
+         1
+        ],
+        "right_rotation": [
+         0,
+         0,
+         0,
+         1
+        ],
+        "scale": [
+         0.36,
+         0.36,
+         0.36
+        ],
+        "translation": [
+         0.05,
+         0.0688,
+         0.44
+        ]
+       }
+      }
+     },
+     {
+      "when": "happy_meal",
+      "model": {
+       "type": "minecraft:model",
+       "model": "tog_yks-cards:item/tray_hand/happy_meal",
+       "transformation": {
+        "left_rotation": [
+         0,
+         0,
+         0,
+         1
+        ],
+        "right_rotation": [
+         0,
+         0,
+         0,
+         1
+        ],
+        "scale": [
+         0.36,
+         0.36,
+         0.36
+        ],
+        "translation": [
+         0.05,
+         0.0688,
+         0.44
+        ]
+       }
+      }
+     },
+     {
+      "when": "ketchup",
+      "model": {
+       "type": "minecraft:model",
+       "model": "tog_yks-cards:item/tray_hand/ketchup",
+       "transformation": {
+        "left_rotation": [
+         0,
+         0,
+         0,
+         1
+        ],
+        "right_rotation": [
+         0,
+         0,
+         0,
+         1
+        ],
+        "scale": [
+         0.36,
+         0.36,
+         0.36
+        ],
+        "translation": [
+         0.05,
+         0.0688,
+         0.44
+        ]
+       }
+      }
+     },
+     {
+      "when": "lipton_ice_tea_peach",
+      "model": {
+       "type": "minecraft:model",
+       "model": "tog_yks-cards:item/tray_hand/lipton_ice_tea_peach",
+       "transformation": {
+        "left_rotation": [
+         0,
+         0,
+         0,
+         1
+        ],
+        "right_rotation": [
+         0,
+         0,
+         0,
+         1
+        ],
+        "scale": [
+         0.36,
+         0.36,
+         0.36
+        ],
+        "translation": [
+         0.05,
+         0.0688,
+         0.44
+        ]
+       }
+      }
+     },
+     {
+      "when": "mayonnaise",
+      "model": {
+       "type": "minecraft:model",
+       "model": "tog_yks-cards:item/tray_hand/mayonnaise",
+       "transformation": {
+        "left_rotation": [
+         0,
+         0,
+         0,
+         1
+        ],
+        "right_rotation": [
+         0,
+         0,
+         0,
+         1
+        ],
+        "scale": [
+         0.36,
+         0.36,
+         0.36
+        ],
+        "translation": [
+         0.05,
+         0.0688,
+         0.44
+        ]
+       }
+      }
+     },
+     {
+      "when": "mcbacon",
+      "model": {
+       "type": "minecraft:model",
+       "model": "tog_yks-cards:item/tray_hand/mcbacon",
+       "transformation": {
+        "left_rotation": [
+         0,
+         0,
+         0,
+         1
+        ],
+        "right_rotation": [
+         0,
+         0,
+         0,
+         1
+        ],
+        "scale": [
+         0.36,
+         0.36,
+         0.36
+        ],
+        "translation": [
+         0.05,
+         0.0688,
+         0.44
+        ]
+       }
+      }
+     },
+     {
+      "when": "mcchicken",
+      "model": {
+       "type": "minecraft:model",
+       "model": "tog_yks-cards:item/tray_hand/mcchicken",
+       "transformation": {
+        "left_rotation": [
+         0,
+         0,
+         0,
+         1
+        ],
+        "right_rotation": [
+         0,
+         0,
+         0,
+         1
+        ],
+        "scale": [
+         0.36,
+         0.36,
+         0.36
+        ],
+        "translation": [
+         0.05,
+         0.0688,
+         0.44
+        ]
+       }
+      }
+     },
+     {
+      "when": "mcflurry",
+      "model": {
+       "type": "minecraft:model",
+       "model": "tog_yks-cards:item/tray_hand/mcflurry",
+       "transformation": {
+        "left_rotation": [
+         0,
+         0,
+         0,
+         1
+        ],
+        "right_rotation": [
+         0,
+         0,
+         0,
+         1
+        ],
+        "scale": [
+         0.36,
+         0.36,
+         0.36
+        ],
+        "translation": [
+         0.05,
+         0.0688,
+         0.44
+        ]
+       }
+      }
+     },
+     {
+      "when": "mcflurry_chocolate",
+      "model": {
+       "type": "minecraft:model",
+       "model": "tog_yks-cards:item/tray_hand/mcflurry_chocolate",
+       "transformation": {
+        "left_rotation": [
+         0,
+         0,
+         0,
+         1
+        ],
+        "right_rotation": [
+         0,
+         0,
+         0,
+         1
+        ],
+        "scale": [
+         0.36,
+         0.36,
+         0.36
+        ],
+        "translation": [
+         0.05,
+         0.0688,
+         0.44
+        ]
+       }
+      }
+     },
+     {
+      "when": "mcwrap",
+      "model": {
+       "type": "minecraft:model",
+       "model": "tog_yks-cards:item/tray_hand/mcwrap",
+       "transformation": {
+        "left_rotation": [
+         0,
+         0,
+         0,
+         1
+        ],
+        "right_rotation": [
+         0,
+         0,
+         0,
+         1
+        ],
+        "scale": [
+         0.36,
+         0.36,
+         0.36
+        ],
+        "translation": [
+         0.05,
+         0.0688,
+         0.44
+        ]
+       }
+      }
+     },
+     {
+      "when": "mustard",
+      "model": {
+       "type": "minecraft:model",
+       "model": "tog_yks-cards:item/tray_hand/mustard",
+       "transformation": {
+        "left_rotation": [
+         0,
+         0,
+         0,
+         1
+        ],
+        "right_rotation": [
+         0,
+         0,
+         0,
+         1
+        ],
+        "scale": [
+         0.36,
+         0.36,
+         0.36
+        ],
+        "translation": [
+         0.05,
+         0.0688,
+         0.44
+        ]
+       }
+      }
+     },
+     {
+      "when": "snack_salad",
+      "model": {
+       "type": "minecraft:model",
+       "model": "tog_yks-cards:item/tray_hand/snack_salad",
+       "transformation": {
+        "left_rotation": [
+         0,
+         0,
+         0,
+         1
+        ],
+        "right_rotation": [
+         0,
+         0,
+         0,
+         1
+        ],
+        "scale": [
+         0.36,
+         0.36,
+         0.36
+        ],
+        "translation": [
+         0.05,
+         0.0688,
+         0.44
+        ]
+       }
+      }
+     },
+     {
+      "when": "sprite",
+      "model": {
+       "type": "minecraft:model",
+       "model": "tog_yks-cards:item/tray_hand/sprite",
+       "transformation": {
+        "left_rotation": [
+         0,
+         0,
+         0,
+         1
+        ],
+        "right_rotation": [
+         0,
+         0,
+         0,
+         1
+        ],
+        "scale": [
+         0.36,
+         0.36,
+         0.36
+        ],
+        "translation": [
+         0.05,
+         0.0688,
+         0.44
+        ]
+       }
+      }
+     },
+     {
+      "when": "sweet_sour_sauce",
+      "model": {
+       "type": "minecraft:model",
+       "model": "tog_yks-cards:item/tray_hand/sweet_sour_sauce",
+       "transformation": {
+        "left_rotation": [
+         0,
+         0,
+         0,
+         1
+        ],
+        "right_rotation": [
+         0,
+         0,
+         0,
+         1
+        ],
+        "scale": [
+         0.36,
+         0.36,
+         0.36
+        ],
+        "translation": [
+         0.05,
+         0.0688,
+         0.44
+        ]
+       }
+      }
+     }
+    ],
+    "fallback": {
+     "type": "minecraft:empty"
+    }
+   },
+   {
+    "type": "minecraft:select",
+    "property": "minecraft:custom_model_data",
+    "index": 3,
+    "cases": [
+     {
+      "when": "big_mac",
+      "model": {
+       "type": "minecraft:model",
+       "model": "tog_yks-cards:item/tray_hand/big_mac",
+       "transformation": {
+        "left_rotation": [
+         0,
+         0,
+         0,
+         1
+        ],
+        "right_rotation": [
+         0,
+         0,
+         0,
+         1
+        ],
+        "scale": [
+         0.36,
+         0.36,
+         0.36
+        ],
+        "translation": [
+         0.59,
+         0.0688,
+         0.19
+        ]
+       }
+      }
+     },
+     {
+      "when": "cheeseburger",
+      "model": {
+       "type": "minecraft:model",
+       "model": "tog_yks-cards:item/tray_hand/cheeseburger",
+       "transformation": {
+        "left_rotation": [
+         0,
+         0,
+         0,
+         1
+        ],
+        "right_rotation": [
+         0,
+         0,
+         0,
+         1
+        ],
+        "scale": [
+         0.36,
+         0.36,
+         0.36
+        ],
+        "translation": [
+         0.59,
+         0.0688,
+         0.19
+        ]
+       }
+      }
+     },
+     {
+      "when": "chicken_mcnuggets",
+      "model": {
+       "type": "minecraft:model",
+       "model": "tog_yks-cards:item/tray_hand/chicken_mcnuggets",
+       "transformation": {
+        "left_rotation": [
+         0,
+         0,
+         0,
+         1
+        ],
+        "right_rotation": [
+         0,
+         0,
+         0,
+         1
+        ],
+        "scale": [
+         0.36,
+         0.36,
+         0.36
+        ],
+        "translation": [
+         0.59,
+         0.0688,
+         0.19
+        ]
+       }
+      }
+     },
+     {
+      "when": "chickenburger",
+      "model": {
+       "type": "minecraft:model",
+       "model": "tog_yks-cards:item/tray_hand/chickenburger",
+       "transformation": {
+        "left_rotation": [
+         0,
+         0,
+         0,
+         1
+        ],
+        "right_rotation": [
+         0,
+         0,
+         0,
+         1
+        ],
+        "scale": [
+         0.36,
+         0.36,
+         0.36
+        ],
+        "translation": [
+         0.59,
+         0.0688,
+         0.19
+        ]
+       }
+      }
+     },
+     {
+      "when": "coca_cola",
+      "model": {
+       "type": "minecraft:model",
+       "model": "tog_yks-cards:item/tray_hand/coca_cola",
+       "transformation": {
+        "left_rotation": [
+         0,
+         0,
+         0,
+         1
+        ],
+        "right_rotation": [
+         0,
+         0,
+         0,
+         1
+        ],
+        "scale": [
+         0.36,
+         0.36,
+         0.36
+        ],
+        "translation": [
+         0.59,
+         0.0688,
+         0.19
+        ]
+       }
+      }
+     },
+     {
+      "when": "fanta",
+      "model": {
+       "type": "minecraft:model",
+       "model": "tog_yks-cards:item/tray_hand/fanta",
+       "transformation": {
+        "left_rotation": [
+         0,
+         0,
+         0,
+         1
+        ],
+        "right_rotation": [
+         0,
+         0,
+         0,
+         1
+        ],
+        "scale": [
+         0.36,
+         0.36,
+         0.36
+        ],
+        "translation": [
+         0.59,
+         0.0688,
+         0.19
+        ]
+       }
+      }
+     },
+     {
+      "when": "filet_o_fish",
+      "model": {
+       "type": "minecraft:model",
+       "model": "tog_yks-cards:item/tray_hand/filet_o_fish",
+       "transformation": {
+        "left_rotation": [
+         0,
+         0,
+         0,
+         1
+        ],
+        "right_rotation": [
+         0,
+         0,
+         0,
+         1
+        ],
+        "scale": [
+         0.36,
+         0.36,
+         0.36
+        ],
+        "translation": [
+         0.59,
+         0.0688,
+         0.19
+        ]
+       }
+      }
+     },
+     {
+      "when": "fries",
+      "model": {
+       "type": "minecraft:model",
+       "model": "tog_yks-cards:item/tray_hand/fries",
+       "transformation": {
+        "left_rotation": [
+         0,
+         0,
+         0,
+         1
+        ],
+        "right_rotation": [
+         0,
+         0,
+         0,
+         1
+        ],
+        "scale": [
+         0.36,
+         0.36,
+         0.36
+        ],
+        "translation": [
+         0.59,
+         0.0688,
+         0.19
+        ]
+       }
+      }
+     },
+     {
+      "when": "hamburger",
+      "model": {
+       "type": "minecraft:model",
+       "model": "tog_yks-cards:item/tray_hand/hamburger",
+       "transformation": {
+        "left_rotation": [
+         0,
+         0,
+         0,
+         1
+        ],
+        "right_rotation": [
+         0,
+         0,
+         0,
+         1
+        ],
+        "scale": [
+         0.36,
+         0.36,
+         0.36
+        ],
+        "translation": [
+         0.59,
+         0.0688,
+         0.19
+        ]
+       }
+      }
+     },
+     {
+      "when": "happy_meal",
+      "model": {
+       "type": "minecraft:model",
+       "model": "tog_yks-cards:item/tray_hand/happy_meal",
+       "transformation": {
+        "left_rotation": [
+         0,
+         0,
+         0,
+         1
+        ],
+        "right_rotation": [
+         0,
+         0,
+         0,
+         1
+        ],
+        "scale": [
+         0.36,
+         0.36,
+         0.36
+        ],
+        "translation": [
+         0.59,
+         0.0688,
+         0.19
+        ]
+       }
+      }
+     },
+     {
+      "when": "ketchup",
+      "model": {
+       "type": "minecraft:model",
+       "model": "tog_yks-cards:item/tray_hand/ketchup",
+       "transformation": {
+        "left_rotation": [
+         0,
+         0,
+         0,
+         1
+        ],
+        "right_rotation": [
+         0,
+         0,
+         0,
+         1
+        ],
+        "scale": [
+         0.36,
+         0.36,
+         0.36
+        ],
+        "translation": [
+         0.59,
+         0.0688,
+         0.19
+        ]
+       }
+      }
+     },
+     {
+      "when": "lipton_ice_tea_peach",
+      "model": {
+       "type": "minecraft:model",
+       "model": "tog_yks-cards:item/tray_hand/lipton_ice_tea_peach",
+       "transformation": {
+        "left_rotation": [
+         0,
+         0,
+         0,
+         1
+        ],
+        "right_rotation": [
+         0,
+         0,
+         0,
+         1
+        ],
+        "scale": [
+         0.36,
+         0.36,
+         0.36
+        ],
+        "translation": [
+         0.59,
+         0.0688,
+         0.19
+        ]
+       }
+      }
+     },
+     {
+      "when": "mayonnaise",
+      "model": {
+       "type": "minecraft:model",
+       "model": "tog_yks-cards:item/tray_hand/mayonnaise",
+       "transformation": {
+        "left_rotation": [
+         0,
+         0,
+         0,
+         1
+        ],
+        "right_rotation": [
+         0,
+         0,
+         0,
+         1
+        ],
+        "scale": [
+         0.36,
+         0.36,
+         0.36
+        ],
+        "translation": [
+         0.59,
+         0.0688,
+         0.19
+        ]
+       }
+      }
+     },
+     {
+      "when": "mcbacon",
+      "model": {
+       "type": "minecraft:model",
+       "model": "tog_yks-cards:item/tray_hand/mcbacon",
+       "transformation": {
+        "left_rotation": [
+         0,
+         0,
+         0,
+         1
+        ],
+        "right_rotation": [
+         0,
+         0,
+         0,
+         1
+        ],
+        "scale": [
+         0.36,
+         0.36,
+         0.36
+        ],
+        "translation": [
+         0.59,
+         0.0688,
+         0.19
+        ]
+       }
+      }
+     },
+     {
+      "when": "mcchicken",
+      "model": {
+       "type": "minecraft:model",
+       "model": "tog_yks-cards:item/tray_hand/mcchicken",
+       "transformation": {
+        "left_rotation": [
+         0,
+         0,
+         0,
+         1
+        ],
+        "right_rotation": [
+         0,
+         0,
+         0,
+         1
+        ],
+        "scale": [
+         0.36,
+         0.36,
+         0.36
+        ],
+        "translation": [
+         0.59,
+         0.0688,
+         0.19
+        ]
+       }
+      }
+     },
+     {
+      "when": "mcflurry",
+      "model": {
+       "type": "minecraft:model",
+       "model": "tog_yks-cards:item/tray_hand/mcflurry",
+       "transformation": {
+        "left_rotation": [
+         0,
+         0,
+         0,
+         1
+        ],
+        "right_rotation": [
+         0,
+         0,
+         0,
+         1
+        ],
+        "scale": [
+         0.36,
+         0.36,
+         0.36
+        ],
+        "translation": [
+         0.59,
+         0.0688,
+         0.19
+        ]
+       }
+      }
+     },
+     {
+      "when": "mcflurry_chocolate",
+      "model": {
+       "type": "minecraft:model",
+       "model": "tog_yks-cards:item/tray_hand/mcflurry_chocolate",
+       "transformation": {
+        "left_rotation": [
+         0,
+         0,
+         0,
+         1
+        ],
+        "right_rotation": [
+         0,
+         0,
+         0,
+         1
+        ],
+        "scale": [
+         0.36,
+         0.36,
+         0.36
+        ],
+        "translation": [
+         0.59,
+         0.0688,
+         0.19
+        ]
+       }
+      }
+     },
+     {
+      "when": "mcwrap",
+      "model": {
+       "type": "minecraft:model",
+       "model": "tog_yks-cards:item/tray_hand/mcwrap",
+       "transformation": {
+        "left_rotation": [
+         0,
+         0,
+         0,
+         1
+        ],
+        "right_rotation": [
+         0,
+         0,
+         0,
+         1
+        ],
+        "scale": [
+         0.36,
+         0.36,
+         0.36
+        ],
+        "translation": [
+         0.59,
+         0.0688,
+         0.19
+        ]
+       }
+      }
+     },
+     {
+      "when": "mustard",
+      "model": {
+       "type": "minecraft:model",
+       "model": "tog_yks-cards:item/tray_hand/mustard",
+       "transformation": {
+        "left_rotation": [
+         0,
+         0,
+         0,
+         1
+        ],
+        "right_rotation": [
+         0,
+         0,
+         0,
+         1
+        ],
+        "scale": [
+         0.36,
+         0.36,
+         0.36
+        ],
+        "translation": [
+         0.59,
+         0.0688,
+         0.19
+        ]
+       }
+      }
+     },
+     {
+      "when": "snack_salad",
+      "model": {
+       "type": "minecraft:model",
+       "model": "tog_yks-cards:item/tray_hand/snack_salad",
+       "transformation": {
+        "left_rotation": [
+         0,
+         0,
+         0,
+         1
+        ],
+        "right_rotation": [
+         0,
+         0,
+         0,
+         1
+        ],
+        "scale": [
+         0.36,
+         0.36,
+         0.36
+        ],
+        "translation": [
+         0.59,
+         0.0688,
+         0.19
+        ]
+       }
+      }
+     },
+     {
+      "when": "sprite",
+      "model": {
+       "type": "minecraft:model",
+       "model": "tog_yks-cards:item/tray_hand/sprite",
+       "transformation": {
+        "left_rotation": [
+         0,
+         0,
+         0,
+         1
+        ],
+        "right_rotation": [
+         0,
+         0,
+         0,
+         1
+        ],
+        "scale": [
+         0.36,
+         0.36,
+         0.36
+        ],
+        "translation": [
+         0.59,
+         0.0688,
+         0.19
+        ]
+       }
+      }
+     },
+     {
+      "when": "sweet_sour_sauce",
+      "model": {
+       "type": "minecraft:model",
+       "model": "tog_yks-cards:item/tray_hand/sweet_sour_sauce",
+       "transformation": {
+        "left_rotation": [
+         0,
+         0,
+         0,
+         1
+        ],
+        "right_rotation": [
+         0,
+         0,
+         0,
+         1
+        ],
+        "scale": [
+         0.36,
+         0.36,
+         0.36
+        ],
+        "translation": [
+         0.59,
+         0.0688,
+         0.19
+        ]
+       }
+      }
+     }
+    ],
+    "fallback": {
+     "type": "minecraft:empty"
+    }
+   },
+   {
+    "type": "minecraft:select",
+    "property": "minecraft:custom_model_data",
+    "index": 4,
+    "cases": [
+     {
+      "when": "big_mac",
+      "model": {
+       "type": "minecraft:model",
+       "model": "tog_yks-cards:item/tray_hand/big_mac",
+       "transformation": {
+        "left_rotation": [
+         0,
+         0,
+         0,
+         1
+        ],
+        "right_rotation": [
+         0,
+         0,
+         0,
+         1
+        ],
+        "scale": [
+         0.36,
+         0.36,
+         0.36
+        ],
+        "translation": [
+         0.32,
+         0.0688,
+         0.19
+        ]
+       }
+      }
+     },
+     {
+      "when": "cheeseburger",
+      "model": {
+       "type": "minecraft:model",
+       "model": "tog_yks-cards:item/tray_hand/cheeseburger",
+       "transformation": {
+        "left_rotation": [
+         0,
+         0,
+         0,
+         1
+        ],
+        "right_rotation": [
+         0,
+         0,
+         0,
+         1
+        ],
+        "scale": [
+         0.36,
+         0.36,
+         0.36
+        ],
+        "translation": [
+         0.32,
+         0.0688,
+         0.19
+        ]
+       }
+      }
+     },
+     {
+      "when": "chicken_mcnuggets",
+      "model": {
+       "type": "minecraft:model",
+       "model": "tog_yks-cards:item/tray_hand/chicken_mcnuggets",
+       "transformation": {
+        "left_rotation": [
+         0,
+         0,
+         0,
+         1
+        ],
+        "right_rotation": [
+         0,
+         0,
+         0,
+         1
+        ],
+        "scale": [
+         0.36,
+         0.36,
+         0.36
+        ],
+        "translation": [
+         0.32,
+         0.0688,
+         0.19
+        ]
+       }
+      }
+     },
+     {
+      "when": "chickenburger",
+      "model": {
+       "type": "minecraft:model",
+       "model": "tog_yks-cards:item/tray_hand/chickenburger",
+       "transformation": {
+        "left_rotation": [
+         0,
+         0,
+         0,
+         1
+        ],
+        "right_rotation": [
+         0,
+         0,
+         0,
+         1
+        ],
+        "scale": [
+         0.36,
+         0.36,
+         0.36
+        ],
+        "translation": [
+         0.32,
+         0.0688,
+         0.19
+        ]
+       }
+      }
+     },
+     {
+      "when": "coca_cola",
+      "model": {
+       "type": "minecraft:model",
+       "model": "tog_yks-cards:item/tray_hand/coca_cola",
+       "transformation": {
+        "left_rotation": [
+         0,
+         0,
+         0,
+         1
+        ],
+        "right_rotation": [
+         0,
+         0,
+         0,
+         1
+        ],
+        "scale": [
+         0.36,
+         0.36,
+         0.36
+        ],
+        "translation": [
+         0.32,
+         0.0688,
+         0.19
+        ]
+       }
+      }
+     },
+     {
+      "when": "fanta",
+      "model": {
+       "type": "minecraft:model",
+       "model": "tog_yks-cards:item/tray_hand/fanta",
+       "transformation": {
+        "left_rotation": [
+         0,
+         0,
+         0,
+         1
+        ],
+        "right_rotation": [
+         0,
+         0,
+         0,
+         1
+        ],
+        "scale": [
+         0.36,
+         0.36,
+         0.36
+        ],
+        "translation": [
+         0.32,
+         0.0688,
+         0.19
+        ]
+       }
+      }
+     },
+     {
+      "when": "filet_o_fish",
+      "model": {
+       "type": "minecraft:model",
+       "model": "tog_yks-cards:item/tray_hand/filet_o_fish",
+       "transformation": {
+        "left_rotation": [
+         0,
+         0,
+         0,
+         1
+        ],
+        "right_rotation": [
+         0,
+         0,
+         0,
+         1
+        ],
+        "scale": [
+         0.36,
+         0.36,
+         0.36
+        ],
+        "translation": [
+         0.32,
+         0.0688,
+         0.19
+        ]
+       }
+      }
+     },
+     {
+      "when": "fries",
+      "model": {
+       "type": "minecraft:model",
+       "model": "tog_yks-cards:item/tray_hand/fries",
+       "transformation": {
+        "left_rotation": [
+         0,
+         0,
+         0,
+         1
+        ],
+        "right_rotation": [
+         0,
+         0,
+         0,
+         1
+        ],
+        "scale": [
+         0.36,
+         0.36,
+         0.36
+        ],
+        "translation": [
+         0.32,
+         0.0688,
+         0.19
+        ]
+       }
+      }
+     },
+     {
+      "when": "hamburger",
+      "model": {
+       "type": "minecraft:model",
+       "model": "tog_yks-cards:item/tray_hand/hamburger",
+       "transformation": {
+        "left_rotation": [
+         0,
+         0,
+         0,
+         1
+        ],
+        "right_rotation": [
+         0,
+         0,
+         0,
+         1
+        ],
+        "scale": [
+         0.36,
+         0.36,
+         0.36
+        ],
+        "translation": [
+         0.32,
+         0.0688,
+         0.19
+        ]
+       }
+      }
+     },
+     {
+      "when": "happy_meal",
+      "model": {
+       "type": "minecraft:model",
+       "model": "tog_yks-cards:item/tray_hand/happy_meal",
+       "transformation": {
+        "left_rotation": [
+         0,
+         0,
+         0,
+         1
+        ],
+        "right_rotation": [
+         0,
+         0,
+         0,
+         1
+        ],
+        "scale": [
+         0.36,
+         0.36,
+         0.36
+        ],
+        "translation": [
+         0.32,
+         0.0688,
+         0.19
+        ]
+       }
+      }
+     },
+     {
+      "when": "ketchup",
+      "model": {
+       "type": "minecraft:model",
+       "model": "tog_yks-cards:item/tray_hand/ketchup",
+       "transformation": {
+        "left_rotation": [
+         0,
+         0,
+         0,
+         1
+        ],
+        "right_rotation": [
+         0,
+         0,
+         0,
+         1
+        ],
+        "scale": [
+         0.36,
+         0.36,
+         0.36
+        ],
+        "translation": [
+         0.32,
+         0.0688,
+         0.19
+        ]
+       }
+      }
+     },
+     {
+      "when": "lipton_ice_tea_peach",
+      "model": {
+       "type": "minecraft:model",
+       "model": "tog_yks-cards:item/tray_hand/lipton_ice_tea_peach",
+       "transformation": {
+        "left_rotation": [
+         0,
+         0,
+         0,
+         1
+        ],
+        "right_rotation": [
+         0,
+         0,
+         0,
+         1
+        ],
+        "scale": [
+         0.36,
+         0.36,
+         0.36
+        ],
+        "translation": [
+         0.32,
+         0.0688,
+         0.19
+        ]
+       }
+      }
+     },
+     {
+      "when": "mayonnaise",
+      "model": {
+       "type": "minecraft:model",
+       "model": "tog_yks-cards:item/tray_hand/mayonnaise",
+       "transformation": {
+        "left_rotation": [
+         0,
+         0,
+         0,
+         1
+        ],
+        "right_rotation": [
+         0,
+         0,
+         0,
+         1
+        ],
+        "scale": [
+         0.36,
+         0.36,
+         0.36
+        ],
+        "translation": [
+         0.32,
+         0.0688,
+         0.19
+        ]
+       }
+      }
+     },
+     {
+      "when": "mcbacon",
+      "model": {
+       "type": "minecraft:model",
+       "model": "tog_yks-cards:item/tray_hand/mcbacon",
+       "transformation": {
+        "left_rotation": [
+         0,
+         0,
+         0,
+         1
+        ],
+        "right_rotation": [
+         0,
+         0,
+         0,
+         1
+        ],
+        "scale": [
+         0.36,
+         0.36,
+         0.36
+        ],
+        "translation": [
+         0.32,
+         0.0688,
+         0.19
+        ]
+       }
+      }
+     },
+     {
+      "when": "mcchicken",
+      "model": {
+       "type": "minecraft:model",
+       "model": "tog_yks-cards:item/tray_hand/mcchicken",
+       "transformation": {
+        "left_rotation": [
+         0,
+         0,
+         0,
+         1
+        ],
+        "right_rotation": [
+         0,
+         0,
+         0,
+         1
+        ],
+        "scale": [
+         0.36,
+         0.36,
+         0.36
+        ],
+        "translation": [
+         0.32,
+         0.0688,
+         0.19
+        ]
+       }
+      }
+     },
+     {
+      "when": "mcflurry",
+      "model": {
+       "type": "minecraft:model",
+       "model": "tog_yks-cards:item/tray_hand/mcflurry",
+       "transformation": {
+        "left_rotation": [
+         0,
+         0,
+         0,
+         1
+        ],
+        "right_rotation": [
+         0,
+         0,
+         0,
+         1
+        ],
+        "scale": [
+         0.36,
+         0.36,
+         0.36
+        ],
+        "translation": [
+         0.32,
+         0.0688,
+         0.19
+        ]
+       }
+      }
+     },
+     {
+      "when": "mcflurry_chocolate",
+      "model": {
+       "type": "minecraft:model",
+       "model": "tog_yks-cards:item/tray_hand/mcflurry_chocolate",
+       "transformation": {
+        "left_rotation": [
+         0,
+         0,
+         0,
+         1
+        ],
+        "right_rotation": [
+         0,
+         0,
+         0,
+         1
+        ],
+        "scale": [
+         0.36,
+         0.36,
+         0.36
+        ],
+        "translation": [
+         0.32,
+         0.0688,
+         0.19
+        ]
+       }
+      }
+     },
+     {
+      "when": "mcwrap",
+      "model": {
+       "type": "minecraft:model",
+       "model": "tog_yks-cards:item/tray_hand/mcwrap",
+       "transformation": {
+        "left_rotation": [
+         0,
+         0,
+         0,
+         1
+        ],
+        "right_rotation": [
+         0,
+         0,
+         0,
+         1
+        ],
+        "scale": [
+         0.36,
+         0.36,
+         0.36
+        ],
+        "translation": [
+         0.32,
+         0.0688,
+         0.19
+        ]
+       }
+      }
+     },
+     {
+      "when": "mustard",
+      "model": {
+       "type": "minecraft:model",
+       "model": "tog_yks-cards:item/tray_hand/mustard",
+       "transformation": {
+        "left_rotation": [
+         0,
+         0,
+         0,
+         1
+        ],
+        "right_rotation": [
+         0,
+         0,
+         0,
+         1
+        ],
+        "scale": [
+         0.36,
+         0.36,
+         0.36
+        ],
+        "translation": [
+         0.32,
+         0.0688,
+         0.19
+        ]
+       }
+      }
+     },
+     {
+      "when": "snack_salad",
+      "model": {
+       "type": "minecraft:model",
+       "model": "tog_yks-cards:item/tray_hand/snack_salad",
+       "transformation": {
+        "left_rotation": [
+         0,
+         0,
+         0,
+         1
+        ],
+        "right_rotation": [
+         0,
+         0,
+         0,
+         1
+        ],
+        "scale": [
+         0.36,
+         0.36,
+         0.36
+        ],
+        "translation": [
+         0.32,
+         0.0688,
+         0.19
+        ]
+       }
+      }
+     },
+     {
+      "when": "sprite",
+      "model": {
+       "type": "minecraft:model",
+       "model": "tog_yks-cards:item/tray_hand/sprite",
+       "transformation": {
+        "left_rotation": [
+         0,
+         0,
+         0,
+         1
+        ],
+        "right_rotation": [
+         0,
+         0,
+         0,
+         1
+        ],
+        "scale": [
+         0.36,
+         0.36,
+         0.36
+        ],
+        "translation": [
+         0.32,
+         0.0688,
+         0.19
+        ]
+       }
+      }
+     },
+     {
+      "when": "sweet_sour_sauce",
+      "model": {
+       "type": "minecraft:model",
+       "model": "tog_yks-cards:item/tray_hand/sweet_sour_sauce",
+       "transformation": {
+        "left_rotation": [
+         0,
+         0,
+         0,
+         1
+        ],
+        "right_rotation": [
+         0,
+         0,
+         0,
+         1
+        ],
+        "scale": [
+         0.36,
+         0.36,
+         0.36
+        ],
+        "translation": [
+         0.32,
+         0.0688,
+         0.19
+        ]
+       }
+      }
+     }
+    ],
+    "fallback": {
+     "type": "minecraft:empty"
+    }
+   },
+   {
+    "type": "minecraft:select",
+    "property": "minecraft:custom_model_data",
+    "index": 5,
+    "cases": [
+     {
+      "when": "big_mac",
+      "model": {
+       "type": "minecraft:model",
+       "model": "tog_yks-cards:item/tray_hand/big_mac",
+       "transformation": {
+        "left_rotation": [
+         0,
+         0,
+         0,
+         1
+        ],
+        "right_rotation": [
+         0,
+         0,
+         0,
+         1
+        ],
+        "scale": [
+         0.36,
+         0.36,
+         0.36
+        ],
+        "translation": [
+         0.05,
+         0.0688,
+         0.19
+        ]
+       }
+      }
+     },
+     {
+      "when": "cheeseburger",
+      "model": {
+       "type": "minecraft:model",
+       "model": "tog_yks-cards:item/tray_hand/cheeseburger",
+       "transformation": {
+        "left_rotation": [
+         0,
+         0,
+         0,
+         1
+        ],
+        "right_rotation": [
+         0,
+         0,
+         0,
+         1
+        ],
+        "scale": [
+         0.36,
+         0.36,
+         0.36
+        ],
+        "translation": [
+         0.05,
+         0.0688,
+         0.19
+        ]
+       }
+      }
+     },
+     {
+      "when": "chicken_mcnuggets",
+      "model": {
+       "type": "minecraft:model",
+       "model": "tog_yks-cards:item/tray_hand/chicken_mcnuggets",
+       "transformation": {
+        "left_rotation": [
+         0,
+         0,
+         0,
+         1
+        ],
+        "right_rotation": [
+         0,
+         0,
+         0,
+         1
+        ],
+        "scale": [
+         0.36,
+         0.36,
+         0.36
+        ],
+        "translation": [
+         0.05,
+         0.0688,
+         0.19
+        ]
+       }
+      }
+     },
+     {
+      "when": "chickenburger",
+      "model": {
+       "type": "minecraft:model",
+       "model": "tog_yks-cards:item/tray_hand/chickenburger",
+       "transformation": {
+        "left_rotation": [
+         0,
+         0,
+         0,
+         1
+        ],
+        "right_rotation": [
+         0,
+         0,
+         0,
+         1
+        ],
+        "scale": [
+         0.36,
+         0.36,
+         0.36
+        ],
+        "translation": [
+         0.05,
+         0.0688,
+         0.19
+        ]
+       }
+      }
+     },
+     {
+      "when": "coca_cola",
+      "model": {
+       "type": "minecraft:model",
+       "model": "tog_yks-cards:item/tray_hand/coca_cola",
+       "transformation": {
+        "left_rotation": [
+         0,
+         0,
+         0,
+         1
+        ],
+        "right_rotation": [
+         0,
+         0,
+         0,
+         1
+        ],
+        "scale": [
+         0.36,
+         0.36,
+         0.36
+        ],
+        "translation": [
+         0.05,
+         0.0688,
+         0.19
+        ]
+       }
+      }
+     },
+     {
+      "when": "fanta",
+      "model": {
+       "type": "minecraft:model",
+       "model": "tog_yks-cards:item/tray_hand/fanta",
+       "transformation": {
+        "left_rotation": [
+         0,
+         0,
+         0,
+         1
+        ],
+        "right_rotation": [
+         0,
+         0,
+         0,
+         1
+        ],
+        "scale": [
+         0.36,
+         0.36,
+         0.36
+        ],
+        "translation": [
+         0.05,
+         0.0688,
+         0.19
+        ]
+       }
+      }
+     },
+     {
+      "when": "filet_o_fish",
+      "model": {
+       "type": "minecraft:model",
+       "model": "tog_yks-cards:item/tray_hand/filet_o_fish",
+       "transformation": {
+        "left_rotation": [
+         0,
+         0,
+         0,
+         1
+        ],
+        "right_rotation": [
+         0,
+         0,
+         0,
+         1
+        ],
+        "scale": [
+         0.36,
+         0.36,
+         0.36
+        ],
+        "translation": [
+         0.05,
+         0.0688,
+         0.19
+        ]
+       }
+      }
+     },
+     {
+      "when": "fries",
+      "model": {
+       "type": "minecraft:model",
+       "model": "tog_yks-cards:item/tray_hand/fries",
+       "transformation": {
+        "left_rotation": [
+         0,
+         0,
+         0,
+         1
+        ],
+        "right_rotation": [
+         0,
+         0,
+         0,
+         1
+        ],
+        "scale": [
+         0.36,
+         0.36,
+         0.36
+        ],
+        "translation": [
+         0.05,
+         0.0688,
+         0.19
+        ]
+       }
+      }
+     },
+     {
+      "when": "hamburger",
+      "model": {
+       "type": "minecraft:model",
+       "model": "tog_yks-cards:item/tray_hand/hamburger",
+       "transformation": {
+        "left_rotation": [
+         0,
+         0,
+         0,
+         1
+        ],
+        "right_rotation": [
+         0,
+         0,
+         0,
+         1
+        ],
+        "scale": [
+         0.36,
+         0.36,
+         0.36
+        ],
+        "translation": [
+         0.05,
+         0.0688,
+         0.19
+        ]
+       }
+      }
+     },
+     {
+      "when": "happy_meal",
+      "model": {
+       "type": "minecraft:model",
+       "model": "tog_yks-cards:item/tray_hand/happy_meal",
+       "transformation": {
+        "left_rotation": [
+         0,
+         0,
+         0,
+         1
+        ],
+        "right_rotation": [
+         0,
+         0,
+         0,
+         1
+        ],
+        "scale": [
+         0.36,
+         0.36,
+         0.36
+        ],
+        "translation": [
+         0.05,
+         0.0688,
+         0.19
+        ]
+       }
+      }
+     },
+     {
+      "when": "ketchup",
+      "model": {
+       "type": "minecraft:model",
+       "model": "tog_yks-cards:item/tray_hand/ketchup",
+       "transformation": {
+        "left_rotation": [
+         0,
+         0,
+         0,
+         1
+        ],
+        "right_rotation": [
+         0,
+         0,
+         0,
+         1
+        ],
+        "scale": [
+         0.36,
+         0.36,
+         0.36
+        ],
+        "translation": [
+         0.05,
+         0.0688,
+         0.19
+        ]
+       }
+      }
+     },
+     {
+      "when": "lipton_ice_tea_peach",
+      "model": {
+       "type": "minecraft:model",
+       "model": "tog_yks-cards:item/tray_hand/lipton_ice_tea_peach",
+       "transformation": {
+        "left_rotation": [
+         0,
+         0,
+         0,
+         1
+        ],
+        "right_rotation": [
+         0,
+         0,
+         0,
+         1
+        ],
+        "scale": [
+         0.36,
+         0.36,
+         0.36
+        ],
+        "translation": [
+         0.05,
+         0.0688,
+         0.19
+        ]
+       }
+      }
+     },
+     {
+      "when": "mayonnaise",
+      "model": {
+       "type": "minecraft:model",
+       "model": "tog_yks-cards:item/tray_hand/mayonnaise",
+       "transformation": {
+        "left_rotation": [
+         0,
+         0,
+         0,
+         1
+        ],
+        "right_rotation": [
+         0,
+         0,
+         0,
+         1
+        ],
+        "scale": [
+         0.36,
+         0.36,
+         0.36
+        ],
+        "translation": [
+         0.05,
+         0.0688,
+         0.19
+        ]
+       }
+      }
+     },
+     {
+      "when": "mcbacon",
+      "model": {
+       "type": "minecraft:model",
+       "model": "tog_yks-cards:item/tray_hand/mcbacon",
+       "transformation": {
+        "left_rotation": [
+         0,
+         0,
+         0,
+         1
+        ],
+        "right_rotation": [
+         0,
+         0,
+         0,
+         1
+        ],
+        "scale": [
+         0.36,
+         0.36,
+         0.36
+        ],
+        "translation": [
+         0.05,
+         0.0688,
+         0.19
+        ]
+       }
+      }
+     },
+     {
+      "when": "mcchicken",
+      "model": {
+       "type": "minecraft:model",
+       "model": "tog_yks-cards:item/tray_hand/mcchicken",
+       "transformation": {
+        "left_rotation": [
+         0,
+         0,
+         0,
+         1
+        ],
+        "right_rotation": [
+         0,
+         0,
+         0,
+         1
+        ],
+        "scale": [
+         0.36,
+         0.36,
+         0.36
+        ],
+        "translation": [
+         0.05,
+         0.0688,
+         0.19
+        ]
+       }
+      }
+     },
+     {
+      "when": "mcflurry",
+      "model": {
+       "type": "minecraft:model",
+       "model": "tog_yks-cards:item/tray_hand/mcflurry",
+       "transformation": {
+        "left_rotation": [
+         0,
+         0,
+         0,
+         1
+        ],
+        "right_rotation": [
+         0,
+         0,
+         0,
+         1
+        ],
+        "scale": [
+         0.36,
+         0.36,
+         0.36
+        ],
+        "translation": [
+         0.05,
+         0.0688,
+         0.19
+        ]
+       }
+      }
+     },
+     {
+      "when": "mcflurry_chocolate",
+      "model": {
+       "type": "minecraft:model",
+       "model": "tog_yks-cards:item/tray_hand/mcflurry_chocolate",
+       "transformation": {
+        "left_rotation": [
+         0,
+         0,
+         0,
+         1
+        ],
+        "right_rotation": [
+         0,
+         0,
+         0,
+         1
+        ],
+        "scale": [
+         0.36,
+         0.36,
+         0.36
+        ],
+        "translation": [
+         0.05,
+         0.0688,
+         0.19
+        ]
+       }
+      }
+     },
+     {
+      "when": "mcwrap",
+      "model": {
+       "type": "minecraft:model",
+       "model": "tog_yks-cards:item/tray_hand/mcwrap",
+       "transformation": {
+        "left_rotation": [
+         0,
+         0,
+         0,
+         1
+        ],
+        "right_rotation": [
+         0,
+         0,
+         0,
+         1
+        ],
+        "scale": [
+         0.36,
+         0.36,
+         0.36
+        ],
+        "translation": [
+         0.05,
+         0.0688,
+         0.19
+        ]
+       }
+      }
+     },
+     {
+      "when": "mustard",
+      "model": {
+       "type": "minecraft:model",
+       "model": "tog_yks-cards:item/tray_hand/mustard",
+       "transformation": {
+        "left_rotation": [
+         0,
+         0,
+         0,
+         1
+        ],
+        "right_rotation": [
+         0,
+         0,
+         0,
+         1
+        ],
+        "scale": [
+         0.36,
+         0.36,
+         0.36
+        ],
+        "translation": [
+         0.05,
+         0.0688,
+         0.19
+        ]
+       }
+      }
+     },
+     {
+      "when": "snack_salad",
+      "model": {
+       "type": "minecraft:model",
+       "model": "tog_yks-cards:item/tray_hand/snack_salad",
+       "transformation": {
+        "left_rotation": [
+         0,
+         0,
+         0,
+         1
+        ],
+        "right_rotation": [
+         0,
+         0,
+         0,
+         1
+        ],
+        "scale": [
+         0.36,
+         0.36,
+         0.36
+        ],
+        "translation": [
+         0.05,
+         0.0688,
+         0.19
+        ]
+       }
+      }
+     },
+     {
+      "when": "sprite",
+      "model": {
+       "type": "minecraft:model",
+       "model": "tog_yks-cards:item/tray_hand/sprite",
+       "transformation": {
+        "left_rotation": [
+         0,
+         0,
+         0,
+         1
+        ],
+        "right_rotation": [
+         0,
+         0,
+         0,
+         1
+        ],
+        "scale": [
+         0.36,
+         0.36,
+         0.36
+        ],
+        "translation": [
+         0.05,
+         0.0688,
+         0.19
+        ]
+       }
+      }
+     },
+     {
+      "when": "sweet_sour_sauce",
+      "model": {
+       "type": "minecraft:model",
+       "model": "tog_yks-cards:item/tray_hand/sweet_sour_sauce",
+       "transformation": {
+        "left_rotation": [
+         0,
+         0,
+         0,
+         1
+        ],
+        "right_rotation": [
+         0,
+         0,
+         0,
+         1
+        ],
+        "scale": [
+         0.36,
+         0.36,
+         0.36
+        ],
+        "translation": [
+         0.05,
+         0.0688,
+         0.19
+        ]
+       }
+      }
+     }
+    ],
+    "fallback": {
+     "type": "minecraft:empty"
+    }
+   }
+  ]
+ }
+}

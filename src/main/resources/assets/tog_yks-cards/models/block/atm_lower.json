@@ -1,0 +1,192 @@
+{
+ "parent": "minecraft:block/block",
+ "textures": {
+  "particle": "tog_yks-cards:block/atm/side_lower",
+  "front_lower": "tog_yks-cards:block/atm/front_lower",
+  "front_upper": "tog_yks-cards:block/atm/front_upper",
+  "side_lower": "tog_yks-cards:block/atm/side_lower",
+  "side_upper": "tog_yks-cards:block/atm/side_upper",
+  "top": "tog_yks-cards:block/atm/top",
+  "keypad": "tog_yks-cards:block/atm/keypad",
+  "trim": "tog_yks-cards:block/atm/trim"
+ },
+ "elements": [
+  {
+   "from": [
+    1,
+    0,
+    4
+   ],
+   "to": [
+    15,
+    16,
+    16
+   ],
+   "faces": {
+    "north": {
+     "texture": "#front_lower",
+     "uv": [
+      1,
+      0,
+      15,
+      16
+     ]
+    },
+    "south": {
+     "texture": "#side_lower",
+     "uv": [
+      1,
+      0,
+      15,
+      16
+     ]
+    },
+    "east": {
+     "texture": "#side_lower",
+     "uv": [
+      0,
+      0,
+      12,
+      16
+     ]
+    },
+    "west": {
+     "texture": "#side_lower",
+     "uv": [
+      4,
+      0,
+      16,
+      16
+     ]
+    },
+    "down": {
+     "texture": "#trim",
+     "uv": [
+      1,
+      0,
+      15,
+      12
+     ]
+    }
+   }
+  },
+  {
+   "from": [
+    1,
+    12.5,
+    0
+   ],
+   "to": [
+    15,
+    14,
+    4
+   ],
+   "rotation": {
+    "origin": [
+     8,
+     14,
+     4
+    ],
+    "axis": "x",
+    "angle": -22.5
+   },
+   "faces": {
+    "up": {
+     "texture": "#keypad",
+     "uv": [
+      1,
+      15,
+      15,
+      1
+     ]
+    },
+    "north": {
+     "texture": "#trim",
+     "uv": [
+      1,
+      2,
+      15,
+      3.5
+     ]
+    },
+    "east": {
+     "texture": "#trim",
+     "uv": [
+      12,
+      2,
+      16,
+      3.5
+     ]
+    },
+    "west": {
+     "texture": "#trim",
+     "uv": [
+      0,
+      2,
+      4,
+      3.5
+     ]
+    },
+    "down": {
+     "texture": "#trim",
+     "uv": [
+      1,
+      12,
+      15,
+      16
+     ]
+    }
+   }
+  },
+  {
+   "from": [
+    1,
+    9,
+    2
+   ],
+   "to": [
+    15,
+    12.5,
+    4
+   ],
+   "faces": {
+    "north": {
+     "texture": "#trim",
+     "uv": [
+      1,
+      3.5,
+      15,
+      7
+     ]
+    },
+    "east": {
+     "texture": "#trim",
+     "uv": [
+      12,
+      3.5,
+      14,
+      7
+     ]
+    },
+    "west": {
+     "texture": "#trim",
+     "uv": [
+      2,
+      3.5,
+      4,
+      7
+     ]
+    },
+    "down": {
+     "texture": "#trim",
+     "uv": [
+      1,
+      12,
+      15,
+      14
+     ]
+    }
+   }
+  }
+ ]
+}

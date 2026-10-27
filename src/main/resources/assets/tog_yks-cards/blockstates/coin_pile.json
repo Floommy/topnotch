@@ -1,0 +1,12 @@
+{
+  "variants": {
+    "preview=true": {
+      "model": "tog_yks-cards:block/coin_preview",
+      "y": 90
+    },
+    "preview=false": {
+      "model": "tog_yks-cards:block/coin",
+      "y": 90
+    }
+  }
+}

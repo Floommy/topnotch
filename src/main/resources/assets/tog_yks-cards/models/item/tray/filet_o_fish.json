@@ -1,0 +1,147 @@
+{
+ "textures": {
+  "bun_steamed": "tog_yks-cards:block/food/bun_steamed",
+  "fish": "tog_yks-cards:block/food/fish",
+  "cheese": "tog_yks-cards:block/food/cheese",
+  "particle": "tog_yks-cards:block/food/bun_steamed"
+ },
+ "elements": [
+  {
+   "from": [
+    3,
+    0,
+    3
+   ],
+   "to": [
+    13,
+    2,
+    13
+   ],
+   "faces": {
+    "north": {
+     "texture": "#bun_steamed"
+    },
+    "south": {
+     "texture": "#bun_steamed"
+    },
+    "east": {
+     "texture": "#bun_steamed"
+    },
+    "west": {
+     "texture": "#bun_steamed"
+    },
+    "up": {
+     "texture": "#bun_steamed"
+    },
+    "down": {
+     "texture": "#bun_steamed"
+    }
+   }
+  },
+  {
+   "from": [
+    2.6,
+    2,
+    2.6
+   ],
+   "to": [
+    13.4,
+    3.8,
+    13.4
+   ],
+   "faces": {
+    "north": {
+     "texture": "#fish"
+    },
+    "south": {
+     "texture": "#fish"
+    },
+    "east": {
+     "texture": "#fish"
+    },
+    "west": {
+     "texture": "#fish"
+    },
+    "up": {
+     "texture": "#fish"
+    },
+    "down": {
+     "texture": "#fish"
+    }
+   }
+  },
+  {
+   "from": [
+    4,
+    3.8,
+    4
+   ],
+   "to": [
+    12.5,
+    4.2,
+    12.5
+   ],
+   "faces": {
+    "north": {
+     "texture": "#cheese"
+    },
+    "south": {
+     "texture": "#cheese"
+    },
+    "east": {
+     "texture": "#cheese"
+    },
+    "west": {
+     "texture": "#cheese"
+    },
+    "up": {
+     "texture": "#cheese"
+    },
+    "down": {
+     "texture": "#cheese"
+    }
+   },
+   "rotation": {
+    "origin": [
+     8,
+     4,
+     8
+    ],
+    "axis": "y",
+    "angle": 22.5
+   }
+  },
+  {
+   "from": [
+    3,
+    4.2,
+    3
+   ],
+   "to": [
+    13,
+    7,
+    13
+   ],
+   "faces": {
+    "north": {
+     "texture": "#bun_steamed"
+    },
+    "south": {
+     "texture": "#bun_steamed"
+    },
+    "east": {
+     "texture": "#bun_steamed"
+    },
+    "west": {
+     "texture": "#bun_steamed"
+    },
+    "up": {
+     "texture": "#bun_steamed"
+    },
+    "down": {
+     "texture": "#bun_steamed"
+    }
+   }
+  }
+ ]
+}

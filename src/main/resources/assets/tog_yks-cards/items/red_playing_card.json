@@ -1,0 +1,484 @@
+{
+  "model": {
+    "type": "minecraft:select",
+    "cases": [
+      {
+        "model": {
+          "type": "minecraft:select",
+          "cases": [
+            {
+              "model": {
+                "type": "minecraft:select",
+                "cases": [
+                  {
+                    "model": {
+                      "type": "minecraft:model",
+                      "model": "tog_yks-cards:item/red_playing_card_joker"
+                    },
+                    "when": "joker"
+                  }
+                ],
+                "fallback": {
+                  "type": "minecraft:model",
+                  "model": "tog_yks-cards:item/red_playing_card_empty"
+                },
+                "name": "joker",
+                "property": "tog_yks-cards:deck_select"
+              },
+              "when": "joker"
+            },
+            {
+              "model": {
+                "type": "minecraft:select",
+                "cases": [
+                  {
+                    "model": {
+                      "type": "minecraft:select",
+                      "cases": [
+                        {
+                          "model": {
+                            "type": "minecraft:model",
+                            "model": "tog_yks-cards:item/red_playing_card_diamond_ace"
+                          },
+                          "when": "ace"
+                        },
+                        {
+                          "model": {
+                            "type": "minecraft:model",
+                            "model": "tog_yks-cards:item/red_playing_card_diamond_queen"
+                          },
+                          "when": "queen"
+                        },
+                        {
+                          "model": {
+                            "type": "minecraft:model",
+                            "model": "tog_yks-cards:item/red_playing_card_diamond_king"
+                          },
+                          "when": "king"
+                        },
+                        {
+                          "model": {
+                            "type": "minecraft:model",
+                            "model": "tog_yks-cards:item/red_playing_card_diamond_jack"
+                          },
+                          "when": "jack"
+                        },
+                        {
+                          "model": {
+                            "type": "minecraft:model",
+                            "model": "tog_yks-cards:item/red_playing_card_diamond_2"
+                          },
+                          "when": "2"
+                        },
+                        {
+                          "model": {
+                            "type": "minecraft:model",
+                            "model": "tog_yks-cards:item/red_playing_card_diamond_3"
+                          },
+                          "when": "3"
+                        },
+                        {
+                          "model": {
+                            "type": "minecraft:model",
+                            "model": "tog_yks-cards:item/red_playing_card_diamond_4"
+                          },
+                          "when": "4"
+                        },
+                        {
+                          "model": {
+                            "type": "minecraft:model",
+                            "model": "tog_yks-cards:item/red_playing_card_diamond_5"
+                          },
+                          "when": "5"
+                        },
+                        {
+                          "model": {
+                            "type": "minecraft:model",
+                            "model": "tog_yks-cards:item/red_playing_card_diamond_6"
+                          },
+                          "when": "6"
+                        },
+                        {
+                          "model": {
+                            "type": "minecraft:model",
+                            "model": "tog_yks-cards:item/red_playing_card_diamond_7"
+                          },
+                          "when": "7"
+                        },
+                        {
+                          "model": {
+                            "type": "minecraft:model",
+                            "model": "tog_yks-cards:item/red_playing_card_diamond_8"
+                          },
+                          "when": "8"
+                        },
+                        {
+                          "model": {
+                            "type": "minecraft:model",
+                            "model": "tog_yks-cards:item/red_playing_card_diamond_9"
+                          },
+                          "when": "9"
+                        },
+                        {
+                          "model": {
+                            "type": "minecraft:model",
+                            "model": "tog_yks-cards:item/red_playing_card_diamond_10"
+                          },
+                          "when": "10"
+                        }
+                      ],
+                      "fallback": {
+                        "type": "minecraft:model",
+                        "model": "tog_yks-cards:item/red_playing_card_empty"
+                      },
+                      "name": "rank",
+                      "property": "tog_yks-cards:deck_select"
+                    },
+                    "when": "diamond"
+                  },
+                  {
+                    "model": {
+                      "type": "minecraft:select",
+                      "cases": [
+                        {
+                          "model": {
+                            "type": "minecraft:model",
+                            "model": "tog_yks-cards:item/red_playing_card_club_ace"
+                          },
+                          "when": "ace"
+                        },
+                        {
+                          "model": {
+                            "type": "minecraft:model",
+                            "model": "tog_yks-cards:item/red_playing_card_club_queen"
+                          },
+                          "when": "queen"
+                        },
+                        {
+                          "model": {
+                            "type": "minecraft:model",
+                            "model": "tog_yks-cards:item/red_playing_card_club_king"
+                          },
+                          "when": "king"
+                        },
+                        {
+                          "model": {
+                            "type": "minecraft:model",
+                            "model": "tog_yks-cards:item/red_playing_card_club_jack"
+                          },
+                          "when": "jack"
+                        },
+                        {
+                          "model": {
+                            "type": "minecraft:model",
+                            "model": "tog_yks-cards:item/red_playing_card_club_2"
+                          },
+                          "when": "2"
+                        },
+                        {
+                          "model": {
+                            "type": "minecraft:model",
+                            "model": "tog_yks-cards:item/red_playing_card_club_3"
+                          },
+                          "when": "3"
+                        },
+                        {
+                          "model": {
+                            "type": "minecraft:model",
+                            "model": "tog_yks-cards:item/red_playing_card_club_4"
+                          },
+                          "when": "4"
+                        },
+                        {
+                          "model": {
+                            "type": "minecraft:model",
+                            "model": "tog_yks-cards:item/red_playing_card_club_5"
+                          },
+                          "when": "5"
+                        },
+                        {
+                          "model": {
+                            "type": "minecraft:model",
+                            "model": "tog_yks-cards:item/red_playing_card_club_6"
+                          },
+                          "when": "6"
+                        },
+                        {
+                          "model": {
+                            "type": "minecraft:model",
+                            "model": "tog_yks-cards:item/red_playing_card_club_7"
+                          },
+                          "when": "7"
+                        },
+                        {
+                          "model": {
+                            "type": "minecraft:model",
+                            "model": "tog_yks-cards:item/red_playing_card_club_8"
+                          },
+                          "when": "8"
+                        },
+                        {
+                          "model": {
+                            "type": "minecraft:model",
+                            "model": "tog_yks-cards:item/red_playing_card_club_9"
+                          },
+                          "when": "9"
+                        },
+                        {
+                          "model": {
+                            "type": "minecraft:model",
+                            "model": "tog_yks-cards:item/red_playing_card_club_10"
+                          },
+                          "when": "10"
+                        }
+                      ],
+                      "fallback": {
+                        "type": "minecraft:model",
+                        "model": "tog_yks-cards:item/red_playing_card_empty"
+                      },
+                      "name": "rank",
+                      "property": "tog_yks-cards:deck_select"
+                    },
+                    "when": "club"
+                  },
+                  {
+                    "model": {
+                      "type": "minecraft:select",
+                      "cases": [
+                        {
+                          "model": {
+                            "type": "minecraft:model",
+                            "model": "tog_yks-cards:item/red_playing_card_spade_ace"
+                          },
+                          "when": "ace"
+                        },
+                        {
+                          "model": {
+                            "type": "minecraft:model",
+                            "model": "tog_yks-cards:item/red_playing_card_spade_queen"
+                          },
+                          "when": "queen"
+                        },
+                        {
+                          "model": {
+                            "type": "minecraft:model",
+                            "model": "tog_yks-cards:item/red_playing_card_spade_king"
+                          },
+                          "when": "king"
+                        },
+                        {
+                          "model": {
+                            "type": "minecraft:model",
+                            "model": "tog_yks-cards:item/red_playing_card_spade_jack"
+                          },
+                          "when": "jack"
+                        },
+                        {
+                          "model": {
+                            "type": "minecraft:model",
+                            "model": "tog_yks-cards:item/red_playing_card_spade_2"
+                          },
+                          "when": "2"
+                        },
+                        {
+                          "model": {
+                            "type": "minecraft:model",
+                            "model": "tog_yks-cards:item/red_playing_card_spade_3"
+                          },
+                          "when": "3"
+                        },
+                        {
+                          "model": {
+                            "type": "minecraft:model",
+                            "model": "tog_yks-cards:item/red_playing_card_spade_4"
+                          },
+                          "when": "4"
+                        },
+                        {
+                          "model": {
+                            "type": "minecraft:model",
+                            "model": "tog_yks-cards:item/red_playing_card_spade_5"
+                          },
+                          "when": "5"
+                        },
+                        {
+                          "model": {
+                            "type": "minecraft:model",
+                            "model": "tog_yks-cards:item/red_playing_card_spade_6"
+                          },
+                          "when": "6"
+                        },
+                        {
+                          "model": {
+                            "type": "minecraft:model",
+                            "model": "tog_yks-cards:item/red_playing_card_spade_7"
+                          },
+                          "when": "7"
+                        },
+                        {
+                          "model": {
+                            "type": "minecraft:model",
+                            "model": "tog_yks-cards:item/red_playing_card_spade_8"
+                          },
+                          "when": "8"
+                        },
+                        {
+                          "model": {
+                            "type": "minecraft:model",
+                            "model": "tog_yks-cards:item/red_playing_card_spade_9"
+                          },
+                          "when": "9"
+                        },
+                        {
+                          "model": {
+                            "type": "minecraft:model",
+                            "model": "tog_yks-cards:item/red_playing_card_spade_10"
+                          },
+                          "when": "10"
+                        }
+                      ],
+                      "fallback": {
+                        "type": "minecraft:model",
+                        "model": "tog_yks-cards:item/red_playing_card_empty"
+                      },
+                      "name": "rank",
+                      "property": "tog_yks-cards:deck_select"
+                    },
+                    "when": "spade"
+                  },
+                  {
+                    "model": {
+                      "type": "minecraft:select",
+                      "cases": [
+                        {
+                          "model": {
+                            "type": "minecraft:model",
+                            "model": "tog_yks-cards:item/red_playing_card_heart_ace"
+                          },
+                          "when": "ace"
+                        },
+                        {
+                          "model": {
+                            "type": "minecraft:model",
+                            "model": "tog_yks-cards:item/red_playing_card_heart_queen"
+                          },
+                          "when": "queen"
+                        },
+                        {
+                          "model": {
+                            "type": "minecraft:model",
+                            "model": "tog_yks-cards:item/red_playing_card_heart_king"
+                          },
+                          "when": "king"
+                        },
+                        {
+                          "model": {
+                            "type": "minecraft:model",
+                            "model": "tog_yks-cards:item/red_playing_card_heart_jack"
+                          },
+                          "when": "jack"
+                        },
+                        {
+                          "model": {
+                            "type": "minecraft:model",
+                            "model": "tog_yks-cards:item/red_playing_card_heart_2"
+                          },
+                          "when": "2"
+                        },
+                        {
+                          "model": {
+                            "type": "minecraft:model",
+                            "model": "tog_yks-cards:item/red_playing_card_heart_3"
+                          },
+                          "when": "3"
+                        },
+                        {
+                          "model": {
+                            "type": "minecraft:model",
+                            "model": "tog_yks-cards:item/red_playing_card_heart_4"
+                          },
+                          "when": "4"
+                        },
+                        {
+                          "model": {
+                            "type": "minecraft:model",
+                            "model": "tog_yks-cards:item/red_playing_card_heart_5"
+                          },
+                          "when": "5"
+                        },
+                        {
+                          "model": {
+                            "type": "minecraft:model",
+                            "model": "tog_yks-cards:item/red_playing_card_heart_6"
+                          },
+                          "when": "6"
+                        },
+                        {
+                          "model": {
+                            "type": "minecraft:model",
+                            "model": "tog_yks-cards:item/red_playing_card_heart_7"
+                          },
+                          "when": "7"
+                        },
+                        {
+                          "model": {
+                            "type": "minecraft:model",
+                            "model": "tog_yks-cards:item/red_playing_card_heart_8"
+                          },
+                          "when": "8"
+                        },
+                        {
+                          "model": {
+                            "type": "minecraft:model",
+                            "model": "tog_yks-cards:item/red_playing_card_heart_9"
+                          },
+                          "when": "9"
+                        },
+                        {
+                          "model": {
+                            "type": "minecraft:model",
+                            "model": "tog_yks-cards:item/red_playing_card_heart_10"
+                          },
+                          "when": "10"
+                        }
+                      ],
+                      "fallback": {
+                        "type": "minecraft:model",
+                        "model": "tog_yks-cards:item/red_playing_card_empty"
+                      },
+                      "name": "rank",
+                      "property": "tog_yks-cards:deck_select"
+                    },
+                    "when": "heart"
+                  }
+                ],
+                "fallback": {
+                  "type": "minecraft:model",
+                  "model": "tog_yks-cards:item/red_playing_card_empty"
+                },
+                "name": "suit",
+                "property": "tog_yks-cards:deck_select"
+              },
+              "when": "suit"
+            }
+          ],
+          "fallback": {
+            "type": "minecraft:model",
+            "model": "tog_yks-cards:item/red_playing_card_empty"
+          },
+          "name": "joker_or_card",
+          "property": "tog_yks-cards:deck_select"
+        },
+        "when": false
+      },
+      {
+        "model": {
+          "type": "minecraft:model",
+          "model": "tog_yks-cards:item/red_playing_card_flipped"
+        },
+        "when": true
+      }
+    ],
+    "property": "tog_yks-cards:flipped"
+  }
+}

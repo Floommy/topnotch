@@ -1,0 +1,96 @@
+{
+	"parent": "minecraft:block/thin_block",
+	"textures": {
+		"particle": "#0"
+	},
+	"elements": [
+		{
+			"from": [-1, -0.025, -1],
+			"to": [17, 1.025, 17],
+			"rotation": {"angle": 0, "axis": "y", "origin": [8, 0.5, 8]},
+			"faces": {
+				"north": {"uv": [0, 0, 9, 0.5], "texture": "#north_side"},
+				"east": {"uv": [0, 0, 9, 0.5], "texture": "#east_side"},
+				"south": {"uv": [0, 0, 9, 0.5], "texture": "#south_side"},
+				"west": {"uv": [0, 0, 9, 0.5], "texture": "#west_side"},
+				"up": {"uv": [0, 0, 9, 9], "texture": "#top"},
+				"down": {"uv": [0, 9, 9, 0], "texture": "#top"}
+			}
+		},
+		{
+			"from": [-1, 0, -1],
+			"to": [17, 1, 17],
+			"rotation": {"angle": 0, "axis": "y", "origin": [8, 0.5, 8]},
+			"faces": {
+				"up": {"uv": [0, 0, 9, 9], "texture": "#0"},
+				"down": {"uv": [0, 0, 9, 9], "texture": "#0"}
+			}
+		},
+		{
+			"from": [-1, -15, -1],
+			"to": [17, 0, -1],
+			"rotation": {"angle": 0, "axis": "y", "origin": [8, -7.5, 8]},
+			"faces": {
+				"north": {"uv": [0, 0.5, 9, 8], "texture": "#north_side"},
+				"south": {"uv": [9, 0.5, 0, 8], "texture": "#north_side"}
+			}
+		},
+		{
+			"from": [-1, -15, 17],
+			"to": [17, 0, 17],
+			"rotation": {"angle": 0, "axis": "y", "origin": [8, -7.5, 8]},
+			"faces": {
+				"north": {"uv": [9, 0.5, 0, 8], "texture": "#south_side"},
+				"south": {"uv": [0, 0.5, 9, 8], "texture": "#south_side"}
+			}
+		},
+		{
+			"from": [-1, -15, -1],
+			"to": [-1, 0, 17],
+			"rotation": {"angle": 0, "axis": "y", "origin": [8, -7.5, 8]},
+			"faces": {
+				"east": {"uv": [9, 0.5, 0, 8], "texture": "#west_side"},
+				"west": {"uv": [0, 0.5, 9, 8], "texture": "#west_side"}
+			}
+		},
+		{
+			"from": [17, -15, -1],
+			"to": [17, 0, 17],
+			"rotation": {"angle": 0, "axis": "y", "origin": [8, -7.5, 8]},
+			"faces": {
+				"east": {"uv": [0, 0.5, 9, 8], "texture": "#east_side"},
+				"west": {"uv": [9, 0.5, 0, 8], "texture": "#east_side"}
+			}
+		}
+	],
+	"display": {
+		"gui": {
+			"rotation": [30, -135, 0],
+			"translation": [0, 6, 0],
+			"scale": [0.625, 0.625, 0.625]
+		},
+		"head": {
+			"translation": [0, 14.75, 0],
+			"scale": [0.84, 0.84, 0.84]
+		}
+	},
+	"groups": [
+		{
+			"name": "tablecloth",
+			"origin": [0, 16, 0],
+			"scope": 0,
+			"color": 0,
+			"children": [
+				0,
+				1,
+				{
+					"name": "sides",
+					"origin": [0, 16, 0],
+					"scope": 0,
+					"color": 0,
+					"children": [2, 3, 4, 5]
+				}
+			]
+		}
+	]
+}

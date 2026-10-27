@@ -1,0 +1,227 @@
+{
+ "type": "minecraft:block",
+ "pools": [
+  {
+   "condition": {
+    "type": "minecraft:survives_explosion"
+   },
+   "rolls": 1,
+   "entries": [
+    {
+     "type": "minecraft:item",
+     "name": "tog_yks-cards:tray_return",
+     "condition": {
+      "type": "minecraft:match_block",
+      "blocks": "tog_yks-cards:tray_return",
+      "state": {
+       "half": "lower"
+      }
+     }
+    }
+   ]
+  },
+  {
+   "rolls": 1,
+   "entries": [
+    {
+     "type": "minecraft:alternatives",
+     "children": [
+      {
+       "type": "minecraft:item",
+       "name": "tog_yks-cards:serving_tray",
+       "condition": {
+        "type": "minecraft:match_block",
+        "blocks": "tog_yks-cards:tray_return",
+        "state": {
+         "half": "lower",
+         "trays": "1"
+        }
+       },
+       "modifier": {
+        "type": "minecraft:set_count",
+        "count": 1
+       }
+      },
+      {
+       "type": "minecraft:item",
+       "name": "tog_yks-cards:serving_tray",
+       "condition": {
+        "type": "minecraft:match_block",
+        "blocks": "tog_yks-cards:tray_return",
+        "state": {
+         "half": "lower",
+         "trays": "2"
+        }
+       },
+       "modifier": {
+        "type": "minecraft:set_count",
+        "count": 2
+       }
+      },
+      {
+       "type": "minecraft:item",
+       "name": "tog_yks-cards:serving_tray",
+       "condition": {
+        "type": "minecraft:match_block",
+        "blocks": "tog_yks-cards:tray_return",
+        "state": {
+         "half": "lower",
+         "trays": "3"
+        }
+       },
+       "modifier": {
+        "type": "minecraft:set_count",
+        "count": 3
+       }
+      },
+      {
+       "type": "minecraft:item",
+       "name": "tog_yks-cards:serving_tray",
+       "condition": {
+        "type": "minecraft:match_block",
+        "blocks": "tog_yks-cards:tray_return",
+        "state": {
+         "half": "lower",
+         "trays": "4"
+        }
+       },
+       "modifier": {
+        "type": "minecraft:set_count",
+        "count": 4
+       }
+      },
+      {
+       "type": "minecraft:item",
+       "name": "tog_yks-cards:serving_tray",
+       "condition": {
+        "type": "minecraft:match_block",
+        "blocks": "tog_yks-cards:tray_return",
+        "state": {
+         "half": "lower",
+         "trays": "5"
+        }
+       },
+       "modifier": {
+        "type": "minecraft:set_count",
+        "count": 5
+       }
+      },
+      {
+       "type": "minecraft:item",
+       "name": "tog_yks-cards:serving_tray",
+       "condition": {
+        "type": "minecraft:match_block",
+        "blocks": "tog_yks-cards:tray_return",
+        "state": {
+         "half": "lower",
+         "trays": "6"
+        }
+       },
+       "modifier": {
+        "type": "minecraft:set_count",
+        "count": 6
+       }
+      },
+      {
+       "type": "minecraft:item",
+       "name": "tog_yks-cards:serving_tray",
+       "condition": {
+        "type": "minecraft:match_block",
+        "blocks": "tog_yks-cards:tray_return",
+        "state": {
+         "half": "lower",
+         "trays": "7"
+        }
+       },
+       "modifier": {
+        "type": "minecraft:set_count",
+        "count": 7
+       }
+      },
+      {
+       "type": "minecraft:item",
+       "name": "tog_yks-cards:serving_tray",
+       "condition": {
+        "type": "minecraft:match_block",
+        "blocks": "tog_yks-cards:tray_return",
+        "state": {
+         "half": "lower",
+         "trays": "8"
+        }
+       },
+       "modifier": {
+        "type": "minecraft:set_count",
+        "count": 8
+       }
+      },
+      {
+       "type": "minecraft:item",
+       "name": "tog_yks-cards:serving_tray",
+       "condition": {
+        "type": "minecraft:match_block",
+        "blocks": "tog_yks-cards:tray_return",
+        "state": {
+         "half": "lower",
+         "trays": "9"
+        }
+       },
+       "modifier": {
+        "type": "minecraft:set_count",
+        "count": 9
+       }
+      },
+      {
+       "type": "minecraft:item",
+       "name": "tog_yks-cards:serving_tray",
+       "condition": {
+        "type": "minecraft:match_block",
+        "blocks": "tog_yks-cards:tray_return",
+        "state": {
+         "half": "lower",
+         "trays": "10"
+        }
+       },
+       "modifier": {
+        "type": "minecraft:set_count",
+        "count": 10
+       }
+      },
+      {
+       "type": "minecraft:item",
+       "name": "tog_yks-cards:serving_tray",
+       "condition": {
+        "type": "minecraft:match_block",
+        "blocks": "tog_yks-cards:tray_return",
+        "state": {
+         "half": "lower",
+         "trays": "11"
+        }
+       },
+       "modifier": {
+        "type": "minecraft:set_count",
+        "count": 11
+       }
+      },
+      {
+       "type": "minecraft:item",
+       "name": "tog_yks-cards:serving_tray",
+       "condition": {
+        "type": "minecraft:match_block",
+        "blocks": "tog_yks-cards:tray_return",
+        "state": {
+         "half": "lower",
+         "trays": "12"
+        }
+       },
+       "modifier": {
+        "type": "minecraft:set_count",
+        "count": 12
+       }
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "random_sequence": "tog_yks-cards:blocks/tray_return"
+}

@@ -1,0 +1,304 @@
+{
+  "variants": {
+    "count=0,face_down=false,facing=east,preview=false": {
+      "model": "tog_yks-cards:block/orange_cardpile_1",
+      "y": 90
+    },
+    "count=0,face_down=false,facing=east,preview=true": {
+      "model": "tog_yks-cards:block/orange_cardpile_preview_1",
+      "y": 90
+    },
+    "count=0,face_down=false,facing=north,preview=false": {
+      "model": "tog_yks-cards:block/orange_cardpile_1"
+    },
+    "count=0,face_down=false,facing=north,preview=true": {
+      "model": "tog_yks-cards:block/orange_cardpile_preview_1"
+    },
+    "count=0,face_down=false,facing=south,preview=false": {
+      "model": "tog_yks-cards:block/orange_cardpile_1",
+      "y": 180
+    },
+    "count=0,face_down=false,facing=south,preview=true": {
+      "model": "tog_yks-cards:block/orange_cardpile_preview_1",
+      "y": 180
+    },
+    "count=0,face_down=false,facing=west,preview=false": {
+      "model": "tog_yks-cards:block/orange_cardpile_1",
+      "y": 270
+    },
+    "count=0,face_down=false,facing=west,preview=true": {
+      "model": "tog_yks-cards:block/orange_cardpile_preview_1",
+      "y": 270
+    },
+    "count=0,face_down=true,facing=east,preview=false": {
+      "model": "tog_yks-cards:block/orange_cardpile_1",
+      "y": 90
+    },
+    "count=0,face_down=true,facing=east,preview=true": {
+      "model": "tog_yks-cards:block/orange_cardpile_preview_1",
+      "y": 90
+    },
+    "count=0,face_down=true,facing=north,preview=false": {
+      "model": "tog_yks-cards:block/orange_cardpile_1"
+    },
+    "count=0,face_down=true,facing=north,preview=true": {
+      "model": "tog_yks-cards:block/orange_cardpile_preview_1"
+    },
+    "count=0,face_down=true,facing=south,preview=false": {
+      "model": "tog_yks-cards:block/orange_cardpile_1",
+      "y": 180
+    },
+    "count=0,face_down=true,facing=south,preview=true": {
+      "model": "tog_yks-cards:block/orange_cardpile_preview_1",
+      "y": 180
+    },
+    "count=0,face_down=true,facing=west,preview=false": {
+      "model": "tog_yks-cards:block/orange_cardpile_1",
+      "y": 270
+    },
+    "count=0,face_down=true,facing=west,preview=true": {
+      "model": "tog_yks-cards:block/orange_cardpile_preview_1",
+      "y": 270
+    },
+    "count=1,face_down=false,facing=east,preview=false": {
+      "model": "tog_yks-cards:block/orange_cardpile_2",
+      "y": 90
+    },
+    "count=1,face_down=false,facing=east,preview=true": {
+      "model": "tog_yks-cards:block/orange_cardpile_preview_2",
+      "y": 90
+    },
+    "count=1,face_down=false,facing=north,preview=false": {
+      "model": "tog_yks-cards:block/orange_cardpile_2"
+    },
+    "count=1,face_down=false,facing=north,preview=true": {
+      "model": "tog_yks-cards:block/orange_cardpile_preview_2"
+    },
+    "count=1,face_down=false,facing=south,preview=false": {
+      "model": "tog_yks-cards:block/orange_cardpile_2",
+      "y": 180
+    },
+    "count=1,face_down=false,facing=south,preview=true": {
+      "model": "tog_yks-cards:block/orange_cardpile_preview_2",
+      "y": 180
+    },
+    "count=1,face_down=false,facing=west,preview=false": {
+      "model": "tog_yks-cards:block/orange_cardpile_2",
+      "y": 270
+    },
+    "count=1,face_down=false,facing=west,preview=true": {
+      "model": "tog_yks-cards:block/orange_cardpile_preview_2",
+      "y": 270
+    },
+    "count=1,face_down=true,facing=east,preview=false": {
+      "model": "tog_yks-cards:block/orange_cardpile_2_facedown",
+      "y": 90
+    },
+    "count=1,face_down=true,facing=east,preview=true": {
+      "model": "tog_yks-cards:block/orange_cardpile_preview_2_facedown",
+      "y": 90
+    },
+    "count=1,face_down=true,facing=north,preview=false": {
+      "model": "tog_yks-cards:block/orange_cardpile_2_facedown"
+    },
+    "count=1,face_down=true,facing=north,preview=true": {
+      "model": "tog_yks-cards:block/orange_cardpile_preview_2_facedown"
+    },
+    "count=1,face_down=true,facing=south,preview=false": {
+      "model": "tog_yks-cards:block/orange_cardpile_2_facedown",
+      "y": 180
+    },
+    "count=1,face_down=true,facing=south,preview=true": {
+      "model": "tog_yks-cards:block/orange_cardpile_preview_2_facedown",
+      "y": 180
+    },
+    "count=1,face_down=true,facing=west,preview=false": {
+      "model": "tog_yks-cards:block/orange_cardpile_2_facedown",
+      "y": 270
+    },
+    "count=1,face_down=true,facing=west,preview=true": {
+      "model": "tog_yks-cards:block/orange_cardpile_preview_2_facedown",
+      "y": 270
+    },
+    "count=2,face_down=false,facing=east,preview=false": {
+      "model": "tog_yks-cards:block/orange_cardpile_5",
+      "y": 90
+    },
+    "count=2,face_down=false,facing=east,preview=true": {
+      "model": "tog_yks-cards:block/orange_cardpile_preview_5",
+      "y": 90
+    },
+    "count=2,face_down=false,facing=north,preview=false": {
+      "model": "tog_yks-cards:block/orange_cardpile_5"
+    },
+    "count=2,face_down=false,facing=north,preview=true": {
+      "model": "tog_yks-cards:block/orange_cardpile_preview_5"
+    },
+    "count=2,face_down=false,facing=south,preview=false": {
+      "model": "tog_yks-cards:block/orange_cardpile_5",
+      "y": 180
+    },
+    "count=2,face_down=false,facing=south,preview=true": {
+      "model": "tog_yks-cards:block/orange_cardpile_preview_5",
+      "y": 180
+    },
+    "count=2,face_down=false,facing=west,preview=false": {
+      "model": "tog_yks-cards:block/orange_cardpile_5",
+      "y": 270
+    },
+    "count=2,face_down=false,facing=west,preview=true": {
+      "model": "tog_yks-cards:block/orange_cardpile_preview_5",
+      "y": 270
+    },
+    "count=2,face_down=true,facing=east,preview=false": {
+      "model": "tog_yks-cards:block/orange_cardpile_5_facedown",
+      "y": 90
+    },
+    "count=2,face_down=true,facing=east,preview=true": {
+      "model": "tog_yks-cards:block/orange_cardpile_preview_5_facedown",
+      "y": 90
+    },
+    "count=2,face_down=true,facing=north,preview=false": {
+      "model": "tog_yks-cards:block/orange_cardpile_5_facedown"
+    },
+    "count=2,face_down=true,facing=north,preview=true": {
+      "model": "tog_yks-cards:block/orange_cardpile_preview_5_facedown"
+    },
+    "count=2,face_down=true,facing=south,preview=false": {
+      "model": "tog_yks-cards:block/orange_cardpile_5_facedown",
+      "y": 180
+    },
+    "count=2,face_down=true,facing=south,preview=true": {
+      "model": "tog_yks-cards:block/orange_cardpile_preview_5_facedown",
+      "y": 180
+    },
+    "count=2,face_down=true,facing=west,preview=false": {
+      "model": "tog_yks-cards:block/orange_cardpile_5_facedown",
+      "y": 270
+    },
+    "count=2,face_down=true,facing=west,preview=true": {
+      "model": "tog_yks-cards:block/orange_cardpile_preview_5_facedown",
+      "y": 270
+    },
+    "count=3,face_down=false,facing=east,preview=false": {
+      "model": "tog_yks-cards:block/orange_cardpile_13",
+      "y": 90
+    },
+    "count=3,face_down=false,facing=east,preview=true": {
+      "model": "tog_yks-cards:block/orange_cardpile_preview_13",
+      "y": 90
+    },
+    "count=3,face_down=false,facing=north,preview=false": {
+      "model": "tog_yks-cards:block/orange_cardpile_13"
+    },
+    "count=3,face_down=false,facing=north,preview=true": {
+      "model": "tog_yks-cards:block/orange_cardpile_preview_13"
+    },
+    "count=3,face_down=false,facing=south,preview=false": {
+      "model": "tog_yks-cards:block/orange_cardpile_13",
+      "y": 180
+    },
+    "count=3,face_down=false,facing=south,preview=true": {
+      "model": "tog_yks-cards:block/orange_cardpile_preview_13",
+      "y": 180
+    },
+    "count=3,face_down=false,facing=west,preview=false": {
+      "model": "tog_yks-cards:block/orange_cardpile_13",
+      "y": 270
+    },
+    "count=3,face_down=false,facing=west,preview=true": {
+      "model": "tog_yks-cards:block/orange_cardpile_preview_13",
+      "y": 270
+    },
+    "count=3,face_down=true,facing=east,preview=false": {
+      "model": "tog_yks-cards:block/orange_cardpile_13_facedown",
+      "y": 90
+    },
+    "count=3,face_down=true,facing=east,preview=true": {
+      "model": "tog_yks-cards:block/orange_cardpile_preview_13_facedown",
+      "y": 90
+    },
+    "count=3,face_down=true,facing=north,preview=false": {
+      "model": "tog_yks-cards:block/orange_cardpile_13_facedown"
+    },
+    "count=3,face_down=true,facing=north,preview=true": {
+      "model": "tog_yks-cards:block/orange_cardpile_preview_13_facedown"
+    },
+    "count=3,face_down=true,facing=south,preview=false": {
+      "model": "tog_yks-cards:block/orange_cardpile_13_facedown",
+      "y": 180
+    },
+    "count=3,face_down=true,facing=south,preview=true": {
+      "model": "tog_yks-cards:block/orange_cardpile_preview_13_facedown",
+      "y": 180
+    },
+    "count=3,face_down=true,facing=west,preview=false": {
+      "model": "tog_yks-cards:block/orange_cardpile_13_facedown",
+      "y": 270
+    },
+    "count=3,face_down=true,facing=west,preview=true": {
+      "model": "tog_yks-cards:block/orange_cardpile_preview_13_facedown",
+      "y": 270
+    },
+    "count=4,face_down=false,facing=east,preview=false": {
+      "model": "tog_yks-cards:block/orange_cardpile_26",
+      "y": 90
+    },
+    "count=4,face_down=false,facing=east,preview=true": {
+      "model": "tog_yks-cards:block/orange_cardpile_preview_26",
+      "y": 90
+    },
+    "count=4,face_down=false,facing=north,preview=false": {
+      "model": "tog_yks-cards:block/orange_cardpile_26"
+    },
+    "count=4,face_down=false,facing=north,preview=true": {
+      "model": "tog_yks-cards:block/orange_cardpile_preview_26"
+    },
+    "count=4,face_down=false,facing=south,preview=false": {
+      "model": "tog_yks-cards:block/orange_cardpile_26",
+      "y": 180
+    },
+    "count=4,face_down=false,facing=south,preview=true": {
+      "model": "tog_yks-cards:block/orange_cardpile_preview_26",
+      "y": 180
+    },
+    "count=4,face_down=false,facing=west,preview=false": {
+      "model": "tog_yks-cards:block/orange_cardpile_26",
+      "y": 270
+    },
+    "count=4,face_down=false,facing=west,preview=true": {
+      "model": "tog_yks-cards:block/orange_cardpile_preview_26",
+      "y": 270
+    },
+    "count=4,face_down=true,facing=east,preview=false": {
+      "model": "tog_yks-cards:block/orange_cardpile_26_facedown",
+      "y": 90
+    },
+    "count=4,face_down=true,facing=east,preview=true": {
+      "model": "tog_yks-cards:block/orange_cardpile_preview_26_facedown",
+      "y": 90
+    },
+    "count=4,face_down=true,facing=north,preview=false": {
+      "model": "tog_yks-cards:block/orange_cardpile_26_facedown"
+    },
+    "count=4,face_down=true,facing=north,preview=true": {
+      "model": "tog_yks-cards:block/orange_cardpile_preview_26_facedown"
+    },
+    "count=4,face_down=true,facing=south,preview=false": {
+      "model": "tog_yks-cards:block/orange_cardpile_26_facedown",
+      "y": 180
+    },
+    "count=4,face_down=true,facing=south,preview=true": {
+      "model": "tog_yks-cards:block/orange_cardpile_preview_26_facedown",
+      "y": 180
+    },
+    "count=4,face_down=true,facing=west,preview=false": {
+      "model": "tog_yks-cards:block/orange_cardpile_26_facedown",
+      "y": 270
+    },
+    "count=4,face_down=true,facing=west,preview=true": {
+      "model": "tog_yks-cards:block/orange_cardpile_preview_26_facedown",
+      "y": 270
+    }
+  }
+}

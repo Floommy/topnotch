@@ -1,0 +1,18 @@
+{
+ "type": "minecraft:crafting_shaped",
+ "category": "misc",
+ "pattern": [
+  "PBP",
+  "PBP",
+  "PIP"
+ ],
+ "key": {
+  "P": "#minecraft:planks",
+  "B": "minecraft:iron_bars",
+  "I": "minecraft:iron_ingot"
+ },
+ "result": {
+  "id": "tog_yks-cards:tray_return",
+  "count": 1
+ }
+}

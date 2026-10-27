@@ -1,0 +1,11 @@
+{
+  "parent": "tog_yks-cards:block/game_mat",
+  "textures": {
+    "0": "tog_yks-cards:block/game_mat/red_iron_game_mat/wool",
+    "east_side": "tog_yks-cards:block/game_mat/red_iron_game_mat/side/east",
+    "north_side": "tog_yks-cards:block/game_mat/red_iron_game_mat/side/north_right",
+    "south_side": "tog_yks-cards:block/game_mat/red_iron_game_mat/side/south_left",
+    "top": "tog_yks-cards:block/game_mat/top/iron/west_northeast_southeast",
+    "west_side": "tog_yks-cards:block/game_mat/red_iron_game_mat/side/connected"
+  }
+}

@@ -1,0 +1,19 @@
+{
+ "variants": {
+  "facing=north": {
+   "model": "tog_yks-cards:block/kitchen_screen"
+  },
+  "facing=east": {
+   "model": "tog_yks-cards:block/kitchen_screen",
+   "y": 90
+  },
+  "facing=south": {
+   "model": "tog_yks-cards:block/kitchen_screen",
+   "y": 180
+  },
+  "facing=west": {
+   "model": "tog_yks-cards:block/kitchen_screen",
+   "y": 270
+  }
+ }
+}

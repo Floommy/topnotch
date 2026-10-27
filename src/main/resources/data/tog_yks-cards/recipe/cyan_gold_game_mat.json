@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "golden_game_mat",
+  "ingredients": [
+    "minecraft:cyan_carpet",
+    "minecraft:gold_ingot"
+  ],
+  "result": {
+    "id": "tog_yks-cards:cyan_gold_game_mat"
+  }
+}

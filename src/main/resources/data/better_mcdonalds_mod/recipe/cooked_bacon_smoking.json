@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:smoking",
+  "category": "food",
+  "cookingtime": 100,
+  "experience": 1.0,
+  "ingredient": "better_mcdonalds_mod:raw_bacon",
+  "result": {
+    "id": "better_mcdonalds_mod:cooked_bacon"
+  }
+}

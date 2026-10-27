@@ -1,0 +1,19 @@
+{
+ "variants": {
+  "facing=north": {
+   "model": "tog_yks-cards:block/waste_station"
+  },
+  "facing=east": {
+   "model": "tog_yks-cards:block/waste_station",
+   "y": 90
+  },
+  "facing=south": {
+   "model": "tog_yks-cards:block/waste_station",
+   "y": 180
+  },
+  "facing=west": {
+   "model": "tog_yks-cards:block/waste_station",
+   "y": 270
+  }
+ }
+}

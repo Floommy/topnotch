@@ -1,0 +1,287 @@
+{
+ "textures": {
+  "nugget": "tog_yks-cards:block/food/nugget",
+  "nugget_box": "tog_yks-cards:block/food/nugget_box",
+  "particle": "tog_yks-cards:block/food/nugget"
+ },
+ "elements": [
+  {
+   "from": [
+    3,
+    0,
+    4
+   ],
+   "to": [
+    13,
+    3,
+    12
+   ],
+   "faces": {
+    "north": {
+     "texture": "#nugget_box"
+    },
+    "south": {
+     "texture": "#nugget_box"
+    },
+    "east": {
+     "texture": "#nugget_box"
+    },
+    "west": {
+     "texture": "#nugget_box"
+    },
+    "up": {
+     "texture": "#nugget"
+    },
+    "down": {
+     "texture": "#nugget_box"
+    }
+   }
+  },
+  {
+   "from": [
+    3,
+    3,
+    11.4
+   ],
+   "to": [
+    13,
+    9,
+    12
+   ],
+   "faces": {
+    "north": {
+     "texture": "#nugget_box"
+    },
+    "south": {
+     "texture": "#nugget_box"
+    },
+    "east": {
+     "texture": "#nugget_box"
+    },
+    "west": {
+     "texture": "#nugget_box"
+    },
+    "up": {
+     "texture": "#nugget_box"
+    },
+    "down": {
+     "texture": "#nugget_box"
+    }
+   },
+   "rotation": {
+    "origin": [
+     8,
+     3,
+     12
+    ],
+    "axis": "x",
+    "angle": 22.5
+   }
+  },
+  {
+   "from": [
+    4,
+    3,
+    5
+   ],
+   "to": [
+    6.6,
+    4.4,
+    7.2
+   ],
+   "faces": {
+    "north": {
+     "texture": "#nugget"
+    },
+    "south": {
+     "texture": "#nugget"
+    },
+    "east": {
+     "texture": "#nugget"
+    },
+    "west": {
+     "texture": "#nugget"
+    },
+    "up": {
+     "texture": "#nugget"
+    },
+    "down": {
+     "texture": "#nugget"
+    }
+   },
+   "rotation": {
+    "origin": [
+     5.3,
+     3.5,
+     6.1
+    ],
+    "axis": "y",
+    "angle": 22.5
+   }
+  },
+  {
+   "from": [
+    7,
+    3,
+    4.8
+   ],
+   "to": [
+    9.6,
+    4.4,
+    7.0
+   ],
+   "faces": {
+    "north": {
+     "texture": "#nugget"
+    },
+    "south": {
+     "texture": "#nugget"
+    },
+    "east": {
+     "texture": "#nugget"
+    },
+    "west": {
+     "texture": "#nugget"
+    },
+    "up": {
+     "texture": "#nugget"
+    },
+    "down": {
+     "texture": "#nugget"
+    }
+   },
+   "rotation": {
+    "origin": [
+     8.3,
+     3.5,
+     5.9
+    ],
+    "axis": "y",
+    "angle": -22.5
+   }
+  },
+  {
+   "from": [
+    9.6,
+    3,
+    5.4
+   ],
+   "to": [
+    12.2,
+    4.4,
+    7.6000000000000005
+   ],
+   "faces": {
+    "north": {
+     "texture": "#nugget"
+    },
+    "south": {
+     "texture": "#nugget"
+    },
+    "east": {
+     "texture": "#nugget"
+    },
+    "west": {
+     "texture": "#nugget"
+    },
+    "up": {
+     "texture": "#nugget"
+    },
+    "down": {
+     "texture": "#nugget"
+    }
+   },
+   "rotation": {
+    "origin": [
+     10.9,
+     3.5,
+     6.5
+    ],
+    "axis": "y",
+    "angle": 0
+   }
+  },
+  {
+   "from": [
+    5.4,
+    3,
+    7.6
+   ],
+   "to": [
+    8.0,
+    4.4,
+    9.8
+   ],
+   "faces": {
+    "north": {
+     "texture": "#nugget"
+    },
+    "south": {
+     "texture": "#nugget"
+    },
+    "east": {
+     "texture": "#nugget"
+    },
+    "west": {
+     "texture": "#nugget"
+    },
+    "up": {
+     "texture": "#nugget"
+    },
+    "down": {
+     "texture": "#nugget"
+    }
+   },
+   "rotation": {
+    "origin": [
+     6.7,
+     3.5,
+     8.7
+    ],
+    "axis": "y",
+    "angle": 0
+   }
+  },
+  {
+   "from": [
+    8.2,
+    3,
+    8
+   ],
+   "to": [
+    10.799999999999999,
+    4.4,
+    10.2
+   ],
+   "faces": {
+    "north": {
+     "texture": "#nugget"
+    },
+    "south": {
+     "texture": "#nugget"
+    },
+    "east": {
+     "texture": "#nugget"
+    },
+    "west": {
+     "texture": "#nugget"
+    },
+    "up": {
+     "texture": "#nugget"
+    },
+    "down": {
+     "texture": "#nugget"
+    }
+   },
+   "rotation": {
+    "origin": [
+     9.5,
+     3.5,
+     9.1
+    ],
+    "axis": "y",
+    "angle": 22.5
+   }
+  }
+ ]
+}
