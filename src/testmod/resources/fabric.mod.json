@@ -1,0 +1,1 @@
+{"schemaVersion":1,"id":"tcardstest","version":"1","name":"TopNotch tests","environment":"server","entrypoints":{"main":["tcardstest.TestMain"]},"depends":{"tog_yks-cards":"*"}}

@@ -13,10 +13,29 @@ repositories {
 	}
 }
 
+sourceSets {
+	// Headless server tests (not shipped): ./gradlew runTestServer
+	testmod {
+		compileClasspath += sourceSets.main.compileClasspath + sourceSets.main.output
+		runtimeClasspath += sourceSets.main.runtimeClasspath + sourceSets.main.output
+	}
+}
+
 loom {
 	accessWidenerPath = file('src/main/resources/topnotch.accesswidener')
 	mods {
 		topnotch { sourceSet sourceSets.main }
+		tcardstest { sourceSet sourceSets.testmod }
+	}
+	runs {
+		testServer {
+			server()
+			source sourceSets.testmod
+			runDir 'run/testserver'
+			property 'tcards.ci', '1'
+			programArgs '--nogui'
+			ideConfigGenerated false
+		}
 	}
 }
 
