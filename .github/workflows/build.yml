@@ -28,7 +28,7 @@ jobs:
           for boot in 1 2; do
             set -o pipefail
             timeout 600 ./gradlew runTestServer 2>&1 | tee test$boot.log || true
-            grep -E "TCARDS-TEST (FAIL|EXCEPTION)" test$boot.log | while IFS= read -r line; do echo "::error::boot $boot: ${line//%/%25}"; done
+            grep -E "TCARDS-TEST (FAIL|EXCEPTION)|TCARDS-DEBUG" test$boot.log | while IFS= read -r line; do echo "::error::boot $boot: ${line//%/%25}"; done
             grep -E "TCARDS-TEST SUMMARY" test$boot.log | while IFS= read -r line; do echo "::notice::boot $boot: $line"; done
             grep -q "TCARDS-TEST SUMMARY2 pass=[0-9]* fail=0" test$boot.log || { echo "::error::boot $boot did not pass"; grep -E "ERROR|Exception|Caused by" test$boot.log | head -40 | while IFS= read -r line; do echo "::error::${line//%/%25}"; done; exit 1; }
           done
