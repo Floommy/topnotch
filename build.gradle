@@ -13,14 +13,6 @@ repositories {
 	}
 }
 
-sourceSets {
-	// Tiny API stubs of optional mods (3D Skin Layers) - compiled against, never shipped
-	stubs {
-		java { srcDir 'src/stubs/java' }
-		compileClasspath += sourceSets.main.compileClasspath
-	}
-}
-
 loom {
 	accessWidenerPath = file('src/main/resources/topnotch.accesswidener')
 	mods {
@@ -33,7 +25,8 @@ dependencies {
 	implementation "net.fabricmc:fabric-loader:${project.loader_version}"
 	implementation "net.fabricmc.fabric-api:fabric-api:${project.fabric_api_version}"
 
-	compileOnly sourceSets.stubs.output
+	// API stubs of 3D Skin Layers (optional integration), sources in src/stubs/java - compiled against, never shipped
+	compileOnly files('libs/skinlayers-api-stubs.jar')
 	compileOnly 'org.jetbrains:annotations:26.0.2'
 	compileOnly "maven.modrinth:vivecraft:${project.vivecraft_version}"
 }
