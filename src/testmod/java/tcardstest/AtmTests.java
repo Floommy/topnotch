@@ -353,10 +353,10 @@ public class AtmTests {
         // breaking drops the vault diamonds
         atm.vault.amount = 130;
         level.getEntitiesOfClass(ItemEntity.class, new AABB(ATM).inflate(3)).forEach(e -> e.discard());
-        long vaultBefore = atm.vaultAmount();
+        long vaultBeforeBreak = atm.vaultAmount();
         level.destroyBlock(ATM, false, owner);
         long dropped = dropped(level, ATM, Items.DIAMOND);
-        if (dropped != 130) System.out.println("TCARDS-DEBUG atm drop: vaultBefore=" + vaultBefore + " vaultAfter=" + atm.vaultAmount() + " be=" + level.getBlockEntity(ATM)
+        if (dropped != 130) System.out.println("TCARDS-DEBUG atm drop: vaultBefore=" + vaultBeforeBreak + " vaultAfter=" + atm.vaultAmount() + " be=" + level.getBlockEntity(ATM)
                 + " state=" + level.getBlockState(ATM) + " items=" + level.getEntitiesOfClass(ItemEntity.class, new AABB(ATM).inflate(12)).stream().map(e -> e.getItem() + "@" + e.blockPosition()).toList());
         check("breaking drops the waiting diamonds, top half goes too", level.getBlockState(ATM).isAir() && level.getBlockState(ATM.above()).isAir() && dropped == 130, dropped);
         level.getEntitiesOfClass(ItemEntity.class, new AABB(ATM).inflate(3)).forEach(e -> e.discard());
