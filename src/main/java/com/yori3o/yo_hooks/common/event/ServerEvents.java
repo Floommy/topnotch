@@ -48,11 +48,10 @@ public class ServerEvents {
     public static void checkSuddenFall(Player player, DamageSource damageSource) {
         if (((PlayerWithHookData) player).yo_hooks$isSuddenFall()) {
             if (damageSource.is(DamageTypes.FALL)) {
+                // TopNotch: no advancements (achievement removed), so nothing to award here
                 if (player instanceof ServerPlayer serverPlayer) {
-                    serverPlayer.getAdvancements().award(
-                        serverPlayer.level().getServer().getAdvancements().get(Identifier.fromNamespaceAndPath("yo_hooks", "adventure/sudden_fall")), 
-                        "fall_death"
-                    );
+                    var advancement = serverPlayer.level().getServer().getAdvancements().get(Identifier.fromNamespaceAndPath("yo_hooks", "adventure/sudden_fall"));
+                    if (advancement != null) serverPlayer.getAdvancements().award(advancement, "fall_death");
                 }
             }
         }

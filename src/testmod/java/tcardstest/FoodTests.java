@@ -103,6 +103,12 @@ public class FoodTests {
         check("yo_hooks provided by TopNotch, config file written", FabricLoader.getInstance().getModContainer("yo_hooks").get().getMetadata().getId().equals("tog_yks-cards")
                 && java.nio.file.Files.exists(FabricLoader.getInstance().getConfigDir().resolve("yo_hooks").resolve("yo_hooks-server.json")), "");
 
+        // no achievements from TopNotch: only hidden recipe unlocks are left
+        var shown = level.getServer().getAdvancements().getAllAdvancements().stream()
+                .filter(h -> java.util.Set.of("tog_yks-cards", "better_mcdonalds_mod", "yo_hooks").contains(h.id().getNamespace()))
+                .filter(h -> h.value().display().isPresent()).map(h -> h.id().toString()).toList();
+        check("no achievements from TopNotch", shown.isEmpty(), shown);
+
         // loot: seeds from grass, patties from cows
         int seeds = 0;
         BlockPos g = new BlockPos(92, 101, 10);
