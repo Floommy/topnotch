@@ -109,11 +109,14 @@ public class FoodTests {
                 .filter(h -> h.value().display().isPresent()).map(h -> h.id().toString()).toList();
         check("no achievements from TopNotch", shown.isEmpty(), shown);
 
-        // emotes: every emote has its own sculk level, drum = 14, 15 free
-        java.util.Set<Integer> levels = new java.util.HashSet<>();
-        for (net.togyk.tcards.Gesture g : net.togyk.tcards.Gesture.values()) levels.add(net.togyk.tcards.TableMain.vibrationLevel(g));
-        check("emotes have different sculk levels, drum 14", levels.size() == net.togyk.tcards.Gesture.values().length
-                && net.togyk.tcards.TableMain.vibrationLevel(net.togyk.tcards.Gesture.DRUM) == 14 && !levels.contains(15), levels);
+        // emotes: only emotes with a sound make a sculk vibration, each its own level, drum = 14
+        java.util.Map<String, Integer> levels = new java.util.TreeMap<>();
+        for (net.togyk.tcards.Gesture g : net.togyk.tcards.Gesture.values()) {
+            int l = net.togyk.tcards.TableMain.vibrationLevel(g);
+            if (l > 0) levels.put(g.name(), l);
+        }
+        check("only sound emotes trigger sculk, all different, drum 14", levels.keySet().equals(java.util.Set.of("SWEAT", "FACEPALM", "BECKON", "ANGRY", "CLAP", "DRUM"))
+                && new java.util.HashSet<>(levels.values()).size() == levels.size() && levels.get("DRUM") == 14, levels);
 
         // loot: seeds from grass, patties from cows
         int seeds = 0;

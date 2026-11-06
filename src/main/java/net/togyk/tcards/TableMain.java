@@ -20,23 +20,16 @@ public class TableMain implements ModInitializer {
     /** Logo item, only used as the creative tab icon. */
     public static net.minecraft.world.item.Item LOGO;
 
-    /** Sculk vibration level (1-15) of each emote: quiet ones low, loud ones high. 15 stays free. */
+    /** Sculk vibration level (1-15) of the emotes that make a sound; silent emotes (0) make no vibration. */
     public static int vibrationLevel(Gesture g) {
         return switch (g) {
-            case SHRUG -> 1;
-            case POINT -> 2;
-            case WAVE -> 3;
-            case SWEAT -> 4;
-            case STAND -> 5;
-            case HIT -> 6;
-            case DOUBLE -> 7;
-            case SPLIT -> 8;
-            case FACEPALM -> 9;
-            case CHEER -> 10;
-            case BECKON -> 11;
+            case SWEAT -> 4;      // gulp
+            case FACEPALM -> 9;   // slap
+            case BECKON -> 11;    // whistle
             case ANGRY -> 12;
             case CLAP -> 13;
-            case DRUM -> 14;
+            case DRUM -> 14;      // knocking on the table
+            default -> 0;
         };
     }
 
