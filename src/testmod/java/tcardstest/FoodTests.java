@@ -109,6 +109,12 @@ public class FoodTests {
                 .filter(h -> h.value().display().isPresent()).map(h -> h.id().toString()).toList();
         check("no achievements from TopNotch", shown.isEmpty(), shown);
 
+        // emotes: every emote has its own sculk level, drum = 14, 15 free
+        java.util.Set<Integer> levels = new java.util.HashSet<>();
+        for (net.togyk.tcards.Gesture g : net.togyk.tcards.Gesture.values()) levels.add(net.togyk.tcards.TableMain.vibrationLevel(g));
+        check("emotes have different sculk levels, drum 14", levels.size() == net.togyk.tcards.Gesture.values().length
+                && net.togyk.tcards.TableMain.vibrationLevel(net.togyk.tcards.Gesture.DRUM) == 14 && !levels.contains(15), levels);
+
         // loot: seeds from grass, patties from cows
         int seeds = 0;
         BlockPos g = new BlockPos(92, 101, 10);

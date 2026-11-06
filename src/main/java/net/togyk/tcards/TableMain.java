@@ -20,6 +20,26 @@ public class TableMain implements ModInitializer {
     /** Logo item, only used as the creative tab icon. */
     public static net.minecraft.world.item.Item LOGO;
 
+    /** Sculk vibration level (1-15) of each emote: quiet ones low, loud ones high. 15 stays free. */
+    public static int vibrationLevel(Gesture g) {
+        return switch (g) {
+            case SHRUG -> 1;
+            case POINT -> 2;
+            case WAVE -> 3;
+            case SWEAT -> 4;
+            case STAND -> 5;
+            case HIT -> 6;
+            case DOUBLE -> 7;
+            case SPLIT -> 8;
+            case FACEPALM -> 9;
+            case CHEER -> 10;
+            case BECKON -> 11;
+            case ANGRY -> 12;
+            case CLAP -> 13;
+            case DRUM -> 14;
+        };
+    }
+
     @Override
     public void onInitialize() {
         net.minecraft.resources.ResourceKey<net.minecraft.world.item.Item> logoKey = net.minecraft.resources.ResourceKey.create(
@@ -59,6 +79,12 @@ public class TableMain implements ModInitializer {
                     if (last != null && now - last < 10) return;
                     LAST_GESTURE.put(player.getUUID(), now);
                     org.slf4j.LoggerFactory.getLogger("tog_yks-cards").info("Gesture {} by {}", Gesture.byId(payload.gesture()), player.getName().getString());
+                    // every emote is a vibration with its own level, so calibrated sculk sensors can tell them apart
+                    int level = vibrationLevel(Gesture.byId(payload.gesture()));
+                    if (level > 0) {
+                        player.level().gameEvent(player, net.minecraft.core.registries.BuiltInRegistries.GAME_EVENT.getOrThrow(
+                                net.minecraft.world.level.gameevent.vibrations.VibrationSystem.getResonanceEventByFrequency(level)), player.position());
+                    }
                     GesturePayloads.Show show = new GesturePayloads.Show(player.getId(), payload.gesture());
                     for (ServerPlayer viewer : PlayerLookup.tracking(player)) {
                         if (viewer != player && ServerPlayNetworking.canSend(viewer, GesturePayloads.Show.TYPE)) {
