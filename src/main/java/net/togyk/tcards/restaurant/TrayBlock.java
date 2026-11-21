@@ -103,14 +103,7 @@ public class TrayBlock extends BaseEntityBlock {
         if (level.isClientSide()) return InteractionResult.SUCCESS;
         if (!(level.getBlockEntity(pos) instanceof TrayBlockEntity tray)) return InteractionResult.PASS;
         if (player.isShiftKeyDown()) {
-            // pick up the whole tray, food included
-            ItemStack item = new ItemStack(this);
-            item.applyComponents(tray.collectComponents());
-            tray.removeFx();
-            tray.items().clear();
-            level.removeBlock(pos, false);
-            if (!player.getInventory().add(item)) player.drop(item, false, net.minecraft.util.Prediction.SERVER_ONLY);
-            level.playSound(null, pos, SoundEvents.WOOD_HIT, SoundSource.BLOCKS, 0.6f, 1.4f);
+            pickUp(level, pos, player);
             return InteractionResult.SUCCESS;
         }
         ItemStack food = tray.takeLast();
@@ -120,5 +113,17 @@ public class TrayBlock extends BaseEntityBlock {
             level.playSound(null, pos, SoundEvents.ITEM_PICKUP, SoundSource.BLOCKS, 0.4f, 1.3f);
         }
         return InteractionResult.SUCCESS;
+    }
+
+    /** Sneak + right-click: the whole tray goes into the inventory, food included. */
+    public static void pickUp(Level level, BlockPos pos, Player player) {
+        if (!(level.getBlockEntity(pos) instanceof TrayBlockEntity tray)) return;
+        ItemStack item = new ItemStack(level.getBlockState(pos).getBlock());
+        item.applyComponents(tray.collectComponents());
+        tray.removeFx();
+        tray.items().clear();
+        level.removeBlock(pos, false);
+        if (!player.getInventory().add(item)) player.drop(item, false, net.minecraft.util.Prediction.SERVER_ONLY);
+        level.playSound(null, pos, SoundEvents.WOOD_HIT, SoundSource.BLOCKS, 0.6f, 1.4f);
     }
 }

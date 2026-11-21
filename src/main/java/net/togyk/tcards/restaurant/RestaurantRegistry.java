@@ -114,6 +114,16 @@ public final class RestaurantRegistry {
             return true;
         });
 
+        // Vanilla skips block use while sneaking if anything is in either hand (e.g. a torch in the
+        // off hand), so tray pickup is handled here: sneak + empty main hand always works.
+        UseBlockCallback.EVENT.register((player, level, hand, hit) -> {
+            if (hand != InteractionHand.MAIN_HAND || !player.isShiftKeyDown() || !player.getMainHandItem().isEmpty()) return InteractionResult.PASS;
+            if (!(level.getBlockState(hit.getBlockPos()).getBlock() instanceof TrayBlock)) return InteractionResult.PASS;
+            if (player.isSpectator()) return InteractionResult.PASS;
+            if (!level.isClientSide()) TrayBlock.pickUp(level, hit.getBlockPos(), player);
+            return InteractionResult.SUCCESS;
+        });
+
         UseBlockCallback.EVENT.register((player, level, hand, hit) -> {
             if (level.isClientSide() || !(player instanceof ServerPlayer sp) || hand != InteractionHand.MAIN_HAND) return InteractionResult.PASS;
             Pending pending = LINKING.get(sp.getUUID());
